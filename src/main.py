@@ -1,5 +1,6 @@
 import argparse
 import itertools
+import json
 import os.path
 import time
 
@@ -535,6 +536,16 @@ def run_parse_extra(args):
 
     assert len(treebank) == len(new_treebank), (len(treebank), len(new_treebank))
 
+    if args.write_parse is not None:
+        print('writing to {}'.format(args.write_parse))
+        f = open(args.write_parse, 'w')
+        for x, y in zip(new_treebank, treebank):
+            gold = '(ROOT {})\n'.format(y.linearize())
+            pred = '(ROOT {})\n'.format(x.linearize())
+            ex = dict(gold=gold, pred=pred)
+            f.write(json.dumps(ex) + '\n')
+        f.close()
+
     test_fscore = evaluate.evalb(args.evalb_dir, treebank, new_treebank, ref_gold_path=None)
 
     print(
@@ -646,6 +657,7 @@ def main():
     subparser.add_argument("--evalb-dir", default="EVALB/")
     subparser.add_argument("--input-path", type=str, default="data/22.auto.clean")
     subparser.add_argument("--output-path", type=str, default="-")
+    subparser.add_argument("--write-parse", type=str, default=None)
     subparser.add_argument("--max-len-eval", type=int, default=10)
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
