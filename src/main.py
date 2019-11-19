@@ -503,6 +503,49 @@ def run_parse(args):
         print("Output written to:", args.output_path)
 
 #%%
+
+def run_parse_extra(args):
+    if args.output_path != '-' and os.path.exists(args.output_path):
+        print("Error: output file already exists:", args.output_path)
+        return
+
+    print("Loading parse trees from {}...".format(args.input_path))
+    treebank = trees.load_trees(args.input_path)
+    if args.max_len_eval > 0:
+        treebank = [tree for tree in treebank if len(list(tree.leaves())) <= args.max_len_eval]
+    print("Loaded {:,} parse tree examples.".format(len(treebank)))
+
+    print("Loading model from {}...".format(args.model_path_base))
+    assert args.model_path_base.endswith(".pt"), "Only pytorch savefiles supported"
+
+    info = torch_load(args.model_path_base)
+    assert 'hparams' in info['spec'], "Older savefiles not supported"
+    parser = parse_nk.NKChartParser.from_spec(info['spec'], info['state_dict'])
+
+    print("Parsing test sentences...")
+    start_time = time.time()
+
+    new_treebank = []
+    for start_index in range(0, len(treebank), args.eval_batch_size):
+        subbatch_trees = treebank[start_index:start_index+args.eval_batch_size]
+        subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in tree.leaves()] for tree in subbatch_trees]
+        predicted, _ = parser.parse_batch(subbatch_sentences)
+        del _
+        new_treebank.extend([p.convert() for p in predicted])
+
+    assert len(treebank) == len(new_treebank), (len(treebank), len(new_treebank))
+
+    test_fscore = evaluate.evalb(args.evalb_dir, treebank, new_treebank, ref_gold_path=None)
+
+    print(
+        "test-fscore {} "
+        "test-elapsed {}".format(
+            test_fscore,
+            format_elapsed(start_time),
+        )
+    )
+
+#%%
 def run_viz(args):
     assert args.model_path_base.endswith(".pt"), "Only pytorch savefiles supported"
 
@@ -595,6 +638,15 @@ def main():
     subparser.add_argument("--model-path-base", required=True)
     subparser.add_argument("--input-path", type=str, required=True)
     subparser.add_argument("--output-path", type=str, default="-")
+    subparser.add_argument("--eval-batch-size", type=int, default=100)
+
+    subparser = subparsers.add_parser("parse-extra")
+    subparser.set_defaults(callback=lambda args: run_parse_extra(args))
+    subparser.add_argument("--model-path-base", required=True)
+    subparser.add_argument("--evalb-dir", default="EVALB/")
+    subparser.add_argument("--input-path", type=str, default="data/22.auto.clean")
+    subparser.add_argument("--output-path", type=str, default="-")
+    subparser.add_argument("--max-len-eval", type=int, default=10)
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
     subparser = subparsers.add_parser("viz")
