@@ -540,8 +540,8 @@ def run_parse_extra(args):
         print('writing to {}'.format(args.write_parse))
         f = open(args.write_parse, 'w')
         for x, y in zip(new_treebank, treebank):
-            gold = '(ROOT {})\n'.format(y.linearize())
-            pred = '(ROOT {})\n'.format(x.linearize())
+            gold = '(ROOT {})'.format(y.linearize())
+            pred = '(ROOT {})'.format(x.linearize())
             ex = dict(gold=gold, pred=pred)
             f.write(json.dumps(ex) + '\n')
         f.close()
@@ -658,7 +658,7 @@ def main():
     subparser.add_argument("--input-path", type=str, default="data/22.auto.clean")
     subparser.add_argument("--output-path", type=str, default="-")
     subparser.add_argument("--write-parse", type=str, default=None)
-    subparser.add_argument("--max-len-eval", type=int, default=10)
+    subparser.add_argument("--max-len-eval", type=int, default=0)
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
     subparser = subparsers.add_parser("viz")
