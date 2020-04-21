@@ -1198,6 +1198,8 @@ class NKChartParser(nn.Module):
             idx += 1
             i, j, label_idx = p_i[idx], p_j[idx], p_label[idx]
             label = self.label_vocab.value(label_idx)
+            if not label: # TODO: Remove to get n-ary trees.
+                label = ('-NONE-',)
             if (i + 1) >= j:
                 tag, word = sentence[i]
                 tree = trees.LeafParseNode(int(i), tag, word)
