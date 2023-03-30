@@ -1,0 +1,292 @@
+Initializing model...
+Initializing optimizer...
+Training...
+epoch 1 batch 1/7 processed 8 batch-loss 1323.3742 mAP 0.0000 action acc 0.0004 phrase acc 0.0042 activity acc 0.0164 grad-norm 6967.6377 epoch-elapsed 0h00m00s total-elapsed 0h00m00s
+epoch 1 batch 2/7 processed 18 batch-loss 404.0132 mAP 0.0000 action acc 0.7976 phrase acc 0.0092 activity acc 0.0204 grad-norm 917.7938 epoch-elapsed 0h00m00s total-elapsed 0h00m00s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 1 batch 3/7 processed 26 batch-loss 403.3406 mAP 0.0000 action acc 0.7773 phrase acc 0.0132 activity acc 0.5639 grad-norm 1008.9174 epoch-elapsed 0h00m04s total-elapsed 0h00m04s
+dev-fscore 0.0025683607215459723 train-fscore 0.00952085263309139 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 1 batch 4/7 processed 35 batch-loss 330.3567 mAP 0.0101 action acc 0.7490 phrase acc 0.4688 activity acc 0.7689 grad-norm 1641.5201 epoch-elapsed 0h00m06s total-elapsed 0h00m06s
+epoch 1 batch 5/7 processed 43 batch-loss 215.0281 mAP 0.0099 action acc 0.7717 phrase acc 0.7702 activity acc 0.2376 grad-norm 693.1397 epoch-elapsed 0h00m06s total-elapsed 0h00m06s
+dev-fscore 0.0103119994345153 train-fscore 0.011370829260700186 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.01...
+epoch 1 batch 6/7 processed 51 batch-loss 294.3948 mAP 0.0113 action acc 0.7172 phrase acc 0.6932 activity acc 0.7009 grad-norm 607.1348 epoch-elapsed 0h00m10s total-elapsed 0h00m10s
+dev-fscore 0.010560972508810055 train-fscore 0.009294434439816165 dev-elapsed 0h00m00s total-elapsed 0h00m11s
+Removing previous model file models/finegym_transformer_dev=0.01.pt...
+Saving new best model to models/finegym_transformer_dev=0.01...
+epoch 1 batch 7/7 processed 52 batch-loss 466.8775 mAP 0.0093 action acc 0.8769 phrase acc 0.8769 activity acc 0.9962 grad-norm 1770.1791 epoch-elapsed 0h00m12s total-elapsed 0h00m12s
+epoch 2 batch 1/7 processed 60 batch-loss 1467.9926 mAP 0.0000 action acc 0.0036 phrase acc 0.7756 activity acc 0.2752 grad-norm 7201.8848 epoch-elapsed 0h00m00s total-elapsed 0h00m12s
+epoch 2 batch 2/7 processed 68 batch-loss 396.9928 mAP 0.0000 action acc 0.7201 phrase acc 0.7201 activity acc 0.5352 grad-norm 1172.5256 epoch-elapsed 0h00m00s total-elapsed 0h00m12s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m13s
+epoch 2 batch 3/7 processed 76 batch-loss 438.2338 mAP 0.0000 action acc 0.7588 phrase acc 0.7588 activity acc 0.6902 grad-norm 1346.2845 epoch-elapsed 0h00m01s total-elapsed 0h00m13s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m13s
+epoch 2 batch 4/7 processed 86 batch-loss 319.8021 mAP 0.0000 action acc 0.8123 phrase acc 0.8123 activity acc 0.2806 grad-norm 912.8444 epoch-elapsed 0h00m02s total-elapsed 0h00m14s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m14s
+epoch 2 batch 5/7 processed 94 batch-loss 377.2438 mAP 0.0000 action acc 0.7592 phrase acc 0.7592 activity acc 0.7281 grad-norm 1487.6962 epoch-elapsed 0h00m02s total-elapsed 0h00m15s
+epoch 2 batch 6/7 processed 103 batch-loss 296.3204 mAP 0.0000 action acc 0.8013 phrase acc 0.8013 activity acc 0.4029 grad-norm 1496.8040 epoch-elapsed 0h00m03s total-elapsed 0h00m15s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m15s
+epoch 2 batch 7/7 processed 104 batch-loss 117.6795 mAP 0.0000 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 510.1048 epoch-elapsed 0h00m03s total-elapsed 0h00m15s
+epoch 3 batch 1/7 processed 112 batch-loss 236.8065 mAP 0.0000 action acc 0.8049 phrase acc 0.8049 activity acc 0.3244 grad-norm 992.6777 epoch-elapsed 0h00m00s total-elapsed 0h00m16s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m16s
+epoch 3 batch 2/7 processed 120 batch-loss 378.0002 mAP 0.0000 action acc 0.8531 phrase acc 0.8531 activity acc 0.5740 grad-norm 376.1501 epoch-elapsed 0h00m01s total-elapsed 0h00m17s
+epoch 3 batch 3/7 processed 128 batch-loss 362.3998 mAP 0.0000 action acc 0.8163 phrase acc 0.8163 activity acc 0.1714 grad-norm 1058.7584 epoch-elapsed 0h00m01s total-elapsed 0h00m17s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m17s
+epoch 3 batch 4/7 processed 138 batch-loss 344.4255 mAP 0.0000 action acc 0.6427 phrase acc 0.6427 activity acc 0.0185 grad-norm 962.2656 epoch-elapsed 0h00m02s total-elapsed 0h00m18s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m18s
+epoch 3 batch 5/7 processed 146 batch-loss 526.7252 mAP 0.0000 action acc 0.7165 phrase acc 0.7165 activity acc 0.1675 grad-norm 1190.9786 epoch-elapsed 0h00m03s total-elapsed 0h00m19s
+epoch 3 batch 6/7 processed 154 batch-loss 300.0534 mAP 0.0000 action acc 0.6750 phrase acc 0.6750 activity acc 0.0110 grad-norm 371.2411 epoch-elapsed 0h00m03s total-elapsed 0h00m19s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m19s
+epoch 3 batch 7/7 processed 156 batch-loss 296.9579 mAP 0.0000 action acc 0.8214 phrase acc 0.8214 activity acc 0.9893 grad-norm 1756.3118 epoch-elapsed 0h00m03s total-elapsed 0h00m19s
+epoch 4 batch 1/7 processed 166 batch-loss 288.9157 mAP 0.0000 action acc 0.8288 phrase acc 0.8288 activity acc 0.7035 grad-norm 331.1614 epoch-elapsed 0h00m00s total-elapsed 0h00m20s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m20s
+epoch 4 batch 2/7 processed 174 batch-loss 497.4409 mAP 0.0000 action acc 0.6358 phrase acc 0.6358 activity acc 0.2642 grad-norm 1356.1969 epoch-elapsed 0h00m01s total-elapsed 0h00m20s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m21s
+epoch 4 batch 3/7 processed 182 batch-loss 297.9294 mAP 0.0000 action acc 0.8139 phrase acc 0.8139 activity acc 0.6043 grad-norm 777.2579 epoch-elapsed 0h00m01s total-elapsed 0h00m21s
+epoch 4 batch 4/7 processed 191 batch-loss 349.1139 mAP 0.0000 action acc 0.8153 phrase acc 0.8153 activity acc 0.4694 grad-norm 581.8201 epoch-elapsed 0h00m02s total-elapsed 0h00m22s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m22s
+epoch 4 batch 5/7 processed 199 batch-loss 282.4333 mAP 0.0000 action acc 0.7039 phrase acc 0.7039 activity acc 0.8717 grad-norm 717.8365 epoch-elapsed 0h00m02s total-elapsed 0h00m22s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m23s
+epoch 4 batch 6/7 processed 207 batch-loss 495.2299 mAP 0.0000 action acc 0.8061 phrase acc 0.8061 activity acc 0.2856 grad-norm 726.2831 epoch-elapsed 0h00m03s total-elapsed 0h00m23s
+epoch 4 batch 7/7 processed 208 batch-loss 215.9262 mAP 0.0000 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 643.2065 epoch-elapsed 0h00m03s total-elapsed 0h00m23s
+epoch 5 batch 1/7 processed 218 batch-loss 348.1275 mAP 0.0000 action acc 0.7916 phrase acc 0.7916 activity acc 0.3359 grad-norm 858.3865 epoch-elapsed 0h00m00s total-elapsed 0h00m23s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m24s
+epoch 5 batch 2/7 processed 226 batch-loss 387.8712 mAP 0.0000 action acc 0.7966 phrase acc 0.7966 activity acc 0.7566 grad-norm 441.0241 epoch-elapsed 0h00m01s total-elapsed 0h00m24s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m25s
+epoch 5 batch 3/7 processed 234 batch-loss 336.9060 mAP 0.0000 action acc 0.7255 phrase acc 0.7255 activity acc 0.0218 grad-norm 730.9794 epoch-elapsed 0h00m01s total-elapsed 0h00m25s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m26s
+epoch 5 batch 4/7 processed 243 batch-loss 351.0000 mAP 0.0000 action acc 0.8303 phrase acc 0.8303 activity acc 0.1015 grad-norm 2082.9053 epoch-elapsed 0h00m02s total-elapsed 0h00m26s
+epoch 5 batch 5/7 processed 251 batch-loss 343.5929 mAP 0.0000 action acc 0.7110 phrase acc 0.7110 activity acc 0.3357 grad-norm 940.2413 epoch-elapsed 0h00m02s total-elapsed 0h00m26s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m27s
+epoch 5 batch 6/7 processed 259 batch-loss 481.8549 mAP 0.0000 action acc 0.7781 phrase acc 0.7781 activity acc 0.4580 grad-norm 545.0258 epoch-elapsed 0h00m03s total-elapsed 0h00m27s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m28s
+epoch 5 batch 7/7 processed 260 batch-loss 193.6983 mAP 0.0000 action acc 0.7937 phrase acc 0.7937 activity acc 0.0000 grad-norm 397.8792 epoch-elapsed 0h00m04s total-elapsed 0h00m28s
+epoch 6 batch 1/7 processed 268 batch-loss 566.9522 mAP 0.0000 action acc 0.0060 phrase acc 0.6435 activity acc 0.0000 grad-norm 3957.3669 epoch-elapsed 0h00m00s total-elapsed 0h00m28s
+epoch 6 batch 2/7 processed 278 batch-loss 360.1367 mAP 0.0000 action acc 0.8076 phrase acc 0.8076 activity acc 0.9832 grad-norm 774.7892 epoch-elapsed 0h00m00s total-elapsed 0h00m28s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m29s
+epoch 6 batch 3/7 processed 286 batch-loss 461.3425 mAP 0.0000 action acc 0.7369 phrase acc 0.7369 activity acc 0.6524 grad-norm 1230.7942 epoch-elapsed 0h00m01s total-elapsed 0h00m29s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m30s
+epoch 6 batch 4/7 processed 294 batch-loss 464.8154 mAP 0.0000 action acc 0.6707 phrase acc 0.6707 activity acc 0.4791 grad-norm 938.4565 epoch-elapsed 0h00m02s total-elapsed 0h00m30s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m30s
+epoch 6 batch 5/7 processed 302 batch-loss 562.1235 mAP 0.0000 action acc 0.8296 phrase acc 0.8296 activity acc 0.4799 grad-norm 3648.7671 epoch-elapsed 0h00m02s total-elapsed 0h00m31s
+epoch 6 batch 6/7 processed 311 batch-loss 504.2920 mAP 0.0000 action acc 0.8339 phrase acc 0.8339 activity acc 0.2549 grad-norm 1067.1409 epoch-elapsed 0h00m03s total-elapsed 0h00m31s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m32s
+epoch 6 batch 7/7 processed 312 batch-loss 121.0442 mAP 0.0000 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 262.5287 epoch-elapsed 0h00m03s total-elapsed 0h00m32s
+epoch 7 batch 1/7 processed 320 batch-loss 611.9324 mAP 0.0000 action acc 0.7156 phrase acc 0.7156 activity acc 0.5465 grad-norm 922.8168 epoch-elapsed 0h00m00s total-elapsed 0h00m32s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m32s
+epoch 7 batch 2/7 processed 328 batch-loss 484.5051 mAP 0.0000 action acc 0.7424 phrase acc 0.7424 activity acc 0.0038 grad-norm 607.0932 epoch-elapsed 0h00m01s total-elapsed 0h00m33s
+epoch 7 batch 3/7 processed 336 batch-loss 539.6542 mAP 0.0011 action acc 0.6684 phrase acc 0.7702 activity acc 0.5866 grad-norm 2491.3230 epoch-elapsed 0h00m01s total-elapsed 0h00m33s
+dev-fscore 0.0009950248756218905 train-fscore 0.0006218905472636816 dev-elapsed 0h00m00s total-elapsed 0h00m33s
+epoch 7 batch 4/7 processed 344 batch-loss 766.0763 mAP 0.0006 action acc 0.8036 phrase acc 0.8036 activity acc 0.0510 grad-norm 1321.1425 epoch-elapsed 0h00m02s total-elapsed 0h00m34s
+dev-fscore 0.0005970149253731343 train-fscore 0.0004389815627743635 dev-elapsed 0h00m00s total-elapsed 0h00m34s
+epoch 7 batch 5/7 processed 353 batch-loss 463.0508 mAP 0.0004 action acc 0.8322 phrase acc 0.8322 activity acc 0.6621 grad-norm 915.5592 epoch-elapsed 0h00m02s total-elapsed 0h00m35s
+epoch 7 batch 6/7 processed 363 batch-loss 386.1213 mAP 0.0002 action acc 0.5938 phrase acc 0.7642 activity acc 0.0000 grad-norm 1405.9104 epoch-elapsed 0h00m03s total-elapsed 0h00m35s
+dev-fscore 0.00018656716417910448 train-fscore 0.00015229972586049343 dev-elapsed 0h00m00s total-elapsed 0h00m35s
+epoch 7 batch 7/7 processed 364 batch-loss 213.3432 mAP 0.0002 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 398.7744 epoch-elapsed 0h00m03s total-elapsed 0h00m35s
+epoch 8 batch 1/7 processed 372 batch-loss 488.5464 mAP 0.0000 action acc 0.7991 phrase acc 0.7991 activity acc 0.4462 grad-norm 557.4086 epoch-elapsed 0h00m00s total-elapsed 0h00m36s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m36s
+epoch 8 batch 2/7 processed 382 batch-loss 427.5477 mAP 0.0000 action acc 0.8128 phrase acc 0.8128 activity acc 0.1095 grad-norm 626.5232 epoch-elapsed 0h00m01s total-elapsed 0h00m36s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m37s
+epoch 8 batch 3/7 processed 390 batch-loss 596.6122 mAP 0.0000 action acc 0.7222 phrase acc 0.7222 activity acc 0.2411 grad-norm 574.0432 epoch-elapsed 0h00m01s total-elapsed 0h00m37s
+epoch 8 batch 4/7 processed 398 batch-loss 466.8455 mAP 0.0000 action acc 0.7034 phrase acc 0.7034 activity acc 0.2560 grad-norm 468.7208 epoch-elapsed 0h00m01s total-elapsed 0h00m37s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m38s
+epoch 8 batch 5/7 processed 407 batch-loss 699.8024 mAP 0.0000 action acc 0.8046 phrase acc 0.8046 activity acc 0.8227 grad-norm 1401.6196 epoch-elapsed 0h00m02s total-elapsed 0h00m38s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m39s
+epoch 8 batch 6/7 processed 415 batch-loss 530.4685 mAP 0.0000 action acc 0.7956 phrase acc 0.7956 activity acc 0.2065 grad-norm 852.6510 epoch-elapsed 0h00m03s total-elapsed 0h00m39s
+epoch 8 batch 7/7 processed 416 batch-loss 679.8655 mAP 0.0000 action acc 0.3143 phrase acc 0.3143 activity acc 0.0000 grad-norm 1640.9545 epoch-elapsed 0h00m03s total-elapsed 0h00m39s
+epoch 9 batch 1/7 processed 424 batch-loss 755.1016 mAP 0.0000 action acc 0.0077 phrase acc 0.7585 activity acc 0.4754 grad-norm 3928.3579 epoch-elapsed 0h00m00s total-elapsed 0h00m39s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m40s
+epoch 9 batch 2/7 processed 432 batch-loss 401.7320 mAP 0.0000 action acc 0.7806 phrase acc 0.7806 activity acc 0.7050 grad-norm 741.5768 epoch-elapsed 0h00m00s total-elapsed 0h00m40s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m41s
+epoch 9 batch 3/7 processed 440 batch-loss 501.8445 mAP 0.0000 action acc 0.7376 phrase acc 0.7376 activity acc 0.3817 grad-norm 815.7877 epoch-elapsed 0h00m01s total-elapsed 0h00m41s
+epoch 9 batch 4/7 processed 448 batch-loss 547.8810 mAP 0.0000 action acc 0.7321 phrase acc 0.7321 activity acc 0.5658 grad-norm 842.2857 epoch-elapsed 0h00m01s total-elapsed 0h00m41s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m42s
+epoch 9 batch 5/7 processed 459 batch-loss 523.0792 mAP 0.0000 action acc 0.8260 phrase acc 0.8260 activity acc 0.4636 grad-norm 395.0508 epoch-elapsed 0h00m02s total-elapsed 0h00m42s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m43s
+epoch 9 batch 6/7 processed 467 batch-loss 625.9517 mAP 0.0000 action acc 0.7408 phrase acc 0.7408 activity acc 0.5772 grad-norm 653.4249 epoch-elapsed 0h00m03s total-elapsed 0h00m43s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m44s
+epoch 9 batch 7/7 processed 468 batch-loss 387.7030 mAP 0.0000 action acc 0.8017 phrase acc 0.8017 activity acc 0.9917 grad-norm 522.6135 epoch-elapsed 0h00m04s total-elapsed 0h00m44s
+epoch 10 batch 1/7 processed 476 batch-loss 464.1396 mAP 0.0000 action acc 0.8198 phrase acc 0.8198 activity acc 0.1354 grad-norm 1247.3273 epoch-elapsed 0h00m00s total-elapsed 0h00m44s
+epoch 10 batch 2/7 processed 484 batch-loss 440.8802 mAP 0.0000 action acc 0.7277 phrase acc 0.7277 activity acc 0.5904 grad-norm 466.3152 epoch-elapsed 0h00m00s total-elapsed 0h00m44s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m45s
+epoch 10 batch 3/7 processed 492 batch-loss 395.4492 mAP 0.0000 action acc 0.7991 phrase acc 0.7991 activity acc 0.6286 grad-norm 248.1380 epoch-elapsed 0h00m01s total-elapsed 0h00m45s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m45s
+epoch 10 batch 4/7 processed 500 batch-loss 403.8464 mAP 0.0000 action acc 0.7906 phrase acc 0.7906 activity acc 0.5470 grad-norm 309.9718 epoch-elapsed 0h00m01s total-elapsed 0h00m46s
+epoch 10 batch 5/7 processed 511 batch-loss 404.2364 mAP 0.0000 action acc 0.7622 phrase acc 0.7622 activity acc 0.7097 grad-norm 333.0732 epoch-elapsed 0h00m02s total-elapsed 0h00m46s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m47s
+epoch 10 batch 6/7 processed 519 batch-loss 436.5469 mAP 0.0000 action acc 0.7886 phrase acc 0.7886 activity acc 0.3923 grad-norm 293.1886 epoch-elapsed 0h00m03s total-elapsed 0h00m47s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m47s
+epoch 10 batch 7/7 processed 520 batch-loss 814.7168 mAP 0.0000 action acc 0.3143 phrase acc 0.3143 activity acc 0.0000 grad-norm 1004.6387 epoch-elapsed 0h00m03s total-elapsed 0h00m47s
+epoch 11 batch 1/7 processed 528 batch-loss 481.3393 mAP 0.0000 action acc 0.6883 phrase acc 0.8038 activity acc 0.0000 grad-norm 2124.8896 epoch-elapsed 0h00m00s total-elapsed 0h00m48s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m48s
+epoch 11 batch 2/7 processed 536 batch-loss 399.0071 mAP 0.0000 action acc 0.7659 phrase acc 0.7659 activity acc 0.0574 grad-norm 535.8546 epoch-elapsed 0h00m01s total-elapsed 0h00m48s
+epoch 11 batch 3/7 processed 544 batch-loss 387.1299 mAP 0.0000 action acc 0.7505 phrase acc 0.7505 activity acc 0.4366 grad-norm 537.6129 epoch-elapsed 0h00m01s total-elapsed 0h00m49s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m49s
+epoch 11 batch 4/7 processed 555 batch-loss 341.5815 mAP 0.0000 action acc 0.7932 phrase acc 0.7932 activity acc 0.3663 grad-norm 471.5907 epoch-elapsed 0h00m02s total-elapsed 0h00m50s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m50s
+epoch 11 batch 5/7 processed 563 batch-loss 395.8822 mAP 0.0000 action acc 0.8231 phrase acc 0.8231 activity acc 0.0026 grad-norm 427.4306 epoch-elapsed 0h00m03s total-elapsed 0h00m50s
+epoch 11 batch 6/7 processed 571 batch-loss 553.3297 mAP 0.0000 action acc 0.6680 phrase acc 0.6680 activity acc 0.4232 grad-norm 529.9102 epoch-elapsed 0h00m03s total-elapsed 0h00m51s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m51s
+epoch 11 batch 7/7 processed 572 batch-loss 400.1076 mAP 0.0000 action acc 0.8057 phrase acc 0.8057 activity acc 0.9953 grad-norm 1168.7133 epoch-elapsed 0h00m03s total-elapsed 0h00m51s
+epoch 12 batch 1/7 processed 580 batch-loss 475.4174 mAP 0.0000 action acc 0.6727 phrase acc 0.6727 activity acc 0.1893 grad-norm 516.9103 epoch-elapsed 0h00m00s total-elapsed 0h00m52s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m52s
+epoch 12 batch 2/7 processed 589 batch-loss 437.7331 mAP 0.0000 action acc 0.8479 phrase acc 0.8479 activity acc 0.2948 grad-norm 906.4261 epoch-elapsed 0h00m01s total-elapsed 0h00m52s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m53s
+epoch 12 batch 3/7 processed 597 batch-loss 337.5034 mAP 0.0000 action acc 0.7514 phrase acc 0.7514 activity acc 0.5548 grad-norm 305.5851 epoch-elapsed 0h00m01s total-elapsed 0h00m53s
+epoch 12 batch 4/7 processed 605 batch-loss 245.0568 mAP 0.0000 action acc 0.7794 phrase acc 0.7794 activity acc 0.6029 grad-norm 156.5249 epoch-elapsed 0h00m02s total-elapsed 0h00m53s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m54s
+epoch 12 batch 5/7 processed 613 batch-loss 469.1981 mAP 0.0000 action acc 0.7712 phrase acc 0.7712 activity acc 0.3524 grad-norm 242.5262 epoch-elapsed 0h00m02s total-elapsed 0h00m54s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m55s
+epoch 12 batch 6/7 processed 623 batch-loss 438.1245 mAP 0.0000 action acc 0.8105 phrase acc 0.8105 activity acc 0.8102 grad-norm 286.7590 epoch-elapsed 0h00m03s total-elapsed 0h00m55s
+epoch 12 batch 7/7 processed 624 batch-loss 550.8545 mAP 0.0000 action acc 0.8057 phrase acc 0.8057 activity acc 0.9953 grad-norm 482.3330 epoch-elapsed 0h00m03s total-elapsed 0h00m55s
+epoch 13 batch 1/7 processed 632 batch-loss 386.1819 mAP 0.0000 action acc 0.7326 phrase acc 0.7326 activity acc 0.8571 grad-norm 349.3647 epoch-elapsed 0h00m00s total-elapsed 0h00m55s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m56s
+epoch 13 batch 2/7 processed 641 batch-loss 400.5437 mAP 0.0000 action acc 0.7860 phrase acc 0.7860 activity acc 0.7141 grad-norm 194.1101 epoch-elapsed 0h00m01s total-elapsed 0h00m56s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m57s
+epoch 13 batch 3/7 processed 649 batch-loss 385.4839 mAP 0.0000 action acc 0.8171 phrase acc 0.8171 activity acc 0.6199 grad-norm 1020.5187 epoch-elapsed 0h00m01s total-elapsed 0h00m57s
+epoch 13 batch 4/7 processed 657 batch-loss 345.2926 mAP 0.0000 action acc 0.8303 phrase acc 0.8303 activity acc 0.3633 grad-norm 242.4631 epoch-elapsed 0h00m02s total-elapsed 0h00m57s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m58s
+epoch 13 batch 5/7 processed 667 batch-loss 372.5583 mAP 0.0000 action acc 0.7863 phrase acc 0.7863 activity acc 0.2448 grad-norm 433.2707 epoch-elapsed 0h00m03s total-elapsed 0h00m58s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m59s
+epoch 13 batch 6/7 processed 675 batch-loss 305.8992 mAP 0.0000 action acc 0.7382 phrase acc 0.7382 activity acc 0.1652 grad-norm 306.0294 epoch-elapsed 0h00m03s total-elapsed 0h00m59s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m00s
+epoch 13 batch 7/7 processed 676 batch-loss 169.1472 mAP 0.0000 action acc 0.7937 phrase acc 0.7937 activity acc 0.0000 grad-norm 189.4036 epoch-elapsed 0h00m04s total-elapsed 0h01m00s
+epoch 14 batch 1/7 processed 684 batch-loss 298.7250 mAP 0.0000 action acc 0.7296 phrase acc 0.7296 activity acc 0.3943 grad-norm 202.7799 epoch-elapsed 0h00m00s total-elapsed 0h01m00s
+epoch 14 batch 2/7 processed 692 batch-loss 260.8811 mAP 0.0000 action acc 0.6923 phrase acc 0.6923 activity acc 0.3210 grad-norm 176.5156 epoch-elapsed 0h00m00s total-elapsed 0h01m00s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m01s
+epoch 14 batch 3/7 processed 700 batch-loss 398.9123 mAP 0.0000 action acc 0.8227 phrase acc 0.8227 activity acc 0.2242 grad-norm 716.7451 epoch-elapsed 0h00m01s total-elapsed 0h01m01s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m01s
+epoch 14 batch 4/7 processed 708 batch-loss 401.5815 mAP 0.0000 action acc 0.7140 phrase acc 0.7140 activity acc 0.2332 grad-norm 371.5666 epoch-elapsed 0h00m02s total-elapsed 0h01m02s
+epoch 14 batch 5/7 processed 719 batch-loss 308.0589 mAP 0.0000 action acc 0.8052 phrase acc 0.8052 activity acc 0.4483 grad-norm 230.8368 epoch-elapsed 0h00m02s total-elapsed 0h01m02s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m03s
+epoch 14 batch 6/7 processed 727 batch-loss 304.5434 mAP 0.0000 action acc 0.8091 phrase acc 0.8091 activity acc 0.2300 grad-norm 212.8394 epoch-elapsed 0h00m03s total-elapsed 0h01m03s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m03s
+epoch 14 batch 7/7 processed 728 batch-loss 245.8676 mAP 0.0000 action acc 0.7778 phrase acc 0.7778 activity acc 0.9921 grad-norm 221.5891 epoch-elapsed 0h00m03s total-elapsed 0h01m03s
+epoch 15 batch 1/7 processed 736 batch-loss 247.6054 mAP 0.0000 action acc 0.7684 phrase acc 0.7684 activity acc 0.4148 grad-norm 194.9317 epoch-elapsed 0h00m00s total-elapsed 0h01m04s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m04s
+epoch 15 batch 2/7 processed 744 batch-loss 360.4951 mAP 0.0000 action acc 0.7042 phrase acc 0.7042 activity acc 0.0100 grad-norm 254.3717 epoch-elapsed 0h00m00s total-elapsed 0h01m04s
+epoch 15 batch 3/7 processed 752 batch-loss 378.0924 mAP 0.0000 action acc 0.7784 phrase acc 0.7784 activity acc 0.4993 grad-norm 381.8763 epoch-elapsed 0h00m01s total-elapsed 0h01m05s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m05s
+epoch 15 batch 4/7 processed 760 batch-loss 383.0959 mAP 0.0000 action acc 0.7961 phrase acc 0.7961 activity acc 0.5810 grad-norm 240.2864 epoch-elapsed 0h00m02s total-elapsed 0h01m06s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m06s
+epoch 15 batch 5/7 processed 769 batch-loss 265.1484 mAP 0.0000 action acc 0.7949 phrase acc 0.7949 activity acc 0.1329 grad-norm 121.3022 epoch-elapsed 0h00m02s total-elapsed 0h01m06s
+epoch 15 batch 6/7 processed 779 batch-loss 220.6660 mAP 0.0000 action acc 0.7727 phrase acc 0.7727 activity acc 0.1125 grad-norm 163.3961 epoch-elapsed 0h00m03s total-elapsed 0h01m07s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m07s
+epoch 15 batch 7/7 processed 780 batch-loss 388.1783 mAP 0.0000 action acc 0.8759 phrase acc 0.8759 activity acc 0.9965 grad-norm 399.4836 epoch-elapsed 0h00m03s total-elapsed 0h01m07s
+epoch 16 batch 1/7 processed 790 batch-loss 296.2835 mAP 0.0000 action acc 0.8144 phrase acc 0.8144 activity acc 0.6793 grad-norm 101.8577 epoch-elapsed 0h00m00s total-elapsed 0h01m08s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m08s
+epoch 16 batch 2/7 processed 798 batch-loss 223.0045 mAP 0.0000 action acc 0.7557 phrase acc 0.7557 activity acc 0.6908 grad-norm 89.3844 epoch-elapsed 0h00m01s total-elapsed 0h01m08s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m09s
+epoch 16 batch 3/7 processed 806 batch-loss 281.9731 mAP 0.0000 action acc 0.7266 phrase acc 0.7266 activity acc 0.5796 grad-norm 193.5684 epoch-elapsed 0h00m01s total-elapsed 0h01m09s
+epoch 16 batch 4/7 processed 814 batch-loss 415.4211 mAP 0.0000 action acc 0.8053 phrase acc 0.8053 activity acc 0.1295 grad-norm 417.8387 epoch-elapsed 0h00m02s total-elapsed 0h01m09s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m10s
+epoch 16 batch 5/7 processed 822 batch-loss 272.1516 mAP 0.0000 action acc 0.6941 phrase acc 0.6941 activity acc 0.4784 grad-norm 100.3928 epoch-elapsed 0h00m02s total-elapsed 0h01m10s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m11s
+epoch 16 batch 6/7 processed 831 batch-loss 322.8964 mAP 0.0000 action acc 0.8047 phrase acc 0.8047 activity acc 0.7272 grad-norm 128.5306 epoch-elapsed 0h00m03s total-elapsed 0h01m11s
+epoch 16 batch 7/7 processed 832 batch-loss 305.4432 mAP 0.0000 action acc 0.8377 phrase acc 0.8377 activity acc 0.0000 grad-norm 234.3783 epoch-elapsed 0h00m03s total-elapsed 0h01m11s
+epoch 17 batch 1/7 processed 842 batch-loss 235.9600 mAP 0.0000 action acc 0.7806 phrase acc 0.7806 activity acc 0.5004 grad-norm 113.5652 epoch-elapsed 0h00m00s total-elapsed 0h01m11s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m12s
+epoch 17 batch 2/7 processed 850 batch-loss 350.4719 mAP 0.0000 action acc 0.7828 phrase acc 0.7828 activity acc 0.1218 grad-norm 163.1637 epoch-elapsed 0h00m01s total-elapsed 0h01m12s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m13s
+epoch 17 batch 3/7 processed 859 batch-loss 246.3482 mAP 0.0000 action acc 0.7963 phrase acc 0.7963 activity acc 0.4982 grad-norm 109.7613 epoch-elapsed 0h00m01s total-elapsed 0h01m13s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m14s
+epoch 17 batch 4/7 processed 867 batch-loss 293.2181 mAP 0.0000 action acc 0.7448 phrase acc 0.7448 activity acc 0.6504 grad-norm 108.5095 epoch-elapsed 0h00m02s total-elapsed 0h01m14s
+epoch 17 batch 5/7 processed 875 batch-loss 271.1073 mAP 0.0000 action acc 0.6975 phrase acc 0.6975 activity acc 0.5768 grad-norm 91.8193 epoch-elapsed 0h00m02s total-elapsed 0h01m14s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m15s
+epoch 17 batch 6/7 processed 883 batch-loss 306.3212 mAP 0.0000 action acc 0.7989 phrase acc 0.7989 activity acc 0.1939 grad-norm 128.1280 epoch-elapsed 0h00m03s total-elapsed 0h01m15s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m16s
+epoch 17 batch 7/7 processed 884 batch-loss 466.7133 mAP 0.0000 action acc 0.8586 phrase acc 0.8586 activity acc 0.0000 grad-norm 527.4272 epoch-elapsed 0h00m04s total-elapsed 0h01m16s
+epoch 18 batch 1/7 processed 892 batch-loss 369.3332 mAP 0.0000 action acc 0.7576 phrase acc 0.7576 activity acc 0.3912 grad-norm 238.5110 epoch-elapsed 0h00m00s total-elapsed 0h01m16s
+epoch 18 batch 2/7 processed 900 batch-loss 390.0493 mAP 0.0000 action acc 0.7361 phrase acc 0.7361 activity acc 0.0157 grad-norm 271.6563 epoch-elapsed 0h00m00s total-elapsed 0h01m16s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m17s
+epoch 18 batch 3/7 processed 908 batch-loss 295.6124 mAP 0.0000 action acc 0.7998 phrase acc 0.7998 activity acc 0.7912 grad-norm 95.5025 epoch-elapsed 0h00m01s total-elapsed 0h01m17s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m18s
+epoch 18 batch 4/7 processed 916 batch-loss 221.6241 mAP 0.0000 action acc 0.7446 phrase acc 0.7446 activity acc 0.3131 grad-norm 89.7108 epoch-elapsed 0h00m02s total-elapsed 0h01m18s
+epoch 18 batch 5/7 processed 927 batch-loss 259.7041 mAP 0.0000 action acc 0.8163 phrase acc 0.8163 activity acc 0.2372 grad-norm 160.7572 epoch-elapsed 0h00m02s total-elapsed 0h01m18s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m19s
+epoch 18 batch 6/7 processed 935 batch-loss 250.8322 mAP 0.0000 action acc 0.7407 phrase acc 0.7407 activity acc 0.2377 grad-norm 95.1365 epoch-elapsed 0h00m03s total-elapsed 0h01m19s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m19s
+epoch 18 batch 7/7 processed 936 batch-loss 390.2303 mAP 0.0000 action acc 0.8402 phrase acc 0.8402 activity acc 0.9959 grad-norm 334.0599 epoch-elapsed 0h00m03s total-elapsed 0h01m19s
+epoch 19 batch 1/7 processed 944 batch-loss 342.2478 mAP 0.0000 action acc 0.7833 phrase acc 0.7833 activity acc 0.8636 grad-norm 181.3352 epoch-elapsed 0h00m00s total-elapsed 0h01m20s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m20s
+epoch 19 batch 2/7 processed 952 batch-loss 318.8618 mAP 0.0000 action acc 0.7944 phrase acc 0.7944 activity acc 0.2216 grad-norm 131.2278 epoch-elapsed 0h00m01s total-elapsed 0h01m21s
+epoch 19 batch 3/7 processed 960 batch-loss 264.5273 mAP 0.0000 action acc 0.7887 phrase acc 0.7887 activity acc 0.0038 grad-norm 126.7680 epoch-elapsed 0h00m01s total-elapsed 0h01m21s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m21s
+epoch 19 batch 4/7 processed 969 batch-loss 249.4050 mAP 0.0000 action acc 0.7695 phrase acc 0.7695 activity acc 0.1723 grad-norm 76.5982 epoch-elapsed 0h00m02s total-elapsed 0h01m22s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m22s
+epoch 19 batch 5/7 processed 977 batch-loss 209.1952 mAP 0.0000 action acc 0.8151 phrase acc 0.8151 activity acc 0.4421 grad-norm 78.8600 epoch-elapsed 0h00m02s total-elapsed 0h01m22s
+epoch 19 batch 6/7 processed 987 batch-loss 329.1879 mAP 0.0000 action acc 0.7749 phrase acc 0.7749 activity acc 0.2862 grad-norm 69.9492 epoch-elapsed 0h00m03s total-elapsed 0h01m23s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m23s
+epoch 19 batch 7/7 processed 988 batch-loss 68.3151 mAP 0.0000 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 72.6831 epoch-elapsed 0h00m03s total-elapsed 0h01m23s
+epoch 20 batch 1/7 processed 996 batch-loss 294.4552 mAP 0.0000 action acc 0.7876 phrase acc 0.7876 activity acc 0.8853 grad-norm 145.3497 epoch-elapsed 0h00m00s total-elapsed 0h01m23s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m24s
+epoch 20 batch 2/7 processed 1,006 batch-loss 275.3574 mAP 0.0000 action acc 0.8161 phrase acc 0.8161 activity acc 0.3505 grad-norm 105.0512 epoch-elapsed 0h00m01s total-elapsed 0h01m24s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m25s
+epoch 20 batch 3/7 processed 1,014 batch-loss 226.7524 mAP 0.0000 action acc 0.7980 phrase acc 0.7980 activity acc 0.7801 grad-norm 58.3898 epoch-elapsed 0h00m01s total-elapsed 0h01m25s
+epoch 20 batch 4/7 processed 1,023 batch-loss 259.1718 mAP 0.0000 action acc 0.7391 phrase acc 0.7391 activity acc 0.6120 grad-norm 132.8343 epoch-elapsed 0h00m02s total-elapsed 0h01m25s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m26s
+epoch 20 batch 5/7 processed 1,031 batch-loss 258.8034 mAP 0.0000 action acc 0.7468 phrase acc 0.7468 activity acc 0.0089 grad-norm 134.2620 epoch-elapsed 0h00m02s total-elapsed 0h01m26s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m27s
+epoch 20 batch 6/7 processed 1,039 batch-loss 334.6347 mAP 0.0000 action acc 0.7085 phrase acc 0.7085 activity acc 0.5774 grad-norm 103.4667 epoch-elapsed 0h00m03s total-elapsed 0h01m27s
+epoch 20 batch 7/7 processed 1,040 batch-loss 562.2449 mAP 0.0000 action acc 0.8402 phrase acc 0.8402 activity acc 0.0000 grad-norm 860.5842 epoch-elapsed 0h00m03s total-elapsed 0h01m27s
+epoch 21 batch 1/7 processed 1,050 batch-loss 276.8040 mAP 0.0000 action acc 0.8304 phrase acc 0.8304 activity acc 0.4049 grad-norm 163.9334 epoch-elapsed 0h00m00s total-elapsed 0h01m27s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m28s
+epoch 21 batch 2/7 processed 1,058 batch-loss 317.4266 mAP 0.0000 action acc 0.7234 phrase acc 0.7234 activity acc 0.5658 grad-norm 223.3520 epoch-elapsed 0h00m01s total-elapsed 0h01m28s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m29s
+epoch 21 batch 3/7 processed 1,066 batch-loss 303.8715 mAP 0.0000 action acc 0.7955 phrase acc 0.7955 activity acc 0.0200 grad-norm 227.0221 epoch-elapsed 0h00m01s total-elapsed 0h01m29s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m30s
+epoch 21 batch 4/7 processed 1,074 batch-loss 384.1935 mAP 0.0000 action acc 0.8170 phrase acc 0.8170 activity acc 0.8453 grad-norm 186.0995 epoch-elapsed 0h00m02s total-elapsed 0h01m30s
+epoch 21 batch 5/7 processed 1,082 batch-loss 278.3036 mAP 0.0000 action acc 0.5179 phrase acc 0.5179 activity acc 0.2926 grad-norm 135.2466 epoch-elapsed 0h00m02s total-elapsed 0h01m30s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m31s
+epoch 21 batch 6/7 processed 1,091 batch-loss 338.2537 mAP 0.0000 action acc 0.8052 phrase acc 0.8052 activity acc 0.2435 grad-norm 439.5000 epoch-elapsed 0h00m03s total-elapsed 0h01m31s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m31s
+epoch 21 batch 7/7 processed 1,092 batch-loss 255.6984 mAP 0.0000 action acc 0.7778 phrase acc 0.7778 activity acc 0.0000 grad-norm 330.2003 epoch-elapsed 0h00m04s total-elapsed 0h01m32s
+epoch 22 batch 1/7 processed 1,102 batch-loss 225.8357 mAP 0.0000 action acc 0.8016 phrase acc 0.8016 activity acc 0.4982 grad-norm 58.0278 epoch-elapsed 0h00m00s total-elapsed 0h01m32s
+epoch 22 batch 2/7 processed 1,110 batch-loss 346.5376 mAP 0.0000 action acc 0.7934 phrase acc 0.7934 activity acc 0.7519 grad-norm 114.9279 epoch-elapsed 0h00m00s total-elapsed 0h01m32s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m33s
+epoch 22 batch 3/7 processed 1,118 batch-loss 304.7494 mAP 0.0000 action acc 0.6619 phrase acc 0.6619 activity acc 0.4715 grad-norm 202.8888 epoch-elapsed 0h00m01s total-elapsed 0h01m33s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m33s
+epoch 22 batch 4/7 processed 1,127 batch-loss 283.8360 mAP 0.0000 action acc 0.8279 phrase acc 0.8279 activity acc 0.6824 grad-norm 107.5381 epoch-elapsed 0h00m02s total-elapsed 0h01m34s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m34s
+epoch 22 batch 5/7 processed 1,135 batch-loss 334.6317 mAP 0.0000 action acc 0.7654 phrase acc 0.7654 activity acc 0.6649 grad-norm 103.1930 epoch-elapsed 0h00m02s total-elapsed 0h01m35s
+epoch 22 batch 6/7 processed 1,143 batch-loss 331.9339 mAP 0.0000 action acc 0.7844 phrase acc 0.7844 activity acc 0.6613 grad-norm 91.4186 epoch-elapsed 0h00m03s total-elapsed 0h01m35s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m35s
+epoch 22 batch 7/7 processed 1,144 batch-loss 72.5284 mAP 0.0000 action acc 0.0000 phrase acc 0.0000 activity acc 0.0000 grad-norm 85.9178 epoch-elapsed 0h00m03s total-elapsed 0h01m35s
+epoch 23 batch 1/7 processed 1,152 batch-loss 356.0354 mAP 0.0000 action acc 0.7722 phrase acc 0.7722 activity acc 0.2427 grad-norm 332.7513 epoch-elapsed 0h00m00s total-elapsed 0h01m36s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m36s
+epoch 23 batch 2/7 processed 1,160 batch-loss 318.5603 mAP 0.0000 action acc 0.8106 phrase acc 0.8106 activity acc 0.5557 grad-norm 79.5871 epoch-elapsed 0h00m01s total-elapsed 0h01m37s
+epoch 23 batch 3/7 processed 1,168 batch-loss 274.4518 mAP 0.0000 action acc 0.6435 phrase acc 0.6435 activity acc 0.3994 grad-norm 191.9245 epoch-elapsed 0h00m01s total-elapsed 0h01m37s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m37s
+epoch 23 batch 4/7 processed 1,176 batch-loss 376.0023 mAP 0.0000 action acc 0.7165 phrase acc 0.7165 activity acc 0.4212 grad-norm 2459.3032 epoch-elapsed 0h00m02s total-elapsed 0h01m38s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m38s
+epoch 23 batch 5/7 processed 1,187 batch-loss 270.2705 mAP 0.0000 action acc 0.8227 phrase acc 0.8227 activity acc 0.6426 grad-norm 173.3689 epoch-elapsed 0h00m03s total-elapsed 0h01m38s
+epoch 23 batch 6/7 processed 1,195 batch-loss 229.4550 mAP 0.0000 action acc 0.7645 phrase acc 0.7645 activity acc 0.8627 grad-norm 73.9031 epoch-elapsed 0h00m03s total-elapsed 0h01m39s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m39s
+epoch 23 batch 7/7 processed 1,196 batch-loss 137.5051 mAP 0.0000 action acc 0.6809 phrase acc 0.6809 activity acc 0.9787 grad-norm 96.8250 epoch-elapsed 0h00m03s total-elapsed 0h01m39s
+epoch 24 batch 1/7 processed 1,206 batch-loss 275.0307 mAP 0.0000 action acc 0.8018 phrase acc 0.8018 activity acc 0.2808 grad-norm 221.2365 epoch-elapsed 0h00m00s total-elapsed 0h01m40s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m40s
+epoch 24 batch 2/7 processed 1,214 batch-loss 291.0613 mAP 0.0000 action acc 0.7457 phrase acc 0.7457 activity acc 0.3749 grad-norm 65.8300 epoch-elapsed 0h00m01s total-elapsed 0h01m40s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m41s
+epoch 24 batch 3/7 processed 1,222 batch-loss 273.1154 mAP 0.0000 action acc 0.7867 phrase acc 0.7867 activity acc 0.5374 grad-norm 70.1394 epoch-elapsed 0h00m01s total-elapsed 0h01m41s
+epoch 24 batch 4/7 processed 1,230 batch-loss 306.2033 mAP 0.0000 action acc 0.7517 phrase acc 0.7517 activity acc 0.3813 grad-norm 178.4926 epoch-elapsed 0h00m02s total-elapsed 0h01m41s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m42s
+epoch 24 batch 5/7 processed 1,238 batch-loss 307.6313 mAP 0.0000 action acc 0.6615 phrase acc 0.6615 activity acc 0.6865 grad-norm 158.0082 epoch-elapsed 0h00m03s total-elapsed 0h01m42s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m43s
+epoch 24 batch 6/7 processed 1,247 batch-loss 309.4202 mAP 0.0000 action acc 0.8444 phrase acc 0.8444 activity acc 0.8044 grad-norm 155.2364 epoch-elapsed 0h00m04s total-elapsed 0h01m43s
+epoch 24 batch 7/7 processed 1,248 batch-loss 291.0481 mAP 0.0000 action acc 0.8037 phrase acc 0.8037 activity acc 0.9939 grad-norm 255.7126 epoch-elapsed 0h00m04s total-elapsed 0h01m43s
+epoch 25 batch 1/7 processed 1,259 batch-loss 240.2887 mAP 0.0000 action acc 0.8197 phrase acc 0.8197 activity acc 0.8827 grad-norm 67.1754 epoch-elapsed 0h00m00s total-elapsed 0h01m44s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m45s
+epoch 25 batch 2/7 processed 1,267 batch-loss 254.5548 mAP 0.0000 action acc 0.6162 phrase acc 0.6162 activity acc 0.0981 grad-norm 159.5860 epoch-elapsed 0h00m01s total-elapsed 0h01m45s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m45s
+epoch 25 batch 3/7 processed 1,275 batch-loss 397.0226 mAP 0.0000 action acc 0.8431 phrase acc 0.8431 activity acc 0.1228 grad-norm 232.9471 epoch-elapsed 0h00m02s total-elapsed 0h01m46s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m46s
+epoch 25 batch 4/7 processed 1,283 batch-loss 292.6141 mAP 0.0000 action acc 0.7553 phrase acc 0.7553 activity acc 0.6077 grad-norm 116.2249 epoch-elapsed 0h00m03s total-elapsed 0h01m47s
+epoch 25 batch 5/7 processed 1,291 batch-loss 313.4141 mAP 0.0000 action acc 0.6935 phrase acc 0.6935 activity acc 0.5616 grad-norm 107.8455 epoch-elapsed 0h00m03s total-elapsed 0h01m47s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m48s
+epoch 25 batch 6/7 processed 1,299 batch-loss 231.2027 mAP 0.0000 action acc 0.7614 phrase acc 0.7614 activity acc 0.6527 grad-norm 90.5576 epoch-elapsed 0h00m04s total-elapsed 0h01m48s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h01m48s
+epoch 25 batch 7/7 processed 1,300 batch-loss 470.5903 mAP 0.0000 action acc 0.7444 phrase acc 0.7444 activity acc 0.9955 grad-norm 265.8250 epoch-elapsed 0h00m05s total-elapsed 0h01m49s
+Terminating due to lack of improvement in dev fscore.

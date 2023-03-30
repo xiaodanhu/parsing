@@ -1,0 +1,486 @@
+Initializing model...
+Initializing optimizer...
+Training...
+epoch 1 batch 1/3 processed 9 batch-loss 6799.5822 mAP 0.0042 action acc 0.0270 phrase acc 0.0712 activity acc 0.0007 grad-norm 19568.0449 epoch-elapsed 0h00m00s total-elapsed 0h00m00s
+dev-Recognition mAP 0.1667 dev-Localization mAP 0.0004 train-Recognition mAP 0.1748 train-Localization mAP 0.0007 dev-elapsed 0h00m00s total-elapsed 0h00m00s
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 1 batch 2/3 processed 17 batch-loss 7920.7412 mAP 0.0005 action acc 0.0359 phrase acc 0.1186 activity acc 0.0130 grad-norm 20546.0371 epoch-elapsed 0h00m01s total-elapsed 0h00m01s
+dev-Recognition mAP 0.1696 dev-Localization mAP 0.0004 train-Recognition mAP 0.1856 train-Localization mAP 0.0008 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+epoch 1 batch 3/3 processed 23 batch-loss 12261.9141 mAP 0.0005 action acc 0.1605 phrase acc 0.1646 activity acc 0.0000 grad-norm 35479.0625 epoch-elapsed 0h00m02s total-elapsed 0h00m02s
+dev-Recognition mAP 0.1630 dev-Localization mAP 0.0005 train-Recognition mAP 0.1809 train-Localization mAP 0.0001 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 2 batch 1/3 processed 31 batch-loss 8655.1865 mAP 0.0000 action acc 0.2720 phrase acc 0.3182 activity acc 0.0042 grad-norm 26436.8262 epoch-elapsed 0h00m00s total-elapsed 0h00m03s
+dev-Recognition mAP 0.1708 dev-Localization mAP 0.0010 train-Recognition mAP 0.2041 train-Localization mAP 0.0001 dev-elapsed 0h00m00s total-elapsed 0h00m03s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 2 batch 2/3 processed 40 batch-loss 6538.6451 mAP 0.0001 action acc 0.3494 phrase acc 0.3707 activity acc 0.0014 grad-norm 20249.6953 epoch-elapsed 0h00m01s total-elapsed 0h00m04s
+dev-Recognition mAP 0.1639 dev-Localization mAP 0.0003 train-Recognition mAP 0.1997 train-Localization mAP 0.0003 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 2 batch 3/3 processed 46 batch-loss 8617.9883 mAP 0.0003 action acc 0.7241 phrase acc 0.5764 activity acc 0.0113 grad-norm 26646.3438 epoch-elapsed 0h00m02s total-elapsed 0h00m05s
+dev-Recognition mAP 0.1771 dev-Localization mAP 0.0000 train-Recognition mAP 0.1400 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 3 batch 1/3 processed 55 batch-loss 7487.2521 mAP 0.0000 action acc 0.8267 phrase acc 0.7957 activity acc 0.0005 grad-norm 22618.4219 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-Recognition mAP 0.1375 dev-Localization mAP 0.0000 train-Recognition mAP 0.1194 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+epoch 3 batch 2/3 processed 63 batch-loss 5911.8428 mAP 0.0000 action acc 0.8116 phrase acc 0.7973 activity acc 0.0152 grad-norm 18052.3848 epoch-elapsed 0h00m01s total-elapsed 0h00m07s
+dev-Recognition mAP 0.1314 dev-Localization mAP 0.0000 train-Recognition mAP 0.1202 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 3 batch 3/3 processed 69 batch-loss 5452.7314 mAP 0.0000 action acc 0.7231 phrase acc 0.7094 activity acc 0.0041 grad-norm 13344.4795 epoch-elapsed 0h00m01s total-elapsed 0h00m07s
+dev-Recognition mAP 0.1132 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m08s
+epoch 4 batch 1/3 processed 78 batch-loss 5445.9298 mAP 0.0000 action acc 0.8056 phrase acc 0.8030 activity acc 0.0092 grad-norm 13988.8691 epoch-elapsed 0h00m00s total-elapsed 0h00m08s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m09s
+epoch 4 batch 2/3 processed 86 batch-loss 4450.1445 mAP 0.0000 action acc 0.8114 phrase acc 0.8104 activity acc 0.0244 grad-norm 11697.1787 epoch-elapsed 0h00m01s total-elapsed 0h00m09s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m09s
+epoch 4 batch 3/3 processed 92 batch-loss 6016.3896 mAP 0.0000 action acc 0.7792 phrase acc 0.7792 activity acc 0.0104 grad-norm 13658.4092 epoch-elapsed 0h00m01s total-elapsed 0h00m10s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m10s
+epoch 5 batch 1/3 processed 101 batch-loss 4370.6992 mAP 0.0000 action acc 0.8249 phrase acc 0.8249 activity acc 0.0171 grad-norm 10689.4229 epoch-elapsed 0h00m00s total-elapsed 0h00m10s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m11s
+epoch 5 batch 2/3 processed 109 batch-loss 4060.3804 mAP 0.0000 action acc 0.7180 phrase acc 0.7180 activity acc 0.0167 grad-norm 7541.6069 epoch-elapsed 0h00m01s total-elapsed 0h00m11s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m12s
+epoch 5 batch 3/3 processed 115 batch-loss 6795.0361 mAP 0.0000 action acc 0.8187 phrase acc 0.8187 activity acc 0.0078 grad-norm 19487.3984 epoch-elapsed 0h00m01s total-elapsed 0h00m12s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m12s
+epoch 6 batch 1/3 processed 124 batch-loss 4237.0251 mAP 0.0000 action acc 0.7493 phrase acc 0.7493 activity acc 0.0081 grad-norm 7695.0127 epoch-elapsed 0h00m00s total-elapsed 0h00m13s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m13s
+epoch 6 batch 2/3 processed 132 batch-loss 4521.2334 mAP 0.0000 action acc 0.8160 phrase acc 0.8160 activity acc 0.0066 grad-norm 13820.0205 epoch-elapsed 0h00m01s total-elapsed 0h00m13s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m14s
+epoch 6 batch 3/3 processed 138 batch-loss 5659.8008 mAP 0.0000 action acc 0.8415 phrase acc 0.8415 activity acc 0.0054 grad-norm 13252.1387 epoch-elapsed 0h00m01s total-elapsed 0h00m14s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m15s
+epoch 7 batch 1/3 processed 147 batch-loss 4920.0038 mAP 0.0000 action acc 0.8463 phrase acc 0.8463 activity acc 0.0047 grad-norm 14018.9258 epoch-elapsed 0h00m00s total-elapsed 0h00m15s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m15s
+epoch 7 batch 2/3 processed 155 batch-loss 3905.7656 mAP 0.0000 action acc 0.7670 phrase acc 0.7670 activity acc 0.0086 grad-norm 9235.3154 epoch-elapsed 0h00m01s total-elapsed 0h00m16s
+dev-Recognition mAP 0.1051 dev-Localization mAP 0.0000 train-Recognition mAP 0.1040 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m16s
+epoch 7 batch 3/3 processed 161 batch-loss 4498.5054 mAP 0.0000 action acc 0.7497 phrase acc 0.7497 activity acc 0.0064 grad-norm 11677.3555 epoch-elapsed 0h00m01s total-elapsed 0h00m17s
+dev-Recognition mAP 0.1150 dev-Localization mAP 0.0000 train-Recognition mAP 0.1202 train-Localization mAP 0.0000 dev-elapsed 0h00m00s total-elapsed 0h00m17s
+epoch 8 batch 1/3 processed 169 batch-loss 4147.5815 mAP 0.0000 action acc 0.7989 phrase acc 0.7998 activity acc 0.0074 grad-norm 7550.3721 epoch-elapsed 0h00m00s total-elapsed 0h00m17s
+dev-Recognition mAP 0.1199 dev-Localization mAP 0.0833 train-Recognition mAP 0.1207 train-Localization mAP 0.0833 dev-elapsed 0h00m00s total-elapsed 0h00m18s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.08...
+epoch 8 batch 2/3 processed 178 batch-loss 3387.3121 mAP 0.0250 action acc 0.7664 phrase acc 0.7684 activity acc 0.0146 grad-norm 5554.5229 epoch-elapsed 0h00m01s total-elapsed 0h00m19s
+dev-Recognition mAP 0.1199 dev-Localization mAP 0.6667 train-Recognition mAP 0.1205 train-Localization mAP 0.1126 dev-elapsed 0h00m00s total-elapsed 0h00m19s
+Removing previous model file models/finegym_transformer_dev=0.08.pt...
+Saving new best model to models/finegym_transformer_dev=0.67...
+epoch 8 batch 3/3 processed 184 batch-loss 5873.2646 mAP 0.1119 action acc 0.8131 phrase acc 0.8214 activity acc 0.0731 grad-norm 13515.9756 epoch-elapsed 0h00m03s total-elapsed 0h00m20s
+dev-Recognition mAP 0.1199 dev-Localization mAP 0.1667 train-Recognition mAP 0.1206 train-Localization mAP 0.1000 dev-elapsed 0h00m00s total-elapsed 0h00m20s
+epoch 9 batch 1/3 processed 192 batch-loss 4390.5688 mAP 0.1667 action acc 0.7835 phrase acc 0.7870 activity acc 0.2087 grad-norm 11224.5723 epoch-elapsed 0h00m00s total-elapsed 0h00m21s
+dev-Recognition mAP 0.1199 dev-Localization mAP 0.1250 train-Recognition mAP 0.1285 train-Localization mAP 0.0357 dev-elapsed 0h00m00s total-elapsed 0h00m21s
+epoch 9 batch 2/3 processed 200 batch-loss 4768.1279 mAP 0.0357 action acc 0.8292 phrase acc 0.8314 activity acc 0.4421 grad-norm 10373.0273 epoch-elapsed 0h00m01s total-elapsed 0h00m22s
+dev-Recognition mAP 0.1152 dev-Localization mAP 0.2222 train-Recognition mAP 0.1279 train-Localization mAP 0.0833 dev-elapsed 0h00m00s total-elapsed 0h00m22s
+epoch 9 batch 3/3 processed 207 batch-loss 3223.9417 mAP 0.0556 action acc 0.7149 phrase acc 0.7134 activity acc 0.0151 grad-norm 7923.2378 epoch-elapsed 0h00m01s total-elapsed 0h00m22s
+dev-Recognition mAP 0.1152 dev-Localization mAP 0.1667 train-Recognition mAP 0.1279 train-Localization mAP 0.1111 dev-elapsed 0h00m00s total-elapsed 0h00m23s
+epoch 10 batch 1/3 processed 215 batch-loss 4637.5225 mAP 0.0000 action acc 0.7896 phrase acc 0.7889 activity acc 0.6698 grad-norm 8578.3398 epoch-elapsed 0h00m00s total-elapsed 0h00m23s
+dev-Recognition mAP 0.1152 dev-Localization mAP 0.1667 train-Recognition mAP 0.1356 train-Localization mAP 0.1250 dev-elapsed 0h00m00s total-elapsed 0h00m24s
+epoch 10 batch 2/3 processed 224 batch-loss 4528.6982 mAP 0.0833 action acc 0.8133 phrase acc 0.8125 activity acc 0.3035 grad-norm 7649.1367 epoch-elapsed 0h00m01s total-elapsed 0h00m24s
+dev-Recognition mAP 0.1152 dev-Localization mAP 0.1667 train-Recognition mAP 0.1356 train-Localization mAP 0.0833 dev-elapsed 0h00m00s total-elapsed 0h00m25s
+epoch 10 batch 3/3 processed 230 batch-loss 2088.0352 mAP 0.0625 action acc 0.8076 phrase acc 0.7875 activity acc 0.1566 grad-norm 5692.8154 epoch-elapsed 0h00m01s total-elapsed 0h00m25s
+dev-Recognition mAP 0.1152 dev-Localization mAP 0.1667 train-Recognition mAP 0.1482 train-Localization mAP 0.3000 dev-elapsed 0h00m00s total-elapsed 0h00m25s
+epoch 11 batch 1/3 processed 238 batch-loss 4172.4424 mAP 0.0000 action acc 0.7815 phrase acc 0.7807 activity acc 0.3412 grad-norm 7551.3496 epoch-elapsed 0h00m00s total-elapsed 0h00m26s
+dev-Recognition mAP 0.1202 dev-Localization mAP 0.1333 train-Recognition mAP 0.1579 train-Localization mAP 0.2541 dev-elapsed 0h00m00s total-elapsed 0h00m26s
+epoch 11 batch 2/3 processed 247 batch-loss 4424.6292 mAP 0.2642 action acc 0.8259 phrase acc 0.8242 activity acc 0.7798 grad-norm 9030.3408 epoch-elapsed 0h00m01s total-elapsed 0h00m26s
+dev-Recognition mAP 0.1494 dev-Localization mAP 0.0952 train-Recognition mAP 0.1604 train-Localization mAP 0.2083 dev-elapsed 0h00m00s total-elapsed 0h00m27s
+epoch 11 batch 3/3 processed 253 batch-loss 2297.3367 mAP 0.1790 action acc 0.8114 phrase acc 0.7867 activity acc 0.5276 grad-norm 4162.8701 epoch-elapsed 0h00m01s total-elapsed 0h00m27s
+dev-Recognition mAP 0.1541 dev-Localization mAP 0.1333 train-Recognition mAP 0.1603 train-Localization mAP 0.2001 dev-elapsed 0h00m00s total-elapsed 0h00m28s
+epoch 12 batch 1/3 processed 262 batch-loss 3854.4664 mAP 0.2219 action acc 0.7982 phrase acc 0.7806 activity acc 0.5846 grad-norm 6602.4761 epoch-elapsed 0h00m00s total-elapsed 0h00m28s
+dev-Recognition mAP 0.1671 dev-Localization mAP 0.1177 train-Recognition mAP 0.1731 train-Localization mAP 0.2492 dev-elapsed 0h00m00s total-elapsed 0h00m28s
+epoch 12 batch 2/3 processed 270 batch-loss 3506.1362 mAP 0.2064 action acc 0.8308 phrase acc 0.8187 activity acc 0.4545 grad-norm 9354.9219 epoch-elapsed 0h00m01s total-elapsed 0h00m29s
+dev-Recognition mAP 0.1670 dev-Localization mAP 0.0929 train-Recognition mAP 0.2095 train-Localization mAP 0.1773 dev-elapsed 0h00m00s total-elapsed 0h00m29s
+epoch 12 batch 3/3 processed 276 batch-loss 3255.7969 mAP 0.1768 action acc 0.8417 phrase acc 0.8160 activity acc 0.3313 grad-norm 9682.1064 epoch-elapsed 0h00m01s total-elapsed 0h00m29s
+dev-Recognition mAP 0.1754 dev-Localization mAP 0.1124 train-Recognition mAP 0.2236 train-Localization mAP 0.2375 dev-elapsed 0h00m00s total-elapsed 0h00m30s
+epoch 13 batch 1/3 processed 284 batch-loss 3333.8162 mAP 0.2756 action acc 0.7998 phrase acc 0.7462 activity acc 0.2841 grad-norm 9149.2100 epoch-elapsed 0h00m00s total-elapsed 0h00m30s
+dev-Recognition mAP 0.2200 dev-Localization mAP 0.1044 train-Recognition mAP 0.2613 train-Localization mAP 0.2419 dev-elapsed 0h00m00s total-elapsed 0h00m31s
+epoch 13 batch 2/3 processed 292 batch-loss 3379.4385 mAP 0.2235 action acc 0.8342 phrase acc 0.8020 activity acc 0.4731 grad-norm 7109.8086 epoch-elapsed 0h00m01s total-elapsed 0h00m31s
+dev-Recognition mAP 0.2060 dev-Localization mAP 0.1012 train-Recognition mAP 0.2705 train-Localization mAP 0.2280 dev-elapsed 0h00m00s total-elapsed 0h00m31s
+epoch 13 batch 3/3 processed 299 batch-loss 3573.2495 mAP 0.2260 action acc 0.8368 phrase acc 0.8284 activity acc 0.1138 grad-norm 12358.2812 epoch-elapsed 0h00m01s total-elapsed 0h00m32s
+dev-Recognition mAP 0.1900 dev-Localization mAP 0.0951 train-Recognition mAP 0.2878 train-Localization mAP 0.2371 dev-elapsed 0h00m00s total-elapsed 0h00m32s
+epoch 14 batch 1/3 processed 307 batch-loss 3202.6377 mAP 0.1865 action acc 0.8359 phrase acc 0.8027 activity acc 0.6556 grad-norm 6377.3091 epoch-elapsed 0h00m00s total-elapsed 0h00m33s
+dev-Recognition mAP 0.2000 dev-Localization mAP 0.0844 train-Recognition mAP 0.3118 train-Localization mAP 0.2735 dev-elapsed 0h00m00s total-elapsed 0h00m33s
+epoch 14 batch 2/3 processed 316 batch-loss 3381.5463 mAP 0.2408 action acc 0.8534 phrase acc 0.8132 activity acc 0.3383 grad-norm 5251.1074 epoch-elapsed 0h00m01s total-elapsed 0h00m33s
+dev-Recognition mAP 0.2071 dev-Localization mAP 0.0901 train-Recognition mAP 0.3270 train-Localization mAP 0.2740 dev-elapsed 0h00m00s total-elapsed 0h00m34s
+epoch 14 batch 3/3 processed 322 batch-loss 2982.8647 mAP 0.2440 action acc 0.8420 phrase acc 0.7924 activity acc 0.3982 grad-norm 5031.5146 epoch-elapsed 0h00m01s total-elapsed 0h00m34s
+dev-Recognition mAP 0.2388 dev-Localization mAP 0.1587 train-Recognition mAP 0.3636 train-Localization mAP 0.3193 dev-elapsed 0h00m00s total-elapsed 0h00m35s
+epoch 15 batch 1/3 processed 331 batch-loss 3085.0692 mAP 0.2075 action acc 0.8657 phrase acc 0.8218 activity acc 0.7979 grad-norm 6509.3467 epoch-elapsed 0h00m00s total-elapsed 0h00m35s
+dev-Recognition mAP 0.2401 dev-Localization mAP 0.1718 train-Recognition mAP 0.3820 train-Localization mAP 0.3376 dev-elapsed 0h00m00s total-elapsed 0h00m35s
+epoch 15 batch 2/3 processed 339 batch-loss 2516.1421 mAP 0.3248 action acc 0.8446 phrase acc 0.7628 activity acc 0.3215 grad-norm 4182.1440 epoch-elapsed 0h00m01s total-elapsed 0h00m36s
+dev-Recognition mAP 0.2442 dev-Localization mAP 0.2244 train-Recognition mAP 0.3949 train-Localization mAP 0.3701 dev-elapsed 0h00m00s total-elapsed 0h00m36s
+epoch 15 batch 3/3 processed 345 batch-loss 3654.1199 mAP 0.3785 action acc 0.8893 phrase acc 0.8435 activity acc 0.5398 grad-norm 6868.5229 epoch-elapsed 0h00m01s total-elapsed 0h00m36s
+dev-Recognition mAP 0.2684 dev-Localization mAP 0.3667 train-Recognition mAP 0.4320 train-Localization mAP 0.3703 dev-elapsed 0h00m00s total-elapsed 0h00m37s
+epoch 16 batch 1/3 processed 353 batch-loss 2265.6890 mAP 0.3693 action acc 0.8820 phrase acc 0.8262 activity acc 0.6350 grad-norm 4282.4097 epoch-elapsed 0h00m00s total-elapsed 0h00m37s
+dev-Recognition mAP 0.2642 dev-Localization mAP 0.3534 train-Recognition mAP 0.4603 train-Localization mAP 0.3919 dev-elapsed 0h00m00s total-elapsed 0h00m38s
+epoch 16 batch 2/3 processed 362 batch-loss 3086.1783 mAP 0.3484 action acc 0.8762 phrase acc 0.8163 activity acc 0.4770 grad-norm 5903.1973 epoch-elapsed 0h00m01s total-elapsed 0h00m38s
+dev-Recognition mAP 0.2885 dev-Localization mAP 0.3622 train-Recognition mAP 0.4629 train-Localization mAP 0.4072 dev-elapsed 0h00m00s total-elapsed 0h00m39s
+epoch 16 batch 3/3 processed 368 batch-loss 3331.6042 mAP 0.3752 action acc 0.8581 phrase acc 0.7915 activity acc 0.3603 grad-norm 5625.1621 epoch-elapsed 0h00m01s total-elapsed 0h00m39s
+dev-Recognition mAP 0.2548 dev-Localization mAP 0.4167 train-Recognition mAP 0.3847 train-Localization mAP 0.4448 dev-elapsed 0h00m00s total-elapsed 0h00m39s
+epoch 17 batch 1/3 processed 377 batch-loss 2520.8041 mAP 0.5125 action acc 0.8764 phrase acc 0.8231 activity acc 0.6566 grad-norm 3468.8220 epoch-elapsed 0h00m00s total-elapsed 0h00m39s
+dev-Recognition mAP 0.2595 dev-Localization mAP 0.4477 train-Recognition mAP 0.4299 train-Localization mAP 0.4323 dev-elapsed 0h00m00s total-elapsed 0h00m40s
+epoch 17 batch 2/3 processed 385 batch-loss 2922.6692 mAP 0.4165 action acc 0.8877 phrase acc 0.8348 activity acc 0.5842 grad-norm 4699.8921 epoch-elapsed 0h00m01s total-elapsed 0h00m40s
+dev-Recognition mAP 0.2932 dev-Localization mAP 0.4018 train-Recognition mAP 0.4602 train-Localization mAP 0.4888 dev-elapsed 0h00m00s total-elapsed 0h00m41s
+epoch 17 batch 3/3 processed 391 batch-loss 2719.8054 mAP 0.4589 action acc 0.8658 phrase acc 0.8362 activity acc 0.7292 grad-norm 6184.4385 epoch-elapsed 0h00m01s total-elapsed 0h00m41s
+dev-Recognition mAP 0.2963 dev-Localization mAP 0.4339 train-Recognition mAP 0.4897 train-Localization mAP 0.4910 dev-elapsed 0h00m00s total-elapsed 0h00m42s
+epoch 18 batch 1/3 processed 400 batch-loss 3113.9522 mAP 0.6429 action acc 0.8971 phrase acc 0.8512 activity acc 0.7252 grad-norm 4645.0381 epoch-elapsed 0h00m00s total-elapsed 0h00m42s
+dev-Recognition mAP 0.3152 dev-Localization mAP 0.4699 train-Recognition mAP 0.4984 train-Localization mAP 0.5082 dev-elapsed 0h00m00s total-elapsed 0h00m43s
+epoch 18 batch 2/3 processed 408 batch-loss 2256.3984 mAP 0.4804 action acc 0.9088 phrase acc 0.8585 activity acc 0.4711 grad-norm 4903.1826 epoch-elapsed 0h00m01s total-elapsed 0h00m43s
+dev-Recognition mAP 0.2843 dev-Localization mAP 0.4478 train-Recognition mAP 0.5041 train-Localization mAP 0.4860 dev-elapsed 0h00m00s total-elapsed 0h00m43s
+epoch 18 batch 3/3 processed 414 batch-loss 2186.6169 mAP 0.4723 action acc 0.8393 phrase acc 0.8295 activity acc 0.7672 grad-norm 5765.9194 epoch-elapsed 0h00m01s total-elapsed 0h00m43s
+dev-Recognition mAP 0.3405 dev-Localization mAP 0.4086 train-Recognition mAP 0.5158 train-Localization mAP 0.5202 dev-elapsed 0h00m00s total-elapsed 0h00m44s
+epoch 19 batch 1/3 processed 422 batch-loss 2060.5037 mAP 0.6825 action acc 0.8849 phrase acc 0.8473 activity acc 0.7271 grad-norm 3953.2188 epoch-elapsed 0h00m00s total-elapsed 0h00m44s
+dev-Recognition mAP 0.3483 dev-Localization mAP 0.4175 train-Recognition mAP 0.5470 train-Localization mAP 0.5739 dev-elapsed 0h00m00s total-elapsed 0h00m45s
+epoch 19 batch 2/3 processed 430 batch-loss 2790.1453 mAP 0.5327 action acc 0.8921 phrase acc 0.8494 activity acc 0.5547 grad-norm 4964.4399 epoch-elapsed 0h00m01s total-elapsed 0h00m45s
+dev-Recognition mAP 0.3613 dev-Localization mAP 0.4627 train-Recognition mAP 0.5764 train-Localization mAP 0.6120 dev-elapsed 0h00m00s total-elapsed 0h00m45s
+epoch 19 batch 3/3 processed 437 batch-loss 2381.3496 mAP 0.5934 action acc 0.8784 phrase acc 0.8292 activity acc 0.4595 grad-norm 2590.4871 epoch-elapsed 0h00m01s total-elapsed 0h00m46s
+dev-Recognition mAP 0.3950 dev-Localization mAP 0.5566 train-Recognition mAP 0.5643 train-Localization mAP 0.6345 dev-elapsed 0h00m00s total-elapsed 0h00m46s
+epoch 20 batch 1/3 processed 446 batch-loss 2430.7300 mAP 0.7325 action acc 0.9117 phrase acc 0.8705 activity acc 0.2363 grad-norm 6665.9805 epoch-elapsed 0h00m00s total-elapsed 0h00m47s
+dev-Recognition mAP 0.4128 dev-Localization mAP 0.5824 train-Recognition mAP 0.5830 train-Localization mAP 0.5935 dev-elapsed 0h00m00s total-elapsed 0h00m47s
+epoch 20 batch 2/3 processed 454 batch-loss 2662.8452 mAP 0.5897 action acc 0.9042 phrase acc 0.8452 activity acc 0.7870 grad-norm 6103.4355 epoch-elapsed 0h00m01s total-elapsed 0h00m47s
+dev-Recognition mAP 0.4209 dev-Localization mAP 0.6071 train-Recognition mAP 0.6386 train-Localization mAP 0.6618 dev-elapsed 0h00m00s total-elapsed 0h00m48s
+epoch 20 batch 3/3 processed 460 batch-loss 1524.3826 mAP 0.6490 action acc 0.9064 phrase acc 0.8522 activity acc 0.9589 grad-norm 3887.4963 epoch-elapsed 0h00m01s total-elapsed 0h00m48s
+dev-Recognition mAP 0.4162 dev-Localization mAP 0.6806 train-Recognition mAP 0.6503 train-Localization mAP 0.6648 dev-elapsed 0h00m00s total-elapsed 0h00m48s
+Removing previous model file models/finegym_transformer_dev=0.67.pt...
+Saving new best model to models/finegym_transformer_dev=0.68...
+epoch 21 batch 1/3 processed 468 batch-loss 2434.9221 mAP 0.6273 action acc 0.8975 phrase acc 0.8393 activity acc 0.8210 grad-norm 3037.8914 epoch-elapsed 0h00m00s total-elapsed 0h00m51s
+dev-Recognition mAP 0.4148 dev-Localization mAP 0.6471 train-Recognition mAP 0.6521 train-Localization mAP 0.6942 dev-elapsed 0h00m00s total-elapsed 0h00m51s
+epoch 21 batch 2/3 processed 477 batch-loss 1387.1155 mAP 0.6839 action acc 0.8990 phrase acc 0.8347 activity acc 0.5926 grad-norm 3481.9800 epoch-elapsed 0h00m00s total-elapsed 0h00m51s
+dev-Recognition mAP 0.4237 dev-Localization mAP 0.6436 train-Recognition mAP 0.6694 train-Localization mAP 0.7055 dev-elapsed 0h00m00s total-elapsed 0h00m52s
+epoch 21 batch 3/3 processed 483 batch-loss 2744.6150 mAP 0.6850 action acc 0.9278 phrase acc 0.8707 activity acc 0.9913 grad-norm 7967.0654 epoch-elapsed 0h00m01s total-elapsed 0h00m52s
+dev-Recognition mAP 0.4284 dev-Localization mAP 0.6519 train-Recognition mAP 0.6683 train-Localization mAP 0.7033 dev-elapsed 0h00m00s total-elapsed 0h00m52s
+epoch 22 batch 1/3 processed 492 batch-loss 1972.4576 mAP 0.8414 action acc 0.9294 phrase acc 0.8710 activity acc 0.9707 grad-norm 3088.7227 epoch-elapsed 0h00m00s total-elapsed 0h00m53s
+dev-Recognition mAP 0.4252 dev-Localization mAP 0.6511 train-Recognition mAP 0.6810 train-Localization mAP 0.7086 dev-elapsed 0h00m00s total-elapsed 0h00m53s
+epoch 22 batch 2/3 processed 500 batch-loss 1796.2537 mAP 0.6866 action acc 0.9114 phrase acc 0.8394 activity acc 0.8655 grad-norm 2352.9529 epoch-elapsed 0h00m01s total-elapsed 0h00m53s
+dev-Recognition mAP 0.4524 dev-Localization mAP 0.6368 train-Recognition mAP 0.6810 train-Localization mAP 0.7160 dev-elapsed 0h00m00s total-elapsed 0h00m54s
+epoch 22 batch 3/3 processed 506 batch-loss 2095.4731 mAP 0.6929 action acc 0.9177 phrase acc 0.8323 activity acc 0.9069 grad-norm 3232.6829 epoch-elapsed 0h00m01s total-elapsed 0h00m54s
+dev-Recognition mAP 0.4699 dev-Localization mAP 0.6384 train-Recognition mAP 0.7049 train-Localization mAP 0.6959 dev-elapsed 0h00m00s total-elapsed 0h00m55s
+epoch 23 batch 1/3 processed 514 batch-loss 1999.7148 mAP 0.8512 action acc 0.9235 phrase acc 0.8304 activity acc 0.9310 grad-norm 3914.0757 epoch-elapsed 0h00m00s total-elapsed 0h00m55s
+dev-Recognition mAP 0.4538 dev-Localization mAP 0.6677 train-Recognition mAP 0.6864 train-Localization mAP 0.7048 dev-elapsed 0h00m00s total-elapsed 0h00m55s
+epoch 23 batch 2/3 processed 522 batch-loss 1992.2119 mAP 0.6946 action acc 0.9168 phrase acc 0.8544 activity acc 0.8726 grad-norm 3271.9941 epoch-elapsed 0h00m00s total-elapsed 0h00m56s
+dev-Recognition mAP 0.4553 dev-Localization mAP 0.6709 train-Recognition mAP 0.6923 train-Localization mAP 0.7075 dev-elapsed 0h00m00s total-elapsed 0h00m56s
+epoch 23 batch 3/3 processed 529 batch-loss 1461.4426 mAP 0.7077 action acc 0.9195 phrase acc 0.8366 activity acc 0.9732 grad-norm 3013.8374 epoch-elapsed 0h00m01s total-elapsed 0h00m56s
+dev-Recognition mAP 0.4342 dev-Localization mAP 0.6539 train-Recognition mAP 0.6989 train-Localization mAP 0.7090 dev-elapsed 0h00m00s total-elapsed 0h00m57s
+epoch 24 batch 1/3 processed 538 batch-loss 1331.0788 mAP 0.8548 action acc 0.9116 phrase acc 0.8271 activity acc 0.9761 grad-norm 2873.3123 epoch-elapsed 0h00m00s total-elapsed 0h00m57s
+dev-Recognition mAP 0.4518 dev-Localization mAP 0.6244 train-Recognition mAP 0.7274 train-Localization mAP 0.6924 dev-elapsed 0h00m00s total-elapsed 0h00m58s
+epoch 24 batch 2/3 processed 546 batch-loss 2009.5774 mAP 0.6649 action acc 0.9316 phrase acc 0.8618 activity acc 0.8967 grad-norm 3476.3628 epoch-elapsed 0h00m01s total-elapsed 0h00m58s
+dev-Recognition mAP 0.4935 dev-Localization mAP 0.5958 train-Recognition mAP 0.7553 train-Localization mAP 0.6931 dev-elapsed 0h00m00s total-elapsed 0h00m58s
+epoch 24 batch 3/3 processed 552 batch-loss 1766.5798 mAP 0.6679 action acc 0.9190 phrase acc 0.8255 activity acc 0.9088 grad-norm 2606.8816 epoch-elapsed 0h00m02s total-elapsed 0h00m59s
+dev-Recognition mAP 0.5178 dev-Localization mAP 0.5926 train-Recognition mAP 0.7777 train-Localization mAP 0.7202 dev-elapsed 0h00m00s total-elapsed 0h00m59s
+epoch 25 batch 1/3 processed 560 batch-loss 1552.4395 mAP 0.8828 action acc 0.9204 phrase acc 0.8538 activity acc 0.8690 grad-norm 2029.9404 epoch-elapsed 0h00m00s total-elapsed 0h00m59s
+dev-Recognition mAP 0.5196 dev-Localization mAP 0.5903 train-Recognition mAP 0.7834 train-Localization mAP 0.7584 dev-elapsed 0h00m00s total-elapsed 0h01m00s
+epoch 25 batch 2/3 processed 568 batch-loss 1264.9601 mAP 0.7490 action acc 0.9286 phrase acc 0.8646 activity acc 0.9769 grad-norm 2210.7166 epoch-elapsed 0h00m00s total-elapsed 0h01m00s
+dev-Recognition mAP 0.5452 dev-Localization mAP 0.6234 train-Recognition mAP 0.8057 train-Localization mAP 0.7419 dev-elapsed 0h00m00s total-elapsed 0h01m01s
+epoch 25 batch 3/3 processed 575 batch-loss 1886.5789 mAP 0.7458 action acc 0.9302 phrase acc 0.8734 activity acc 0.9545 grad-norm 3168.2104 epoch-elapsed 0h00m01s total-elapsed 0h01m01s
+dev-Recognition mAP 0.5596 dev-Localization mAP 0.5996 train-Recognition mAP 0.8546 train-Localization mAP 0.7754 dev-elapsed 0h00m00s total-elapsed 0h01m01s
+epoch 26 batch 1/3 processed 584 batch-loss 1418.0275 mAP 0.8309 action acc 0.9410 phrase acc 0.8837 activity acc 0.9872 grad-norm 2409.1746 epoch-elapsed 0h00m00s total-elapsed 0h01m01s
+dev-Recognition mAP 0.5771 dev-Localization mAP 0.6015 train-Recognition mAP 0.8869 train-Localization mAP 0.7798 dev-elapsed 0h00m00s total-elapsed 0h01m02s
+epoch 26 batch 2/3 processed 592 batch-loss 1616.9194 mAP 0.7674 action acc 0.9339 phrase acc 0.8702 activity acc 0.9599 grad-norm 2500.4587 epoch-elapsed 0h00m00s total-elapsed 0h01m02s
+dev-Recognition mAP 0.5371 dev-Localization mAP 0.6202 train-Recognition mAP 0.8659 train-Localization mAP 0.7994 dev-elapsed 0h00m00s total-elapsed 0h01m02s
+epoch 26 batch 3/3 processed 598 batch-loss 1324.0476 mAP 0.7677 action acc 0.9173 phrase acc 0.8553 activity acc 0.8824 grad-norm 2123.5435 epoch-elapsed 0h00m01s total-elapsed 0h01m03s
+dev-Recognition mAP 0.5178 dev-Localization mAP 0.6031 train-Recognition mAP 0.8740 train-Localization mAP 0.8042 dev-elapsed 0h00m00s total-elapsed 0h01m03s
+epoch 27 batch 1/3 processed 607 batch-loss 1632.3350 mAP 0.8792 action acc 0.9425 phrase acc 0.8824 activity acc 0.9594 grad-norm 2071.2366 epoch-elapsed 0h00m00s total-elapsed 0h01m03s
+dev-Recognition mAP 0.5097 dev-Localization mAP 0.6017 train-Recognition mAP 0.8748 train-Localization mAP 0.7894 dev-elapsed 0h00m00s total-elapsed 0h01m04s
+epoch 27 batch 2/3 processed 615 batch-loss 1352.0275 mAP 0.7909 action acc 0.9476 phrase acc 0.8677 activity acc 0.9613 grad-norm 2003.6078 epoch-elapsed 0h00m00s total-elapsed 0h01m04s
+dev-Recognition mAP 0.5272 dev-Localization mAP 0.6141 train-Recognition mAP 0.9072 train-Localization mAP 0.7984 dev-elapsed 0h00m00s total-elapsed 0h01m04s
+epoch 27 batch 3/3 processed 621 batch-loss 947.0023 mAP 0.7838 action acc 0.9428 phrase acc 0.8680 activity acc 0.9682 grad-norm 1855.5216 epoch-elapsed 0h00m01s total-elapsed 0h01m05s
+dev-Recognition mAP 0.5978 dev-Localization mAP 0.5876 train-Recognition mAP 0.9371 train-Localization mAP 0.7988 dev-elapsed 0h00m00s total-elapsed 0h01m05s
+epoch 28 batch 1/3 processed 630 batch-loss 1120.5696 mAP 0.8760 action acc 0.9416 phrase acc 0.8780 activity acc 0.9869 grad-norm 1837.6443 epoch-elapsed 0h00m00s total-elapsed 0h01m05s
+dev-Recognition mAP 0.6157 dev-Localization mAP 0.6483 train-Recognition mAP 0.9448 train-Localization mAP 0.8024 dev-elapsed 0h00m00s total-elapsed 0h01m06s
+epoch 28 batch 2/3 processed 638 batch-loss 1553.0620 mAP 0.7955 action acc 0.9329 phrase acc 0.8786 activity acc 0.9417 grad-norm 2577.3367 epoch-elapsed 0h00m01s total-elapsed 0h01m06s
+dev-Recognition mAP 0.6220 dev-Localization mAP 0.6573 train-Recognition mAP 0.9448 train-Localization mAP 0.7973 dev-elapsed 0h00m00s total-elapsed 0h01m07s
+epoch 28 batch 3/3 processed 644 batch-loss 1134.1688 mAP 0.7953 action acc 0.9386 phrase acc 0.9203 activity acc 0.9425 grad-norm 2477.8083 epoch-elapsed 0h00m01s total-elapsed 0h01m07s
+dev-Recognition mAP 0.5951 dev-Localization mAP 0.6016 train-Recognition mAP 0.9420 train-Localization mAP 0.7962 dev-elapsed 0h00m00s total-elapsed 0h01m07s
+epoch 29 batch 1/3 processed 652 batch-loss 1308.5786 mAP 0.8519 action acc 0.9412 phrase acc 0.8928 activity acc 0.9352 grad-norm 1761.3573 epoch-elapsed 0h00m00s total-elapsed 0h01m08s
+dev-Recognition mAP 0.5951 dev-Localization mAP 0.5380 train-Recognition mAP 0.9683 train-Localization mAP 0.8045 dev-elapsed 0h00m00s total-elapsed 0h01m08s
+epoch 29 batch 2/3 processed 660 batch-loss 879.0359 mAP 0.8073 action acc 0.9503 phrase acc 0.9096 activity acc 0.9650 grad-norm 1289.2056 epoch-elapsed 0h00m01s total-elapsed 0h01m09s
+dev-Recognition mAP 0.5919 dev-Localization mAP 0.4680 train-Recognition mAP 0.9711 train-Localization mAP 0.8023 dev-elapsed 0h00m00s total-elapsed 0h01m09s
+epoch 29 batch 3/3 processed 667 batch-loss 1367.1744 mAP 0.7959 action acc 0.9489 phrase acc 0.8881 activity acc 0.9639 grad-norm 1784.5448 epoch-elapsed 0h00m01s total-elapsed 0h01m09s
+dev-Recognition mAP 0.5906 dev-Localization mAP 0.4486 train-Recognition mAP 0.9768 train-Localization mAP 0.8038 dev-elapsed 0h00m00s total-elapsed 0h01m10s
+epoch 30 batch 1/3 processed 676 batch-loss 1325.8416 mAP 0.8763 action acc 0.9537 phrase acc 0.9103 activity acc 0.9692 grad-norm 1753.8307 epoch-elapsed 0h00m00s total-elapsed 0h01m10s
+dev-Recognition mAP 0.6018 dev-Localization mAP 0.4940 train-Recognition mAP 0.9711 train-Localization mAP 0.8005 dev-elapsed 0h00m00s total-elapsed 0h01m11s
+epoch 30 batch 2/3 processed 684 batch-loss 1003.0730 mAP 0.8024 action acc 0.9472 phrase acc 0.9091 activity acc 0.9726 grad-norm 1299.9447 epoch-elapsed 0h00m01s total-elapsed 0h01m11s
+dev-Recognition mAP 0.6274 dev-Localization mAP 0.4701 train-Recognition mAP 0.9711 train-Localization mAP 0.7988 dev-elapsed 0h00m00s total-elapsed 0h01m12s
+epoch 30 batch 3/3 processed 690 batch-loss 910.6538 mAP 0.7991 action acc 0.9514 phrase acc 0.9162 activity acc 0.9649 grad-norm 1645.7603 epoch-elapsed 0h00m01s total-elapsed 0h01m12s
+dev-Recognition mAP 0.6274 dev-Localization mAP 0.5140 train-Recognition mAP 0.9804 train-Localization mAP 0.7987 dev-elapsed 0h00m00s total-elapsed 0h01m12s
+epoch 31 batch 1/3 processed 698 batch-loss 1175.0212 mAP 0.8642 action acc 0.9413 phrase acc 0.8933 activity acc 0.9548 grad-norm 1727.4016 epoch-elapsed 0h00m00s total-elapsed 0h01m13s
+dev-Recognition mAP 0.6274 dev-Localization mAP 0.5421 train-Recognition mAP 0.9776 train-Localization mAP 0.8098 dev-elapsed 0h00m00s total-elapsed 0h01m13s
+epoch 31 batch 2/3 processed 706 batch-loss 703.4455 mAP 0.8078 action acc 0.9557 phrase acc 0.9378 activity acc 0.9821 grad-norm 1149.3171 epoch-elapsed 0h00m01s total-elapsed 0h01m13s
+dev-Recognition mAP 0.6130 dev-Localization mAP 0.5320 train-Recognition mAP 0.9776 train-Localization mAP 0.8218 dev-elapsed 0h00m00s total-elapsed 0h01m14s
+epoch 31 batch 3/3 processed 713 batch-loss 1234.5800 mAP 0.8169 action acc 0.9585 phrase acc 0.9131 activity acc 0.9900 grad-norm 1802.0718 epoch-elapsed 0h00m01s total-elapsed 0h01m14s
+dev-Recognition mAP 0.6243 dev-Localization mAP 0.5153 train-Recognition mAP 0.9768 train-Localization mAP 0.8096 dev-elapsed 0h00m00s total-elapsed 0h01m15s
+epoch 32 batch 1/3 processed 722 batch-loss 1039.9513 mAP 0.8684 action acc 0.9533 phrase acc 0.9187 activity acc 0.9665 grad-norm 1834.4916 epoch-elapsed 0h00m00s total-elapsed 0h01m15s
+dev-Recognition mAP 0.6148 dev-Localization mAP 0.5410 train-Recognition mAP 0.9768 train-Localization mAP 0.8202 dev-elapsed 0h00m00s total-elapsed 0h01m15s
+epoch 32 batch 2/3 processed 730 batch-loss 863.1926 mAP 0.8181 action acc 0.9584 phrase acc 0.9376 activity acc 0.9849 grad-norm 1528.1597 epoch-elapsed 0h00m01s total-elapsed 0h01m16s
+dev-Recognition mAP 0.6070 dev-Localization mAP 0.5158 train-Recognition mAP 0.9845 train-Localization mAP 0.8210 dev-elapsed 0h00m00s total-elapsed 0h01m16s
+epoch 32 batch 3/3 processed 736 batch-loss 973.6779 mAP 0.8176 action acc 0.9613 phrase acc 0.9359 activity acc 0.9724 grad-norm 1405.2250 epoch-elapsed 0h00m01s total-elapsed 0h01m16s
+dev-Recognition mAP 0.6038 dev-Localization mAP 0.4999 train-Recognition mAP 0.9845 train-Localization mAP 0.8169 dev-elapsed 0h00m00s total-elapsed 0h01m17s
+epoch 33 batch 1/3 processed 744 batch-loss 805.3917 mAP 0.9079 action acc 0.9516 phrase acc 0.9238 activity acc 0.9674 grad-norm 1024.9840 epoch-elapsed 0h00m00s total-elapsed 0h01m17s
+dev-Recognition mAP 0.6117 dev-Localization mAP 0.4735 train-Recognition mAP 0.9845 train-Localization mAP 0.8205 dev-elapsed 0h00m00s total-elapsed 0h01m18s
+epoch 33 batch 2/3 processed 753 batch-loss 888.3410 mAP 0.8215 action acc 0.9649 phrase acc 0.9454 activity acc 0.9924 grad-norm 1333.1000 epoch-elapsed 0h00m01s total-elapsed 0h01m18s
+dev-Recognition mAP 0.5897 dev-Localization mAP 0.4689 train-Recognition mAP 0.9881 train-Localization mAP 0.8267 dev-elapsed 0h00m00s total-elapsed 0h01m18s
+epoch 33 batch 3/3 processed 759 batch-loss 1036.1942 mAP 0.8153 action acc 0.9608 phrase acc 0.9162 activity acc 0.9873 grad-norm 1274.5743 epoch-elapsed 0h00m01s total-elapsed 0h01m19s
+dev-Recognition mAP 0.5881 dev-Localization mAP 0.4272 train-Recognition mAP 0.9864 train-Localization mAP 0.8230 dev-elapsed 0h00m00s total-elapsed 0h01m19s
+epoch 34 batch 1/3 processed 767 batch-loss 670.8251 mAP 0.9102 action acc 0.9666 phrase acc 0.9504 activity acc 0.9878 grad-norm 1056.3435 epoch-elapsed 0h00m00s total-elapsed 0h01m19s
+dev-Recognition mAP 0.6044 dev-Localization mAP 0.4783 train-Recognition mAP 0.9910 train-Localization mAP 0.8295 dev-elapsed 0h00m00s total-elapsed 0h01m20s
+epoch 34 batch 2/3 processed 775 batch-loss 947.6614 mAP 0.8252 action acc 0.9649 phrase acc 0.9058 activity acc 0.9904 grad-norm 1675.8990 epoch-elapsed 0h00m01s total-elapsed 0h01m20s
+dev-Recognition mAP 0.6092 dev-Localization mAP 0.4594 train-Recognition mAP 0.9924 train-Localization mAP 0.8287 dev-elapsed 0h00m00s total-elapsed 0h01m21s
+epoch 34 batch 3/3 processed 782 batch-loss 918.4684 mAP 0.8222 action acc 0.9542 phrase acc 0.9211 activity acc 0.9861 grad-norm 1072.1276 epoch-elapsed 0h00m01s total-elapsed 0h01m21s
+dev-Recognition mAP 0.6173 dev-Localization mAP 0.4575 train-Recognition mAP 0.9900 train-Localization mAP 0.8208 dev-elapsed 0h00m00s total-elapsed 0h01m21s
+epoch 35 batch 1/3 processed 790 batch-loss 912.0218 mAP 0.9077 action acc 0.9534 phrase acc 0.9205 activity acc 0.9622 grad-norm 1423.9772 epoch-elapsed 0h00m00s total-elapsed 0h01m22s
+dev-Recognition mAP 0.6110 dev-Localization mAP 0.4495 train-Recognition mAP 0.9839 train-Localization mAP 0.8287 dev-elapsed 0h00m00s total-elapsed 0h01m22s
+epoch 35 batch 2/3 processed 799 batch-loss 827.5574 mAP 0.8278 action acc 0.9629 phrase acc 0.9552 activity acc 0.9936 grad-norm 1244.0278 epoch-elapsed 0h00m01s total-elapsed 0h01m22s
+dev-Recognition mAP 0.6040 dev-Localization mAP 0.4488 train-Recognition mAP 0.9867 train-Localization mAP 0.8280 dev-elapsed 0h00m00s total-elapsed 0h01m23s
+epoch 35 batch 3/3 processed 805 batch-loss 577.3842 mAP 0.8329 action acc 0.9642 phrase acc 0.9389 activity acc 0.9896 grad-norm 1326.1115 epoch-elapsed 0h00m01s total-elapsed 0h01m23s
+dev-Recognition mAP 0.5950 dev-Localization mAP 0.4299 train-Recognition mAP 0.9924 train-Localization mAP 0.8203 dev-elapsed 0h00m00s total-elapsed 0h01m24s
+epoch 36 batch 1/3 processed 813 batch-loss 757.2472 mAP 0.8438 action acc 0.9671 phrase acc 0.9549 activity acc 0.9924 grad-norm 1152.8440 epoch-elapsed 0h00m00s total-elapsed 0h01m24s
+dev-Recognition mAP 0.5743 dev-Localization mAP 0.3977 train-Recognition mAP 0.9608 train-Localization mAP 0.7958 dev-elapsed 0h00m00s total-elapsed 0h01m24s
+epoch 36 batch 2/3 processed 822 batch-loss 681.9667 mAP 0.8007 action acc 0.9579 phrase acc 0.9383 activity acc 0.9760 grad-norm 985.6304 epoch-elapsed 0h00m01s total-elapsed 0h01m25s
+dev-Recognition mAP 0.5805 dev-Localization mAP 0.3963 train-Recognition mAP 0.9670 train-Localization mAP 0.7957 dev-elapsed 0h00m00s total-elapsed 0h01m25s
+epoch 36 batch 3/3 processed 828 batch-loss 792.0149 mAP 0.7979 action acc 0.9647 phrase acc 0.9365 activity acc 0.9788 grad-norm 1425.8765 epoch-elapsed 0h00m01s total-elapsed 0h01m26s
+dev-Recognition mAP 0.5620 dev-Localization mAP 0.4165 train-Recognition mAP 0.9790 train-Localization mAP 0.8223 dev-elapsed 0h00m00s total-elapsed 0h01m26s
+epoch 37 batch 1/3 processed 836 batch-loss 704.0717 mAP 0.8734 action acc 0.9624 phrase acc 0.9420 activity acc 0.9807 grad-norm 1364.1777 epoch-elapsed 0h00m00s total-elapsed 0h01m26s
+dev-Recognition mAP 0.5510 dev-Localization mAP 0.3865 train-Recognition mAP 0.9790 train-Localization mAP 0.8326 dev-elapsed 0h00m00s total-elapsed 0h01m27s
+epoch 37 batch 2/3 processed 844 batch-loss 552.2145 mAP 0.8424 action acc 0.9678 phrase acc 0.9480 activity acc 0.9917 grad-norm 1099.4221 epoch-elapsed 0h00m01s total-elapsed 0h01m27s
+dev-Recognition mAP 0.5526 dev-Localization mAP 0.4066 train-Recognition mAP 0.9790 train-Localization mAP 0.8214 dev-elapsed 0h00m00s total-elapsed 0h01m27s
+epoch 37 batch 3/3 processed 851 batch-loss 816.3301 mAP 0.8208 action acc 0.9618 phrase acc 0.9431 activity acc 0.9922 grad-norm 1493.3726 epoch-elapsed 0h00m01s total-elapsed 0h01m28s
+dev-Recognition mAP 0.5633 dev-Localization mAP 0.3860 train-Recognition mAP 0.9621 train-Localization mAP 0.8114 dev-elapsed 0h00m00s total-elapsed 0h01m28s
+epoch 38 batch 1/3 processed 860 batch-loss 658.3458 mAP 0.8468 action acc 0.9659 phrase acc 0.9496 activity acc 0.9935 grad-norm 959.1360 epoch-elapsed 0h00m00s total-elapsed 0h01m29s
+dev-Recognition mAP 0.5761 dev-Localization mAP 0.3790 train-Recognition mAP 0.9548 train-Localization mAP 0.8067 dev-elapsed 0h00m00s total-elapsed 0h01m29s
+epoch 38 batch 2/3 processed 868 batch-loss 721.7697 mAP 0.8123 action acc 0.9646 phrase acc 0.9536 activity acc 0.9941 grad-norm 1235.4817 epoch-elapsed 0h00m01s total-elapsed 0h01m30s
+dev-Recognition mAP 0.5510 dev-Localization mAP 0.3999 train-Recognition mAP 0.9800 train-Localization mAP 0.8048 dev-elapsed 0h00m00s total-elapsed 0h01m30s
+epoch 38 batch 3/3 processed 874 batch-loss 503.1312 mAP 0.8022 action acc 0.9677 phrase acc 0.9422 activity acc 0.9864 grad-norm 707.2672 epoch-elapsed 0h00m01s total-elapsed 0h01m30s
+dev-Recognition mAP 0.5573 dev-Localization mAP 0.4037 train-Recognition mAP 0.9877 train-Localization mAP 0.8136 dev-elapsed 0h00m00s total-elapsed 0h01m31s
+epoch 39 batch 1/3 processed 883 batch-loss 664.7411 mAP 0.8965 action acc 0.9653 phrase acc 0.9442 activity acc 0.9848 grad-norm 1152.1583 epoch-elapsed 0h00m00s total-elapsed 0h01m31s
+dev-Recognition mAP 0.5208 dev-Localization mAP 0.3691 train-Recognition mAP 0.9781 train-Localization mAP 0.7973 dev-elapsed 0h00m00s total-elapsed 0h01m32s
+epoch 39 batch 2/3 processed 891 batch-loss 482.3573 mAP 0.8012 action acc 0.9619 phrase acc 0.9429 activity acc 0.9915 grad-norm 755.2204 epoch-elapsed 0h00m01s total-elapsed 0h01m32s
+dev-Recognition mAP 0.5245 dev-Localization mAP 0.3685 train-Recognition mAP 0.9763 train-Localization mAP 0.8157 dev-elapsed 0h00m00s total-elapsed 0h01m32s
+epoch 39 batch 3/3 processed 897 batch-loss 631.7905 mAP 0.8106 action acc 0.9671 phrase acc 0.9616 activity acc 0.9945 grad-norm 1245.6422 epoch-elapsed 0h00m02s total-elapsed 0h01m33s
+dev-Recognition mAP 0.4982 dev-Localization mAP 0.3386 train-Recognition mAP 0.9630 train-Localization mAP 0.7928 dev-elapsed 0h00m00s total-elapsed 0h01m33s
+epoch 40 batch 1/3 processed 905 batch-loss 696.6348 mAP 0.8240 action acc 0.9644 phrase acc 0.9432 activity acc 0.9924 grad-norm 1211.4670 epoch-elapsed 0h00m00s total-elapsed 0h01m33s
+dev-Recognition mAP 0.5139 dev-Localization mAP 0.3539 train-Recognition mAP 0.9515 train-Localization mAP 0.7844 dev-elapsed 0h00m00s total-elapsed 0h01m34s
+epoch 40 batch 2/3 processed 913 batch-loss 617.3555 mAP 0.7840 action acc 0.9708 phrase acc 0.9606 activity acc 0.9946 grad-norm 1201.2263 epoch-elapsed 0h00m01s total-elapsed 0h01m34s
+dev-Recognition mAP 0.5256 dev-Localization mAP 0.3723 train-Recognition mAP 0.9676 train-Localization mAP 0.8174 dev-elapsed 0h00m00s total-elapsed 0h01m35s
+epoch 40 batch 3/3 processed 920 batch-loss 313.6771 mAP 0.8122 action acc 0.9564 phrase acc 0.9507 activity acc 0.9848 grad-norm 610.6238 epoch-elapsed 0h00m01s total-elapsed 0h01m35s
+dev-Recognition mAP 0.5458 dev-Localization mAP 0.3765 train-Recognition mAP 0.9743 train-Localization mAP 0.8321 dev-elapsed 0h00m00s total-elapsed 0h01m36s
+epoch 41 batch 1/3 processed 928 batch-loss 664.5082 mAP 0.9067 action acc 0.9672 phrase acc 0.9554 activity acc 0.9805 grad-norm 1627.2618 epoch-elapsed 0h00m00s total-elapsed 0h01m36s
+dev-Recognition mAP 0.5444 dev-Localization mAP 0.3714 train-Recognition mAP 0.9809 train-Localization mAP 0.8216 dev-elapsed 0h00m00s total-elapsed 0h01m36s
+epoch 41 batch 2/3 processed 936 batch-loss 496.1957 mAP 0.8277 action acc 0.9636 phrase acc 0.9435 activity acc 0.9272 grad-norm 1468.4344 epoch-elapsed 0h00m01s total-elapsed 0h01m37s
+dev-Recognition mAP 0.4212 dev-Localization mAP 0.1792 train-Recognition mAP 0.7842 train-Localization mAP 0.6108 dev-elapsed 0h00m00s total-elapsed 0h01m37s
+epoch 41 batch 3/3 processed 943 batch-loss 583.7023 mAP 0.6126 action acc 0.9397 phrase acc 0.9481 activity acc 0.9926 grad-norm 3436.2573 epoch-elapsed 0h00m01s total-elapsed 0h01m37s
+dev-Recognition mAP 0.5409 dev-Localization mAP 0.3218 train-Recognition mAP 0.9820 train-Localization mAP 0.8361 dev-elapsed 0h00m00s total-elapsed 0h01m38s
+epoch 42 batch 1/3 processed 952 batch-loss 611.1630 mAP 0.8960 action acc 0.9689 phrase acc 0.9548 activity acc 0.9944 grad-norm 1584.7302 epoch-elapsed 0h00m00s total-elapsed 0h01m38s
+dev-Recognition mAP 0.5209 dev-Localization mAP 0.3241 train-Recognition mAP 0.9944 train-Localization mAP 0.8416 dev-elapsed 0h00m00s total-elapsed 0h01m39s
+epoch 42 batch 2/3 processed 960 batch-loss 642.2326 mAP 0.8416 action acc 0.9660 phrase acc 0.9279 activity acc 0.9934 grad-norm 1419.7086 epoch-elapsed 0h00m01s total-elapsed 0h01m39s
+dev-Recognition mAP 0.5464 dev-Localization mAP 0.2973 train-Recognition mAP 0.9901 train-Localization mAP 0.8387 dev-elapsed 0h00m00s total-elapsed 0h01m39s
+epoch 42 batch 3/3 processed 966 batch-loss 481.2466 mAP 0.8375 action acc 0.9654 phrase acc 0.9417 activity acc 0.9906 grad-norm 1001.9466 epoch-elapsed 0h00m01s total-elapsed 0h01m40s
+dev-Recognition mAP 0.5150 dev-Localization mAP 0.3284 train-Recognition mAP 0.9843 train-Localization mAP 0.8281 dev-elapsed 0h00m00s total-elapsed 0h01m40s
+epoch 43 batch 1/3 processed 974 batch-loss 524.9229 mAP 0.8898 action acc 0.9684 phrase acc 0.9618 activity acc 0.9925 grad-norm 1060.5610 epoch-elapsed 0h00m00s total-elapsed 0h01m40s
+dev-Recognition mAP 0.4959 dev-Localization mAP 0.2769 train-Recognition mAP 0.9842 train-Localization mAP 0.8339 dev-elapsed 0h00m00s total-elapsed 0h01m41s
+epoch 43 batch 2/3 processed 982 batch-loss 549.0383 mAP 0.8150 action acc 0.9658 phrase acc 0.9371 activity acc 0.9857 grad-norm 982.3036 epoch-elapsed 0h00m01s total-elapsed 0h01m41s
+dev-Recognition mAP 0.5091 dev-Localization mAP 0.2755 train-Recognition mAP 0.9924 train-Localization mAP 0.8456 dev-elapsed 0h00m00s total-elapsed 0h01m42s
+epoch 43 batch 3/3 processed 989 batch-loss 592.1352 mAP 0.8495 action acc 0.9663 phrase acc 0.9569 activity acc 0.9869 grad-norm 1422.5333 epoch-elapsed 0h00m01s total-elapsed 0h01m42s
+dev-Recognition mAP 0.5011 dev-Localization mAP 0.2983 train-Recognition mAP 0.9638 train-Localization mAP 0.8230 dev-elapsed 0h00m00s total-elapsed 0h01m42s
+epoch 44 batch 1/3 processed 997 batch-loss 337.6342 mAP 0.9209 action acc 0.9713 phrase acc 0.9563 activity acc 0.9908 grad-norm 775.0934 epoch-elapsed 0h00m00s total-elapsed 0h01m43s
+dev-Recognition mAP 0.4707 dev-Localization mAP 0.2460 train-Recognition mAP 0.9205 train-Localization mAP 0.7688 dev-elapsed 0h00m00s total-elapsed 0h01m43s
+epoch 44 batch 2/3 processed 1,006 batch-loss 586.4364 mAP 0.7712 action acc 0.9674 phrase acc 0.9555 activity acc 0.9938 grad-norm 1546.7820 epoch-elapsed 0h00m01s total-elapsed 0h01m44s
+dev-Recognition mAP 0.5106 dev-Localization mAP 0.2510 train-Recognition mAP 0.9585 train-Localization mAP 0.8060 dev-elapsed 0h00m00s total-elapsed 0h01m44s
+epoch 44 batch 3/3 processed 1,012 batch-loss 572.9817 mAP 0.7998 action acc 0.9672 phrase acc 0.9469 activity acc 0.9921 grad-norm 1574.8917 epoch-elapsed 0h00m01s total-elapsed 0h01m44s
+dev-Recognition mAP 0.5538 dev-Localization mAP 0.2625 train-Recognition mAP 0.9782 train-Localization mAP 0.8429 dev-elapsed 0h00m00s total-elapsed 0h01m45s
+epoch 45 batch 1/3 processed 1,020 batch-loss 421.3275 mAP 0.9352 action acc 0.9696 phrase acc 0.9418 activity acc 0.9907 grad-norm 763.0321 epoch-elapsed 0h00m00s total-elapsed 0h01m45s
+dev-Recognition mAP 0.5666 dev-Localization mAP 0.2873 train-Recognition mAP 0.9782 train-Localization mAP 0.8399 dev-elapsed 0h00m00s total-elapsed 0h01m45s
+epoch 45 batch 2/3 processed 1,028 batch-loss 496.4982 mAP 0.8398 action acc 0.9663 phrase acc 0.9612 activity acc 0.9912 grad-norm 1114.6298 epoch-elapsed 0h00m01s total-elapsed 0h01m46s
+dev-Recognition mAP 0.5637 dev-Localization mAP 0.2950 train-Recognition mAP 0.9768 train-Localization mAP 0.8541 dev-elapsed 0h00m00s total-elapsed 0h01m46s
+epoch 45 batch 3/3 processed 1,035 batch-loss 482.2379 mAP 0.8541 action acc 0.9658 phrase acc 0.9592 activity acc 0.9934 grad-norm 1138.2000 epoch-elapsed 0h00m01s total-elapsed 0h01m47s
+dev-Recognition mAP 0.5537 dev-Localization mAP 0.3354 train-Recognition mAP 0.9640 train-Localization mAP 0.8399 dev-elapsed 0h00m00s total-elapsed 0h01m47s
+epoch 46 batch 1/3 processed 1,044 batch-loss 406.0106 mAP 0.9206 action acc 0.9648 phrase acc 0.9602 activity acc 0.9954 grad-norm 746.3281 epoch-elapsed 0h00m00s total-elapsed 0h01m47s
+dev-Recognition mAP 0.4718 dev-Localization mAP 0.2693 train-Recognition mAP 0.9531 train-Localization mAP 0.8161 dev-elapsed 0h00m00s total-elapsed 0h01m48s
+epoch 46 batch 2/3 processed 1,052 batch-loss 457.4305 mAP 0.8129 action acc 0.9695 phrase acc 0.9408 activity acc 0.8596 grad-norm 2286.4836 epoch-elapsed 0h00m00s total-elapsed 0h01m48s
+dev-Recognition mAP 0.4673 dev-Localization mAP 0.2774 train-Recognition mAP 0.9040 train-Localization mAP 0.7542 dev-elapsed 0h00m00s total-elapsed 0h01m48s
+epoch 46 batch 3/3 processed 1,058 batch-loss 551.5311 mAP 0.7468 action acc 0.9664 phrase acc 0.9614 activity acc 0.9951 grad-norm 2701.4939 epoch-elapsed 0h00m01s total-elapsed 0h01m48s
+dev-Recognition mAP 0.5003 dev-Localization mAP 0.4087 train-Recognition mAP 0.9756 train-Localization mAP 0.8394 dev-elapsed 0h00m00s total-elapsed 0h01m49s
+epoch 47 batch 1/3 processed 1,067 batch-loss 543.7146 mAP 0.8835 action acc 0.9676 phrase acc 0.9539 activity acc 0.9956 grad-norm 1103.2078 epoch-elapsed 0h00m00s total-elapsed 0h01m49s
+dev-Recognition mAP 0.4907 dev-Localization mAP 0.4074 train-Recognition mAP 0.9748 train-Localization mAP 0.8481 dev-elapsed 0h00m00s total-elapsed 0h01m49s
+epoch 47 batch 2/3 processed 1,075 batch-loss 296.5643 mAP 0.8397 action acc 0.9660 phrase acc 0.9536 activity acc 0.9909 grad-norm 876.4830 epoch-elapsed 0h00m00s total-elapsed 0h01m50s
+dev-Recognition mAP 0.5424 dev-Localization mAP 0.4281 train-Recognition mAP 0.9853 train-Localization mAP 0.8453 dev-elapsed 0h00m00s total-elapsed 0h01m50s
+epoch 47 batch 3/3 processed 1,081 batch-loss 395.7126 mAP 0.8388 action acc 0.9715 phrase acc 0.9366 activity acc 0.9873 grad-norm 1023.7401 epoch-elapsed 0h00m01s total-elapsed 0h01m50s
+dev-Recognition mAP 0.5290 dev-Localization mAP 0.3323 train-Recognition mAP 0.9820 train-Localization mAP 0.8662 dev-elapsed 0h00m00s total-elapsed 0h01m51s
+epoch 48 batch 1/3 processed 1,089 batch-loss 324.4661 mAP 0.9005 action acc 0.9721 phrase acc 0.9525 activity acc 0.9902 grad-norm 774.3453 epoch-elapsed 0h00m00s total-elapsed 0h01m51s
+dev-Recognition mAP 0.5466 dev-Localization mAP 0.3204 train-Recognition mAP 0.9698 train-Localization mAP 0.8243 dev-elapsed 0h00m00s total-elapsed 0h01m51s
+epoch 48 batch 2/3 processed 1,098 batch-loss 494.1694 mAP 0.8226 action acc 0.9765 phrase acc 0.9692 activity acc 0.9980 grad-norm 1245.3109 epoch-elapsed 0h00m01s total-elapsed 0h01m52s
+dev-Recognition mAP 0.5544 dev-Localization mAP 0.3055 train-Recognition mAP 0.9671 train-Localization mAP 0.8339 dev-elapsed 0h00m00s total-elapsed 0h01m52s
+epoch 48 batch 3/3 processed 1,104 batch-loss 334.2085 mAP 0.8300 action acc 0.9717 phrase acc 0.9618 activity acc 0.9915 grad-norm 663.2065 epoch-elapsed 0h00m01s total-elapsed 0h01m52s
+dev-Recognition mAP 0.5210 dev-Localization mAP 0.2696 train-Recognition mAP 0.9753 train-Localization mAP 0.8321 dev-elapsed 0h00m00s total-elapsed 0h01m53s
+epoch 49 batch 1/3 processed 1,113 batch-loss 272.5773 mAP 0.8498 action acc 0.9736 phrase acc 0.9648 activity acc 0.9950 grad-norm 626.7084 epoch-elapsed 0h00m00s total-elapsed 0h01m53s
+dev-Recognition mAP 0.5117 dev-Localization mAP 0.2785 train-Recognition mAP 0.9936 train-Localization mAP 0.8453 dev-elapsed 0h00m00s total-elapsed 0h01m54s
+epoch 49 batch 2/3 processed 1,121 batch-loss 370.0175 mAP 0.8447 action acc 0.9802 phrase acc 0.9663 activity acc 0.9949 grad-norm 910.8519 epoch-elapsed 0h00m00s total-elapsed 0h01m54s
+dev-Recognition mAP 0.5080 dev-Localization mAP 0.2432 train-Recognition mAP 0.9886 train-Localization mAP 0.8708 dev-elapsed 0h00m00s total-elapsed 0h01m54s
+epoch 49 batch 3/3 processed 1,127 batch-loss 408.3809 mAP 0.8625 action acc 0.9756 phrase acc 0.9539 activity acc 0.9403 grad-norm 1770.1438 epoch-elapsed 0h00m01s total-elapsed 0h01m55s
+dev-Recognition mAP 0.4793 dev-Localization mAP 0.1591 train-Recognition mAP 0.9134 train-Localization mAP 0.8186 dev-elapsed 0h00m00s total-elapsed 0h01m55s
+epoch 50 batch 1/3 processed 1,135 batch-loss 326.9669 mAP 0.8306 action acc 0.9794 phrase acc 0.9691 activity acc 0.9948 grad-norm 1220.0752 epoch-elapsed 0h00m00s total-elapsed 0h01m55s
+dev-Recognition mAP 0.4811 dev-Localization mAP 0.1798 train-Recognition mAP 0.8504 train-Localization mAP 0.7563 dev-elapsed 0h00m00s total-elapsed 0h01m56s
+epoch 50 batch 2/3 processed 1,144 batch-loss 334.3892 mAP 0.7210 action acc 0.9561 phrase acc 0.9430 activity acc 0.9754 grad-norm 3227.4978 epoch-elapsed 0h00m01s total-elapsed 0h01m56s
+dev-Recognition mAP 0.4746 dev-Localization mAP 0.2540 train-Recognition mAP 0.9802 train-Localization mAP 0.8393 dev-elapsed 0h00m00s total-elapsed 0h01m57s
+epoch 50 batch 3/3 processed 1,150 batch-loss 565.0891 mAP 0.8146 action acc 0.9692 phrase acc 0.9200 activity acc 0.9961 grad-norm 2334.9207 epoch-elapsed 0h00m01s total-elapsed 0h01m57s
+dev-Recognition mAP 0.5504 dev-Localization mAP 0.3756 train-Recognition mAP 0.9958 train-Localization mAP 0.8390 dev-elapsed 0h00m00s total-elapsed 0h01m57s
+epoch 51 batch 1/3 processed 1,158 batch-loss 355.3264 mAP 0.8910 action acc 0.9698 phrase acc 0.9669 activity acc 0.9971 grad-norm 1218.9160 epoch-elapsed 0h00m00s total-elapsed 0h01m58s
+dev-Recognition mAP 0.5133 dev-Localization mAP 0.3087 train-Recognition mAP 0.9915 train-Localization mAP 0.8574 dev-elapsed 0h00m00s total-elapsed 0h01m58s
+epoch 51 batch 2/3 processed 1,167 batch-loss 442.8724 mAP 0.8485 action acc 0.9788 phrase acc 0.9664 activity acc 0.9855 grad-norm 1399.8137 epoch-elapsed 0h00m01s total-elapsed 0h01m59s
+dev-Recognition mAP 0.4459 dev-Localization mAP 0.1933 train-Recognition mAP 0.9606 train-Localization mAP 0.8032 dev-elapsed 0h00m00s total-elapsed 0h01m59s
+epoch 51 batch 3/3 processed 1,173 batch-loss 442.8115 mAP 0.8053 action acc 0.9573 phrase acc 0.9268 activity acc 0.8140 grad-norm 2868.6782 epoch-elapsed 0h00m01s total-elapsed 0h01m59s
+dev-Recognition mAP 0.3931 dev-Localization mAP 0.1605 train-Recognition mAP 0.8488 train-Localization mAP 0.6875 dev-elapsed 0h00m00s total-elapsed 0h01m59s
+epoch 52 batch 1/3 processed 1,182 batch-loss 371.6815 mAP 0.6892 action acc 0.9564 phrase acc 0.9626 activity acc 0.9980 grad-norm 2103.5349 epoch-elapsed 0h00m00s total-elapsed 0h02m00s
+dev-Recognition mAP 0.4994 dev-Localization mAP 0.2833 train-Recognition mAP 0.9774 train-Localization mAP 0.8284 dev-elapsed 0h00m00s total-elapsed 0h02m00s
+epoch 52 batch 2/3 processed 1,190 batch-loss 245.9203 mAP 0.8266 action acc 0.9706 phrase acc 0.9594 activity acc 0.9944 grad-norm 898.3209 epoch-elapsed 0h00m00s total-elapsed 0h02m00s
+dev-Recognition mAP 0.4889 dev-Localization mAP 0.3283 train-Recognition mAP 0.9768 train-Localization mAP 0.8286 dev-elapsed 0h00m00s total-elapsed 0h02m01s
+epoch 52 batch 3/3 processed 1,196 batch-loss 1056.2725 mAP 0.8082 action acc 0.9701 phrase acc 0.9556 activity acc 0.8541 grad-norm 12455.6309 epoch-elapsed 0h00m01s total-elapsed 0h02m01s
+dev-Recognition mAP 0.4935 dev-Localization mAP 0.2904 train-Recognition mAP 0.9395 train-Localization mAP 0.7959 dev-elapsed 0h00m00s total-elapsed 0h02m01s
+epoch 53 batch 1/3 processed 1,204 batch-loss 465.3842 mAP 0.8242 action acc 0.9580 phrase acc 0.9653 activity acc 0.9918 grad-norm 2517.1316 epoch-elapsed 0h00m00s total-elapsed 0h02m01s
+dev-Recognition mAP 0.3674 dev-Localization mAP 0.2079 train-Recognition mAP 0.8424 train-Localization mAP 0.6671 dev-elapsed 0h00m00s total-elapsed 0h02m02s
+epoch 53 batch 2/3 processed 1,212 batch-loss 752.7722 mAP 0.6610 action acc 0.9284 phrase acc 0.8818 activity acc 0.9852 grad-norm 4066.5295 epoch-elapsed 0h00m00s total-elapsed 0h02m02s
+dev-Recognition mAP 0.4966 dev-Localization mAP 0.2982 train-Recognition mAP 0.9958 train-Localization mAP 0.8413 dev-elapsed 0h00m00s total-elapsed 0h02m02s
+epoch 53 batch 3/3 processed 1,219 batch-loss 543.9449 mAP 0.8426 action acc 0.9615 phrase acc 0.9519 activity acc 0.9423 grad-norm 1750.8164 epoch-elapsed 0h00m01s total-elapsed 0h02m03s
+dev-Recognition mAP 0.4955 dev-Localization mAP 0.2361 train-Recognition mAP 0.9142 train-Localization mAP 0.7072 dev-elapsed 0h00m00s total-elapsed 0h02m03s
+epoch 54 batch 1/3 processed 1,228 batch-loss 853.3367 mAP 0.7612 action acc 0.9141 phrase acc 0.9335 activity acc 0.9632 grad-norm 4310.2168 epoch-elapsed 0h00m00s total-elapsed 0h02m03s
+dev-Recognition mAP 0.5554 dev-Localization mAP 0.3037 train-Recognition mAP 0.9696 train-Localization mAP 0.7783 dev-elapsed 0h00m00s total-elapsed 0h02m04s
+epoch 54 batch 2/3 processed 1,236 batch-loss 611.6082 mAP 0.7770 action acc 0.9526 phrase acc 0.9540 activity acc 0.9803 grad-norm 2231.9014 epoch-elapsed 0h00m01s total-elapsed 0h02m04s
+dev-Recognition mAP 0.5667 dev-Localization mAP 0.3377 train-Recognition mAP 0.9802 train-Localization mAP 0.8287 dev-elapsed 0h00m00s total-elapsed 0h02m05s
+epoch 54 batch 3/3 processed 1,242 batch-loss 367.2172 mAP 0.8176 action acc 0.9556 phrase acc 0.9623 activity acc 0.9933 grad-norm 1199.9130 epoch-elapsed 0h00m01s total-elapsed 0h02m05s
+dev-Recognition mAP 0.4837 dev-Localization mAP 0.3044 train-Recognition mAP 0.9286 train-Localization mAP 0.7922 dev-elapsed 0h00m00s total-elapsed 0h02m05s
+epoch 55 batch 1/3 processed 1,251 batch-loss 516.1111 mAP 0.8728 action acc 0.9580 phrase acc 0.9513 activity acc 0.9804 grad-norm 1615.5800 epoch-elapsed 0h00m00s total-elapsed 0h02m06s
+dev-Recognition mAP 0.5305 dev-Localization mAP 0.3647 train-Recognition mAP 0.9308 train-Localization mAP 0.7784 dev-elapsed 0h00m00s total-elapsed 0h02m06s
+epoch 55 batch 2/3 processed 1,259 batch-loss 711.9344 mAP 0.7643 action acc 0.9327 phrase acc 0.9045 activity acc 0.9635 grad-norm 2518.3079 epoch-elapsed 0h00m01s total-elapsed 0h02m07s
+dev-Recognition mAP 0.5344 dev-Localization mAP 0.2831 train-Recognition mAP 0.9810 train-Localization mAP 0.8097 dev-elapsed 0h00m00s total-elapsed 0h02m07s
+epoch 55 batch 3/3 processed 1,265 batch-loss 325.0443 mAP 0.8185 action acc 0.9610 phrase acc 0.9636 activity acc 0.9935 grad-norm 1037.1525 epoch-elapsed 0h00m01s total-elapsed 0h02m07s
+dev-Recognition mAP 0.5252 dev-Localization mAP 0.2125 train-Recognition mAP 0.8872 train-Localization mAP 0.7389 dev-elapsed 0h00m00s total-elapsed 0h02m08s
+epoch 56 batch 1/3 processed 1,273 batch-loss 342.7212 mAP 0.6645 action acc 0.9646 phrase acc 0.9620 activity acc 0.9957 grad-norm 1831.7507 epoch-elapsed 0h00m00s total-elapsed 0h02m08s
+dev-Recognition mAP 0.5302 dev-Localization mAP 0.2261 train-Recognition mAP 0.9260 train-Localization mAP 0.7879 dev-elapsed 0h00m00s total-elapsed 0h02m09s
+epoch 56 batch 2/3 processed 1,281 batch-loss 446.4037 mAP 0.7670 action acc 0.9628 phrase acc 0.9572 activity acc 0.9945 grad-norm 2382.7810 epoch-elapsed 0h00m01s total-elapsed 0h02m09s
+dev-Recognition mAP 0.4730 dev-Localization mAP 0.2943 train-Recognition mAP 0.9487 train-Localization mAP 0.8101 dev-elapsed 0h00m00s total-elapsed 0h02m09s
+epoch 56 batch 3/3 processed 1,288 batch-loss 589.9833 mAP 0.7942 action acc 0.8771 phrase acc 0.9009 activity acc 0.9934 grad-norm 2771.7395 epoch-elapsed 0h00m01s total-elapsed 0h02m10s
+dev-Recognition mAP 0.4150 dev-Localization mAP 0.2486 train-Recognition mAP 0.9217 train-Localization mAP 0.7532 dev-elapsed 0h00m00s total-elapsed 0h02m10s
+epoch 57 batch 1/3 processed 1,297 batch-loss 412.9804 mAP 0.9097 action acc 0.9513 phrase acc 0.9581 activity acc 0.9710 grad-norm 1842.7277 epoch-elapsed 0h00m00s total-elapsed 0h02m10s
+dev-Recognition mAP 0.4340 dev-Localization mAP 0.2843 train-Recognition mAP 0.9525 train-Localization mAP 0.7774 dev-elapsed 0h00m00s total-elapsed 0h02m11s
+epoch 57 batch 2/3 processed 1,305 batch-loss 596.4633 mAP 0.7587 action acc 0.9636 phrase acc 0.9610 activity acc 0.9312 grad-norm 8653.6465 epoch-elapsed 0h00m01s total-elapsed 0h02m11s
+dev-Recognition mAP 0.4333 dev-Localization mAP 0.2705 train-Recognition mAP 0.8934 train-Localization mAP 0.7469 dev-elapsed 0h00m00s total-elapsed 0h02m12s
+epoch 57 batch 3/3 processed 1,311 batch-loss 3836.2271 mAP 0.7184 action acc 0.9289 phrase acc 0.8452 activity acc 0.3138 grad-norm 16789.5703 epoch-elapsed 0h00m01s total-elapsed 0h02m12s
+dev-Recognition mAP 0.4396 dev-Localization mAP 0.2669 train-Recognition mAP 0.9466 train-Localization mAP 0.7771 dev-elapsed 0h00m00s total-elapsed 0h02m12s
+epoch 58 batch 1/3 processed 1,319 batch-loss 446.9518 mAP 0.8329 action acc 0.9671 phrase acc 0.9650 activity acc 0.9971 grad-norm 2586.1948 epoch-elapsed 0h00m00s total-elapsed 0h02m13s
+dev-Recognition mAP 0.4372 dev-Localization mAP 0.2568 train-Recognition mAP 0.9028 train-Localization mAP 0.7096 dev-elapsed 0h00m00s total-elapsed 0h02m13s
+epoch 58 batch 2/3 processed 1,327 batch-loss 758.5167 mAP 0.6926 action acc 0.9301 phrase acc 0.9289 activity acc 0.8613 grad-norm 4526.2979 epoch-elapsed 0h00m01s total-elapsed 0h02m14s
+dev-Recognition mAP 0.4588 dev-Localization mAP 0.2918 train-Recognition mAP 0.9528 train-Localization mAP 0.7342 dev-elapsed 0h00m00s total-elapsed 0h02m14s
+epoch 58 batch 3/3 processed 1,334 batch-loss 450.3761 mAP 0.7286 action acc 0.9598 phrase acc 0.9565 activity acc 0.9848 grad-norm 2010.3052 epoch-elapsed 0h00m01s total-elapsed 0h02m14s
+dev-Recognition mAP 0.4811 dev-Localization mAP 0.3239 train-Recognition mAP 0.9310 train-Localization mAP 0.7375 dev-elapsed 0h00m00s total-elapsed 0h02m15s
+epoch 59 batch 1/3 processed 1,342 batch-loss 379.2251 mAP 0.8670 action acc 0.9600 phrase acc 0.9549 activity acc 0.9877 grad-norm 1498.4934 epoch-elapsed 0h00m00s total-elapsed 0h02m15s
+dev-Recognition mAP 0.4791 dev-Localization mAP 0.2873 train-Recognition mAP 0.8816 train-Localization mAP 0.7112 dev-elapsed 0h00m00s total-elapsed 0h02m15s
+epoch 59 batch 2/3 processed 1,351 batch-loss 621.3443 mAP 0.6667 action acc 0.9406 phrase acc 0.9586 activity acc 0.9768 grad-norm 4100.9033 epoch-elapsed 0h00m01s total-elapsed 0h02m16s
+dev-Recognition mAP 0.5047 dev-Localization mAP 0.2355 train-Recognition mAP 0.9003 train-Localization mAP 0.7456 dev-elapsed 0h00m00s total-elapsed 0h02m16s
+epoch 59 batch 3/3 processed 1,357 batch-loss 671.9041 mAP 0.7458 action acc 0.9103 phrase acc 0.9034 activity acc 0.9931 grad-norm 3145.1670 epoch-elapsed 0h00m01s total-elapsed 0h02m17s
+dev-Recognition mAP 0.4772 dev-Localization mAP 0.2207 train-Recognition mAP 0.8119 train-Localization mAP 0.6819 dev-elapsed 0h00m00s total-elapsed 0h02m17s
+epoch 60 batch 1/3 processed 1,365 batch-loss 759.1930 mAP 0.7638 action acc 0.9368 phrase acc 0.9180 activity acc 0.9782 grad-norm 5204.4438 epoch-elapsed 0h00m00s total-elapsed 0h02m17s
+dev-Recognition mAP 0.4651 dev-Localization mAP 0.2417 train-Recognition mAP 0.9111 train-Localization mAP 0.7784 dev-elapsed 0h00m00s total-elapsed 0h02m18s
+epoch 60 batch 2/3 processed 1,374 batch-loss 377.1180 mAP 0.7595 action acc 0.9607 phrase acc 0.9546 activity acc 0.9945 grad-norm 1454.4219 epoch-elapsed 0h00m01s total-elapsed 0h02m18s
+dev-Recognition mAP 0.4671 dev-Localization mAP 0.2585 train-Recognition mAP 0.8871 train-Localization mAP 0.7265 dev-elapsed 0h00m00s total-elapsed 0h02m19s
+epoch 60 batch 3/3 processed 1,380 batch-loss 272.2909 mAP 0.7150 action acc 0.9714 phrase acc 0.9714 activity acc 0.9825 grad-norm 1610.8354 epoch-elapsed 0h00m01s total-elapsed 0h02m19s
+dev-Recognition mAP 0.4729 dev-Localization mAP 0.2524 train-Recognition mAP 0.8527 train-Localization mAP 0.7223 dev-elapsed 0h00m00s total-elapsed 0h02m19s
+epoch 61 batch 1/3 processed 1,388 batch-loss 534.9089 mAP 0.7593 action acc 0.9550 phrase acc 0.9536 activity acc 0.9964 grad-norm 2110.5957 epoch-elapsed 0h00m00s total-elapsed 0h02m20s
+dev-Recognition mAP 0.5303 dev-Localization mAP 0.3111 train-Recognition mAP 0.9346 train-Localization mAP 0.8013 dev-elapsed 0h00m00s total-elapsed 0h02m20s
+epoch 61 batch 2/3 processed 1,396 batch-loss 209.9655 mAP 0.7975 action acc 0.9713 phrase acc 0.9637 activity acc 0.9955 grad-norm 730.3873 epoch-elapsed 0h00m01s total-elapsed 0h02m20s
+dev-Recognition mAP 0.4880 dev-Localization mAP 0.2401 train-Recognition mAP 0.8662 train-Localization mAP 0.7482 dev-elapsed 0h00m00s total-elapsed 0h02m21s
+epoch 61 batch 3/3 processed 1,403 batch-loss 1243.7601 mAP 0.7126 action acc 0.9220 phrase acc 0.8924 activity acc 0.8619 grad-norm 6228.4907 epoch-elapsed 0h00m01s total-elapsed 0h02m21s
+dev-Recognition mAP 0.5218 dev-Localization mAP 0.2528 train-Recognition mAP 0.9672 train-Localization mAP 0.8255 dev-elapsed 0h00m00s total-elapsed 0h02m22s
+epoch 62 batch 1/3 processed 1,412 batch-loss 338.6363 mAP 0.8841 action acc 0.9600 phrase acc 0.9545 activity acc 0.9976 grad-norm 1625.8634 epoch-elapsed 0h00m00s total-elapsed 0h02m22s
+dev-Recognition mAP 0.5980 dev-Localization mAP 0.3178 train-Recognition mAP 0.9607 train-Localization mAP 0.8153 dev-elapsed 0h00m00s total-elapsed 0h02m22s
+epoch 62 batch 2/3 processed 1,420 batch-loss 524.4705 mAP 0.8071 action acc 0.9724 phrase acc 0.9582 activity acc 0.9866 grad-norm 1594.0150 epoch-elapsed 0h00m01s total-elapsed 0h02m23s
+dev-Recognition mAP 0.5782 dev-Localization mAP 0.3020 train-Recognition mAP 0.9525 train-Localization mAP 0.7793 dev-elapsed 0h00m00s total-elapsed 0h02m23s
+epoch 62 batch 3/3 processed 1,426 batch-loss 365.8459 mAP 0.7640 action acc 0.9716 phrase acc 0.9660 activity acc 0.9532 grad-norm 2119.8428 epoch-elapsed 0h00m01s total-elapsed 0h02m23s
+dev-Recognition mAP 0.5379 dev-Localization mAP 0.3215 train-Recognition mAP 0.9474 train-Localization mAP 0.7949 dev-elapsed 0h00m00s total-elapsed 0h02m24s
+Epoch     7: reducing learning rate of group 0 to 4.0000e-04.
+epoch 63 batch 1/3 processed 1,435 batch-loss 337.3798 mAP 0.8053 action acc 0.9760 phrase acc 0.9678 activity acc 0.9873 grad-norm 1495.0964 epoch-elapsed 0h00m00s total-elapsed 0h02m24s
+dev-Recognition mAP 0.5328 dev-Localization mAP 0.3281 train-Recognition mAP 0.9446 train-Localization mAP 0.7951 dev-elapsed 0h00m00s total-elapsed 0h02m25s
+epoch 63 batch 2/3 processed 1,443 batch-loss 260.1945 mAP 0.7881 action acc 0.9775 phrase acc 0.9716 activity acc 0.9941 grad-norm 969.2675 epoch-elapsed 0h00m01s total-elapsed 0h02m25s
+dev-Recognition mAP 0.5221 dev-Localization mAP 0.3216 train-Recognition mAP 0.9389 train-Localization mAP 0.7975 dev-elapsed 0h00m00s total-elapsed 0h02m25s
+epoch 63 batch 3/3 processed 1,449 batch-loss 552.1405 mAP 0.8001 action acc 0.9564 phrase acc 0.9409 activity acc 0.9938 grad-norm 1736.3835 epoch-elapsed 0h00m01s total-elapsed 0h02m26s
+dev-Recognition mAP 0.4913 dev-Localization mAP 0.2898 train-Recognition mAP 0.9706 train-Localization mAP 0.8158 dev-elapsed 0h00m00s total-elapsed 0h02m26s
+epoch 64 batch 1/3 processed 1,458 batch-loss 254.0374 mAP 0.8672 action acc 0.9797 phrase acc 0.9665 activity acc 0.9946 grad-norm 727.3755 epoch-elapsed 0h00m00s total-elapsed 0h02m27s
+dev-Recognition mAP 0.4390 dev-Localization mAP 0.2942 train-Recognition mAP 0.9672 train-Localization mAP 0.8493 dev-elapsed 0h00m00s total-elapsed 0h02m27s
+epoch 64 batch 2/3 processed 1,466 batch-loss 275.2190 mAP 0.8438 action acc 0.9793 phrase acc 0.9606 activity acc 0.9927 grad-norm 760.7361 epoch-elapsed 0h00m01s total-elapsed 0h02m27s
+dev-Recognition mAP 0.4317 dev-Localization mAP 0.2605 train-Recognition mAP 0.9729 train-Localization mAP 0.8443 dev-elapsed 0h00m00s total-elapsed 0h02m28s
+epoch 64 batch 3/3 processed 1,472 batch-loss 290.0677 mAP 0.8530 action acc 0.9881 phrase acc 0.9817 activity acc 0.9927 grad-norm 878.3825 epoch-elapsed 0h00m01s total-elapsed 0h02m28s
+dev-Recognition mAP 0.4624 dev-Localization mAP 0.2669 train-Recognition mAP 0.9655 train-Localization mAP 0.8486 dev-elapsed 0h00m00s total-elapsed 0h02m29s
+epoch 65 batch 1/3 processed 1,481 batch-loss 236.2450 mAP 0.8146 action acc 0.9797 phrase acc 0.9786 activity acc 0.9981 grad-norm 759.9796 epoch-elapsed 0h00m00s total-elapsed 0h02m29s
+dev-Recognition mAP 0.4609 dev-Localization mAP 0.2612 train-Recognition mAP 0.9580 train-Localization mAP 0.8323 dev-elapsed 0h00m00s total-elapsed 0h02m29s
+epoch 65 batch 2/3 processed 1,489 batch-loss 303.7617 mAP 0.8148 action acc 0.9857 phrase acc 0.9756 activity acc 0.9971 grad-norm 930.4730 epoch-elapsed 0h00m01s total-elapsed 0h02m30s
+dev-Recognition mAP 0.4894 dev-Localization mAP 0.2870 train-Recognition mAP 0.9659 train-Localization mAP 0.8452 dev-elapsed 0h00m00s total-elapsed 0h02m30s
+epoch 65 batch 3/3 processed 1,495 batch-loss 159.6151 mAP 0.8428 action acc 0.9858 phrase acc 0.9858 activity acc 1.0000 grad-norm 959.9253 epoch-elapsed 0h00m01s total-elapsed 0h02m31s
+dev-Recognition mAP 0.5064 dev-Localization mAP 0.3052 train-Recognition mAP 0.9820 train-Localization mAP 0.8690 dev-elapsed 0h00m00s total-elapsed 0h02m31s
+epoch 66 batch 1/3 processed 1,503 batch-loss 233.1138 mAP 0.9228 action acc 0.9835 phrase acc 0.9810 activity acc 0.9992 grad-norm 629.5238 epoch-elapsed 0h00m00s total-elapsed 0h02m31s
+dev-Recognition mAP 0.4999 dev-Localization mAP 0.2788 train-Recognition mAP 0.9845 train-Localization mAP 0.8945 dev-elapsed 0h00m00s total-elapsed 0h02m32s
+epoch 66 batch 2/3 processed 1,511 batch-loss 150.1441 mAP 0.8979 action acc 0.9914 phrase acc 0.9804 activity acc 0.9988 grad-norm 500.8359 epoch-elapsed 0h00m01s total-elapsed 0h02m32s
+dev-Recognition mAP 0.5300 dev-Localization mAP 0.3122 train-Recognition mAP 0.9845 train-Localization mAP 0.8848 dev-elapsed 0h00m00s total-elapsed 0h02m32s
+epoch 66 batch 3/3 processed 1,518 batch-loss 181.9858 mAP 0.8750 action acc 0.9896 phrase acc 0.9852 activity acc 1.0000 grad-norm 684.7561 epoch-elapsed 0h00m01s total-elapsed 0h02m33s
+dev-Recognition mAP 0.5219 dev-Localization mAP 0.3072 train-Recognition mAP 0.9845 train-Localization mAP 0.8868 dev-elapsed 0h00m00s total-elapsed 0h02m33s
+epoch 67 batch 1/3 processed 1,526 batch-loss 129.0587 mAP 0.9203 action acc 0.9902 phrase acc 0.9884 activity acc 0.9991 grad-norm 506.1770 epoch-elapsed 0h00m00s total-elapsed 0h02m34s
+dev-Recognition mAP 0.4983 dev-Localization mAP 0.2689 train-Recognition mAP 0.9845 train-Localization mAP 0.8980 dev-elapsed 0h00m00s total-elapsed 0h02m34s
+epoch 67 batch 2/3 processed 1,535 batch-loss 159.9658 mAP 0.9019 action acc 0.9888 phrase acc 0.9820 activity acc 1.0000 grad-norm 469.8634 epoch-elapsed 0h00m01s total-elapsed 0h02m34s
+dev-Recognition mAP 0.5009 dev-Localization mAP 0.2650 train-Recognition mAP 0.9816 train-Localization mAP 0.9048 dev-elapsed 0h00m00s total-elapsed 0h02m35s
+epoch 67 batch 3/3 processed 1,541 batch-loss 208.3805 mAP 0.8862 action acc 0.9880 phrase acc 0.9843 activity acc 1.0000 grad-norm 821.6420 epoch-elapsed 0h00m01s total-elapsed 0h02m35s
+dev-Recognition mAP 0.4766 dev-Localization mAP 0.2442 train-Recognition mAP 0.9718 train-Localization mAP 0.8974 dev-elapsed 0h00m00s total-elapsed 0h02m36s
+epoch 68 batch 1/3 processed 1,549 batch-loss 168.7994 mAP 0.9209 action acc 0.9944 phrase acc 0.9880 activity acc 1.0000 grad-norm 748.3456 epoch-elapsed 0h00m00s total-elapsed 0h02m36s
+dev-Recognition mAP 0.4842 dev-Localization mAP 0.2577 train-Recognition mAP 0.9873 train-Localization mAP 0.9181 dev-elapsed 0h00m00s total-elapsed 0h02m36s
+epoch 68 batch 2/3 processed 1,558 batch-loss 132.7762 mAP 0.8998 action acc 0.9874 phrase acc 0.9846 activity acc 0.9995 grad-norm 481.0336 epoch-elapsed 0h00m01s total-elapsed 0h02m37s
+dev-Recognition mAP 0.4902 dev-Localization mAP 0.2486 train-Recognition mAP 0.9915 train-Localization mAP 0.9410 dev-elapsed 0h00m00s total-elapsed 0h02m37s
+epoch 68 batch 3/3 processed 1,564 batch-loss 122.8876 mAP 0.9388 action acc 0.9943 phrase acc 0.9914 activity acc 0.9986 grad-norm 460.8650 epoch-elapsed 0h00m01s total-elapsed 0h02m37s
+dev-Recognition mAP 0.4975 dev-Localization mAP 0.2476 train-Recognition mAP 0.9915 train-Localization mAP 0.9431 dev-elapsed 0h00m00s total-elapsed 0h02m38s
+Epoch    13: reducing learning rate of group 0 to 2.0000e-04.
+epoch 69 batch 1/3 processed 1,573 batch-loss 94.1999 mAP 0.9388 action acc 0.9931 phrase acc 0.9887 activity acc 1.0000 grad-norm 430.5695 epoch-elapsed 0h00m00s total-elapsed 0h02m38s
+dev-Recognition mAP 0.5070 dev-Localization mAP 0.2668 train-Recognition mAP 0.9915 train-Localization mAP 0.9404 dev-elapsed 0h00m00s total-elapsed 0h02m39s
+epoch 69 batch 2/3 processed 1,581 batch-loss 124.5484 mAP 0.9310 action acc 0.9958 phrase acc 0.9937 activity acc 1.0000 grad-norm 534.6870 epoch-elapsed 0h00m01s total-elapsed 0h02m39s
+dev-Recognition mAP 0.5213 dev-Localization mAP 0.2712 train-Recognition mAP 0.9915 train-Localization mAP 0.9487 dev-elapsed 0h00m00s total-elapsed 0h02m39s
+epoch 69 batch 3/3 processed 1,587 batch-loss 168.5179 mAP 0.9486 action acc 0.9960 phrase acc 0.9868 activity acc 0.9987 grad-norm 518.1619 epoch-elapsed 0h00m01s total-elapsed 0h02m40s
+dev-Recognition mAP 0.5146 dev-Localization mAP 0.2744 train-Recognition mAP 0.9915 train-Localization mAP 0.9487 dev-elapsed 0h00m00s total-elapsed 0h02m40s
+epoch 70 batch 1/3 processed 1,595 batch-loss 169.3710 mAP 0.9187 action acc 0.9916 phrase acc 0.9873 activity acc 0.9983 grad-norm 529.1132 epoch-elapsed 0h00m00s total-elapsed 0h02m40s
+dev-Recognition mAP 0.5346 dev-Localization mAP 0.3097 train-Recognition mAP 0.9915 train-Localization mAP 0.9476 dev-elapsed 0h00m00s total-elapsed 0h02m41s
+epoch 70 batch 2/3 processed 1,603 batch-loss 90.4167 mAP 0.9389 action acc 0.9921 phrase acc 0.9931 activity acc 1.0000 grad-norm 527.5787 epoch-elapsed 0h00m01s total-elapsed 0h02m41s
+dev-Recognition mAP 0.5346 dev-Localization mAP 0.3162 train-Recognition mAP 0.9915 train-Localization mAP 0.9519 dev-elapsed 0h00m00s total-elapsed 0h02m42s
+epoch 70 batch 3/3 processed 1,610 batch-loss 96.0826 mAP 0.9337 action acc 0.9949 phrase acc 0.9928 activity acc 1.0000 grad-norm 397.5339 epoch-elapsed 0h00m01s total-elapsed 0h02m42s
+dev-Recognition mAP 0.5412 dev-Localization mAP 0.3221 train-Recognition mAP 0.9915 train-Localization mAP 0.9546 dev-elapsed 0h00m00s total-elapsed 0h02m42s
+epoch 71 batch 1/3 processed 1,618 batch-loss 94.2625 mAP 0.9444 action acc 0.9944 phrase acc 0.9925 activity acc 1.0000 grad-norm 511.5677 epoch-elapsed 0h00m00s total-elapsed 0h02m43s
+dev-Recognition mAP 0.5467 dev-Localization mAP 0.3069 train-Recognition mAP 1.0000 train-Localization mAP 0.9668 dev-elapsed 0h00m00s total-elapsed 0h02m43s
+epoch 71 batch 2/3 processed 1,627 batch-loss 95.0067 mAP 0.9549 action acc 0.9955 phrase acc 0.9917 activity acc 0.9996 grad-norm 312.7062 epoch-elapsed 0h00m01s total-elapsed 0h02m44s
+dev-Recognition mAP 0.5373 dev-Localization mAP 0.3032 train-Recognition mAP 1.0000 train-Localization mAP 0.9642 dev-elapsed 0h00m00s total-elapsed 0h02m44s
+epoch 71 batch 3/3 processed 1,633 batch-loss 141.1195 mAP 0.9645 action acc 0.9965 phrase acc 0.9861 activity acc 1.0000 grad-norm 452.2921 epoch-elapsed 0h00m01s total-elapsed 0h02m44s
+dev-Recognition mAP 0.5341 dev-Localization mAP 0.2927 train-Recognition mAP 1.0000 train-Localization mAP 0.9642 dev-elapsed 0h00m00s total-elapsed 0h02m45s
+epoch 72 batch 1/3 processed 1,642 batch-loss 107.2588 mAP 0.9764 action acc 0.9988 phrase acc 0.9953 activity acc 0.9994 grad-norm 314.7245 epoch-elapsed 0h00m00s total-elapsed 0h02m45s
+dev-Recognition mAP 0.5360 dev-Localization mAP 0.2991 train-Recognition mAP 1.0000 train-Localization mAP 0.9642 dev-elapsed 0h00m00s total-elapsed 0h02m45s
+epoch 72 batch 2/3 processed 1,650 batch-loss 98.5981 mAP 0.9496 action acc 0.9973 phrase acc 0.9938 activity acc 1.0000 grad-norm 388.3803 epoch-elapsed 0h00m00s total-elapsed 0h02m46s
+dev-Recognition mAP 0.5360 dev-Localization mAP 0.3004 train-Recognition mAP 1.0000 train-Localization mAP 0.9642 dev-elapsed 0h00m00s total-elapsed 0h02m46s
+epoch 72 batch 3/3 processed 1,656 batch-loss 95.5829 mAP 0.9613 action acc 0.9931 phrase acc 0.9965 activity acc 0.9983 grad-norm 292.0732 epoch-elapsed 0h00m01s total-elapsed 0h02m46s
+dev-Recognition mAP 0.5360 dev-Localization mAP 0.2962 train-Recognition mAP 1.0000 train-Localization mAP 0.9737 dev-elapsed 0h00m00s total-elapsed 0h02m47s
+epoch 73 batch 1/3 processed 1,665 batch-loss 75.0931 mAP 0.9805 action acc 0.9964 phrase acc 0.9927 activity acc 1.0000 grad-norm 205.6005 epoch-elapsed 0h00m00s total-elapsed 0h02m47s
+dev-Recognition mAP 0.5360 dev-Localization mAP 0.2962 train-Recognition mAP 1.0000 train-Localization mAP 0.9821 dev-elapsed 0h00m00s total-elapsed 0h02m47s
+epoch 73 batch 2/3 processed 1,673 batch-loss 97.8334 mAP 0.9730 action acc 0.9972 phrase acc 0.9937 activity acc 1.0000 grad-norm 323.9659 epoch-elapsed 0h00m00s total-elapsed 0h02m47s
+dev-Recognition mAP 0.5392 dev-Localization mAP 0.2962 train-Recognition mAP 1.0000 train-Localization mAP 0.9821 dev-elapsed 0h00m00s total-elapsed 0h02m48s
+epoch 73 batch 3/3 processed 1,679 batch-loss 124.1524 mAP 0.9766 action acc 0.9978 phrase acc 0.9902 activity acc 1.0000 grad-norm 362.1365 epoch-elapsed 0h00m01s total-elapsed 0h02m48s
+dev-Recognition mAP 0.5392 dev-Localization mAP 0.2978 train-Recognition mAP 1.0000 train-Localization mAP 0.9821 dev-elapsed 0h00m00s total-elapsed 0h02m48s
+epoch 74 batch 1/3 processed 1,688 batch-loss 79.5774 mAP 0.9724 action acc 0.9940 phrase acc 0.9958 activity acc 1.0000 grad-norm 240.3034 epoch-elapsed 0h00m00s total-elapsed 0h02m49s
+dev-Recognition mAP 0.5323 dev-Localization mAP 0.2984 train-Recognition mAP 1.0000 train-Localization mAP 0.9864 dev-elapsed 0h00m00s total-elapsed 0h02m49s
+epoch 74 batch 2/3 processed 1,696 batch-loss 69.2821 mAP 0.9884 action acc 0.9988 phrase acc 0.9951 activity acc 0.9988 grad-norm 200.5988 epoch-elapsed 0h00m00s total-elapsed 0h02m49s
+dev-Recognition mAP 0.5323 dev-Localization mAP 0.2968 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m50s
+epoch 74 batch 3/3 processed 1,702 batch-loss 132.3342 mAP 0.9771 action acc 0.9965 phrase acc 0.9930 activity acc 1.0000 grad-norm 431.4856 epoch-elapsed 0h00m01s total-elapsed 0h02m50s
+dev-Recognition mAP 0.5435 dev-Localization mAP 0.2787 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m50s
+Epoch    19: reducing learning rate of group 0 to 1.0000e-04.
+epoch 75 batch 1/3 processed 1,711 batch-loss 84.7114 mAP 0.9814 action acc 0.9972 phrase acc 0.9934 activity acc 1.0000 grad-norm 198.4263 epoch-elapsed 0h00m00s total-elapsed 0h02m51s
+dev-Recognition mAP 0.5435 dev-Localization mAP 0.2782 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m51s
+epoch 75 batch 2/3 processed 1,719 batch-loss 78.4071 mAP 0.9727 action acc 0.9965 phrase acc 0.9982 activity acc 1.0000 grad-norm 329.5402 epoch-elapsed 0h00m01s total-elapsed 0h02m51s
+dev-Recognition mAP 0.5260 dev-Localization mAP 0.2832 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m52s
+epoch 75 batch 3/3 processed 1,725 batch-loss 102.1621 mAP 0.9880 action acc 0.9984 phrase acc 0.9935 activity acc 1.0000 grad-norm 371.3508 epoch-elapsed 0h00m01s total-elapsed 0h02m52s
+dev-Recognition mAP 0.5260 dev-Localization mAP 0.2795 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m53s
+epoch 76 batch 1/3 processed 1,733 batch-loss 103.2080 mAP 0.9797 action acc 0.9981 phrase acc 0.9925 activity acc 1.0000 grad-norm 276.1348 epoch-elapsed 0h00m00s total-elapsed 0h02m53s
+dev-Recognition mAP 0.5179 dev-Localization mAP 0.2745 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m53s
+epoch 76 batch 2/3 processed 1,741 batch-loss 61.8394 mAP 0.9855 action acc 0.9977 phrase acc 0.9977 activity acc 1.0000 grad-norm 170.3319 epoch-elapsed 0h00m01s total-elapsed 0h02m54s
+dev-Recognition mAP 0.5098 dev-Localization mAP 0.2714 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m54s
+epoch 76 batch 3/3 processed 1,748 batch-loss 81.3213 mAP 0.9852 action acc 0.9984 phrase acc 0.9960 activity acc 1.0000 grad-norm 284.1066 epoch-elapsed 0h00m01s total-elapsed 0h02m54s
+dev-Recognition mAP 0.5098 dev-Localization mAP 0.2714 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m55s
+epoch 77 batch 1/3 processed 1,756 batch-loss 76.0362 mAP 0.9779 action acc 0.9991 phrase acc 0.9991 activity acc 1.0000 grad-norm 238.7630 epoch-elapsed 0h00m00s total-elapsed 0h02m55s
+dev-Recognition mAP 0.5098 dev-Localization mAP 0.2797 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m56s
+epoch 77 batch 2/3 processed 1,765 batch-loss 81.8185 mAP 0.9896 action acc 0.9994 phrase acc 0.9963 activity acc 1.0000 grad-norm 194.4410 epoch-elapsed 0h00m00s total-elapsed 0h02m56s
+dev-Recognition mAP 0.5192 dev-Localization mAP 0.2828 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m56s
+epoch 77 batch 3/3 processed 1,771 batch-loss 74.6960 mAP 0.9913 action acc 1.0000 phrase acc 0.9969 activity acc 1.0000 grad-norm 261.5800 epoch-elapsed 0h00m01s total-elapsed 0h02m57s
+dev-Recognition mAP 0.5192 dev-Localization mAP 0.2828 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m57s
+epoch 78 batch 1/3 processed 1,779 batch-loss 107.9270 mAP 0.9875 action acc 0.9986 phrase acc 0.9964 activity acc 1.0000 grad-norm 286.2854 epoch-elapsed 0h00m00s total-elapsed 0h02m57s
+dev-Recognition mAP 0.5192 dev-Localization mAP 0.2828 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m58s
+epoch 78 batch 2/3 processed 1,787 batch-loss 55.5860 mAP 0.9917 action acc 1.0000 phrase acc 0.9964 activity acc 1.0000 grad-norm 179.0487 epoch-elapsed 0h00m01s total-elapsed 0h02m58s
+dev-Recognition mAP 0.5192 dev-Localization mAP 0.2828 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m58s
+epoch 78 batch 3/3 processed 1,794 batch-loss 78.3988 mAP 0.9866 action acc 0.9979 phrase acc 0.9979 activity acc 1.0000 grad-norm 219.3962 epoch-elapsed 0h00m01s total-elapsed 0h02m59s
+dev-Recognition mAP 0.5173 dev-Localization mAP 0.2797 train-Recognition mAP 1.0000 train-Localization mAP 0.9901 dev-elapsed 0h00m00s total-elapsed 0h02m59s
+Terminating due to lack of improvement in dev fscore.

@@ -1,0 +1,14 @@
+put the 3 files in the same folder
+
+import prob_tree
+pt=prob_tree.prob_tree()
+
+for probability of activity -> phrase:
+	call function pt.activity2p(activity:int, phrase_sequence: list of int)
+	e.g.: Pr( phrase=(UB_fligh_same_bar, UB_circles) | activity=UB )=pt.activity2p(4,[42,41])
+
+for probability of phrase -> action:
+	call function pt.p2action(phrase: int, action_sequence: list of int)
+	e.g.: Pr( action=((swing backward or front support) salto forward straddled to hang on high bar,giant circle backward,giant circle backward with 0.5 turn to handstand) | phrase=UB_fligh_same_bar )=pt.p2action(42,[91, 79, 78]).
+
+Note: please refer to self.id2activitylabel, self.id2phraselabel, self.id2actionlabel in dataloaderorg.py to find the meaning of the ids, like 42 for UB_fligh_same_bar

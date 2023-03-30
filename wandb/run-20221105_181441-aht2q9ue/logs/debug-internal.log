@@ -1,0 +1,102 @@
+2022-11-05 18:14:41,468 INFO    StreamThr :4006540 [internal.py:wandb_internal():91] W&B internal server running at pid: 4006540, started at: 2022-11-05 18:14:41.467520
+2022-11-05 18:14:41,472 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: status
+2022-11-05 18:14:41,477 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: status
+2022-11-05 18:14:41,480 DEBUG   SenderThread:4006540 [sender.py:send():303] send: header
+2022-11-05 18:14:41,480 INFO    WriterThread:4006540 [datastore.py:open_for_write():75] open: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/run-aht2q9ue.wandb
+2022-11-05 18:14:41,488 DEBUG   SenderThread:4006540 [sender.py:send():303] send: run
+2022-11-05 18:14:41,657 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: check_version
+2022-11-05 18:14:41,663 INFO    SenderThread:4006540 [dir_watcher.py:__init__():216] watching files in: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files
+2022-11-05 18:14:41,663 INFO    SenderThread:4006540 [sender.py:_start_run_threads():931] run started: aht2q9ue with start time 1667690081.45899
+2022-11-05 18:14:41,663 DEBUG   SenderThread:4006540 [sender.py:send():303] send: summary
+2022-11-05 18:14:41,664 INFO    SenderThread:4006540 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-05 18:14:41,664 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: check_version
+2022-11-05 18:14:41,774 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: run_start
+2022-11-05 18:14:41,782 DEBUG   HandlerThread:4006540 [system_info.py:__init__():31] System info init
+2022-11-05 18:14:41,782 DEBUG   HandlerThread:4006540 [system_info.py:__init__():46] System info init done
+2022-11-05 18:14:41,783 INFO    HandlerThread:4006540 [system_monitor.py:start():150] Starting system monitor
+2022-11-05 18:14:41,783 INFO    HandlerThread:4006540 [system_monitor.py:probe():168] Collecting system info
+2022-11-05 18:14:41,784 INFO    SystemMonitor:4006540 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-05 18:14:41,789 INFO    SystemMonitor:4006540 [interfaces.py:start():168] Started cpu
+2022-11-05 18:14:41,791 INFO    SystemMonitor:4006540 [interfaces.py:start():168] Started disk
+2022-11-05 18:14:41,792 INFO    SystemMonitor:4006540 [interfaces.py:start():168] Started gpu
+2022-11-05 18:14:41,796 INFO    SystemMonitor:4006540 [interfaces.py:start():168] Started memory
+2022-11-05 18:14:41,797 INFO    SystemMonitor:4006540 [interfaces.py:start():168] Started network
+2022-11-05 18:14:41,889 DEBUG   HandlerThread:4006540 [system_info.py:probe():195] Probing system
+2022-11-05 18:14:41,899 DEBUG   HandlerThread:4006540 [system_info.py:_probe_git():180] Probing git
+2022-11-05 18:14:41,925 DEBUG   HandlerThread:4006540 [system_info.py:_probe_git():188] Probing git done
+2022-11-05 18:14:41,926 DEBUG   HandlerThread:4006540 [system_info.py:probe():241] Probing system done
+2022-11-05 18:14:41,926 DEBUG   HandlerThread:4006540 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-52-generic-x86_64-with-debian-bullseye-sid', 'python': '3.7.13', 'heartbeatAt': '2022-11-05T23:14:41.889512', 'startedAt': '2022-11-05T23:14:41.442539', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/data/xiaodan8/research/self-attentive-parser-v2/src/main.py', 'codePath': 'src/main.py', 'git': {'remote': 'https://github.com/mrdrozdov/self-attentive-parser-with-extra-features.git', 'commit': 'e9a7f4b5450c514ea64203b59d08c3306564ed2c'}, 'email': None, 'root': '/data/xiaodan8/research/self-attentive-parser-v2', 'host': 'lambda-quad', 'username': 'xiaodan8', 'executable': '/data/xiaodan8/anaconda3/envs/parsing/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2461.10409375, 'min': 2200.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 4146.555, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 4150.16, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3500.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3896.556, 'min': 2200.0, 'max': 3500.0}, {'current': 3500.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3500.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3823.072, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2911.588, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3500.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}], 'disk': {'total': 3665.956069946289, 'used': 280.99039459228516}, 'gpu': 'NVIDIA RTX A4000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}], 'memory': {'total': 503.5449676513672}}
+2022-11-05 18:14:41,926 INFO    HandlerThread:4006540 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-05 18:14:41,926 INFO    HandlerThread:4006540 [system_monitor.py:probe():181] Publishing system info
+2022-11-05 18:14:41,926 DEBUG   HandlerThread:4006540 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2022-11-05 18:14:41,928 DEBUG   HandlerThread:4006540 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-05 18:14:41,928 DEBUG   HandlerThread:4006540 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2022-11-05 18:14:42,671 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/requirements.txt
+2022-11-05 18:14:42,671 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/wandb-summary.json
+2022-11-05 18:14:42,672 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/conda-environment.yaml
+2022-11-05 18:14:43,673 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/conda-environment.yaml
+2022-11-05 18:14:43,731 DEBUG   HandlerThread:4006540 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-05 18:14:43,762 INFO    HandlerThread:4006540 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-05 18:14:43,799 DEBUG   SenderThread:4006540 [sender.py:send():303] send: files
+2022-11-05 18:14:43,799 INFO    SenderThread:4006540 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-05 18:14:43,814 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-05 18:14:43,815 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: stop_status
+2022-11-05 18:14:43,877 DEBUG   SenderThread:4006540 [sender.py:send():303] send: telemetry
+2022-11-05 18:14:43,893 DEBUG   SenderThread:4006540 [sender.py:send():303] send: telemetry
+2022-11-05 18:14:43,893 DEBUG   SenderThread:4006540 [sender.py:send():303] send: exit
+2022-11-05 18:14:43,894 INFO    SenderThread:4006540 [sender.py:send_exit():442] handling exit code: 1
+2022-11-05 18:14:43,894 INFO    SenderThread:4006540 [sender.py:send_exit():444] handling runtime: 2
+2022-11-05 18:14:43,894 INFO    SenderThread:4006540 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-05 18:14:43,895 INFO    SenderThread:4006540 [sender.py:send_exit():450] send defer
+2022-11-05 18:14:43,895 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:43,895 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-05 18:14:43,896 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:43,896 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-05 18:14:43,896 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 1
+2022-11-05 18:14:43,896 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:43,897 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-05 18:14:43,897 INFO    HandlerThread:4006540 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-05 18:14:43,897 DEBUG   SystemMonitor:4006540 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-05 18:14:43,898 DEBUG   SystemMonitor:4006540 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-05 18:14:43,899 DEBUG   SystemMonitor:4006540 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-05 18:14:43,901 INFO    HandlerThread:4006540 [interfaces.py:finish():173] Joined cpu
+2022-11-05 18:14:43,902 INFO    HandlerThread:4006540 [interfaces.py:finish():173] Joined disk
+2022-11-05 18:14:44,200 INFO    Thread-22 :4006540 [upload_job.py:push():143] Uploaded file /tmp/tmp0vdl3djcwandb/c7rdimth-wandb-metadata.json
+2022-11-05 18:14:44,240 INFO    HandlerThread:4006540 [interfaces.py:finish():173] Joined gpu
+2022-11-05 18:14:44,240 INFO    HandlerThread:4006540 [interfaces.py:finish():173] Joined memory
+2022-11-05 18:14:44,240 INFO    HandlerThread:4006540 [interfaces.py:finish():173] Joined network
+2022-11-05 18:14:44,241 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,241 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-05 18:14:44,241 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 2
+2022-11-05 18:14:44,242 DEBUG   SenderThread:4006540 [sender.py:send():303] send: stats
+2022-11-05 18:14:44,243 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:44,243 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-05 18:14:44,243 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,243 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-05 18:14:44,243 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 3
+2022-11-05 18:14:44,244 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:44,244 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-05 18:14:44,244 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,244 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-05 18:14:44,244 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 4
+2022-11-05 18:14:44,245 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:44,245 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-05 18:14:44,245 DEBUG   SenderThread:4006540 [sender.py:send():303] send: summary
+2022-11-05 18:14:44,246 INFO    SenderThread:4006540 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-05 18:14:44,246 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,247 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-05 18:14:44,247 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 5
+2022-11-05 18:14:44,247 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:44,247 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-05 18:14:44,248 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,248 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-05 18:14:44,349 INFO    SenderThread:4006540 [sender.py:transition_state():463] send defer: 6
+2022-11-05 18:14:44,349 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: defer
+2022-11-05 18:14:44,349 INFO    HandlerThread:4006540 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-05 18:14:44,349 DEBUG   SenderThread:4006540 [sender.py:send_request():317] send_request: defer
+2022-11-05 18:14:44,350 INFO    SenderThread:4006540 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-05 18:14:44,665 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/config.yaml
+2022-11-05 18:14:44,665 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/wandb-summary.json
+2022-11-05 18:14:44,666 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/wandb-metadata.json
+2022-11-05 18:14:44,666 INFO    Thread-19 :4006540 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_181441-aht2q9ue/files/output.log
+2022-11-05 18:14:44,828 DEBUG   HandlerThread:4006540 [handler.py:handle_request():139] handle_request: poll_exit

@@ -1,0 +1,35 @@
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_setup.py:_flush():68] Configure stats pid to 2178513
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'sweep_id': '1fgbw7jl', 'run_id': 'znwdzqf5', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-1fgbw7jl/config-znwdzqf5.yaml'}
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src_6/main_wandb.py', 'program': 'src_6/main_wandb.py'}
+2023-03-06 16:45:35,128 INFO    Thread-3  :2178513 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230306_164535-znwdzqf5/logs/debug.log
+2023-03-06 16:45:35,129 INFO    Thread-3  :2178513 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230306_164535-znwdzqf5/logs/debug-internal.log
+2023-03-06 16:45:35,129 INFO    Thread-3  :2178513 [wandb_init.py:init():516] calling init triggers
+2023-03-06 16:45:35,129 INFO    Thread-3  :2178513 [wandb_init.py:init():520] wandb.init called with sweep_config: {'batch_size': 8, 'd_model': 1088, 'learning_rate': 0.7140309289546591, 'num_heads': 8, 'num_layers': 32, 'optimizer': 'adam', 'tag_emb_dropout': 0.4, 'weight_activity': 4.7420648814348585, 'weight_phrase': 3.7253875873265807}
+config: {}
+2023-03-06 16:45:35,129 INFO    Thread-3  :2178513 [wandb_init.py:init():569] starting backend
+2023-03-06 16:45:35,129 INFO    Thread-3  :2178513 [wandb_init.py:init():573] setting up manager
+2023-03-06 16:45:35,133 INFO    Thread-3  :2178513 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-06 16:45:35,137 INFO    Thread-3  :2178513 [wandb_init.py:init():580] backend started and connected
+2023-03-06 16:45:35,140 INFO    Thread-3  :2178513 [wandb_run.py:_config_callback():1160] config_cb None None {'batch_size': 8, 'd_model': 1088, 'learning_rate': 0.7140309289546591, 'num_heads': 8, 'num_layers': 32, 'optimizer': 'adam', 'tag_emb_dropout': 0.4, 'weight_activity': 4.7420648814348585, 'weight_phrase': 3.7253875873265807}
+2023-03-06 16:45:35,141 INFO    Thread-3  :2178513 [wandb_init.py:init():658] updated telemetry
+2023-03-06 16:45:35,349 INFO    Thread-3  :2178513 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2023-03-06 16:45:35,522 INFO    Thread-3  :2178513 [wandb_run.py:_on_init():2000] communicating current version
+2023-03-06 16:45:35,578 INFO    Thread-3  :2178513 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-06 16:45:35,578 INFO    Thread-3  :2178513 [wandb_init.py:init():728] starting run threads in backend
+2023-03-06 16:45:38,386 INFO    Thread-3  :2178513 [wandb_run.py:_console_start():1980] atexit reg
+2023-03-06 16:45:38,386 INFO    Thread-3  :2178513 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-03-06 16:45:38,387 INFO    Thread-3  :2178513 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-03-06 16:45:38,387 INFO    Thread-3  :2178513 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-03-06 16:45:38,387 INFO    Thread-3  :2178513 [wandb_init.py:init():765] run started, returning control to user process
+2023-03-06 16:46:38,821 ERROR   Thread-2  :2178513 [internal_api.py:execute():213] 404 response executing GraphQL.
+2023-03-06 16:46:38,822 ERROR   Thread-2  :2178513 [internal_api.py:execute():214] {"errors":[{"message":"could not find agent ipdxqwje during agentHeartbeat","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
+2023-03-06 16:49:30,702 INFO    Thread-3  :2178513 [wandb_run.py:_finish():1746] finishing run xiaodan8/parsing/znwdzqf5
+2023-03-06 16:49:30,702 INFO    Thread-3  :2178513 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-03-06 16:49:30,702 INFO    Thread-3  :2178513 [wandb_run.py:_restore():1932] restore
+2023-03-06 16:49:30,702 INFO    Thread-3  :2178513 [wandb_run.py:_restore():1938] restore done
+2023-03-06 16:52:00,041 WARNING MsgRouterThr:2178513 [router.py:message_loop():77] message_loop has been closed
+2023-03-06 16:52:06,733 INFO    Thread-3  :2178513 [wandb_run.py:_restore():1932] restore
+2023-03-06 16:52:06,733 INFO    Thread-3  :2178513 [wandb_run.py:_restore():1938] restore done

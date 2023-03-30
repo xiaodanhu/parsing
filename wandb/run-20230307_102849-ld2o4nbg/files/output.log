@@ -1,0 +1,116 @@
+Initializing model...
+Initializing optimizer...
+Training...
+epoch 1 batch 1/1 processed 6 batch-loss 3542.9839 mAP 0.0000 action acc 0.0018 phrase acc 0.0055 activity acc 0.0037 grad-norm 12933.0947 epoch-elapsed 0h00m00s total-elapsed 0h00m00s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m00s
+Saving new best model to models/finegym_transformer_dev=0.00...
+epoch 2 batch 1/1 processed 12 batch-loss 3526.9399 mAP 0.0000 action acc 0.0018 phrase acc 0.0018 activity acc 0.0184 grad-norm 12976.6963 epoch-elapsed 0h00m00s total-elapsed 0h00m00s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m00s
+epoch 3 batch 1/1 processed 18 batch-loss 3565.5444 mAP 0.0000 action acc 0.0018 phrase acc 0.0018 activity acc 0.0239 grad-norm 13069.8564 epoch-elapsed 0h00m00s total-elapsed 0h00m01s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+epoch 4 batch 1/1 processed 24 batch-loss 3421.4695 mAP 0.0000 action acc 0.0018 phrase acc 0.0092 activity acc 0.0239 grad-norm 13258.0078 epoch-elapsed 0h00m00s total-elapsed 0h00m01s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+epoch 5 batch 1/1 processed 30 batch-loss 3133.5854 mAP 0.0000 action acc 0.0000 phrase acc 0.0460 activity acc 0.0956 grad-norm 11815.1484 epoch-elapsed 0h00m00s total-elapsed 0h00m01s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+epoch 6 batch 1/1 processed 36 batch-loss 2972.1365 mAP 0.0000 action acc 0.0018 phrase acc 0.0827 activity acc 0.2500 grad-norm 11453.5244 epoch-elapsed 0h00m00s total-elapsed 0h00m01s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m01s
+epoch 7 batch 1/1 processed 42 batch-loss 2830.6499 mAP 0.0000 action acc 0.0018 phrase acc 0.2629 activity acc 0.2316 grad-norm 10313.8721 epoch-elapsed 0h00m00s total-elapsed 0h00m01s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+epoch 8 batch 1/1 processed 48 batch-loss 2633.1113 mAP 0.0000 action acc 0.0000 phrase acc 0.6507 activity acc 0.3732 grad-norm 9337.3555 epoch-elapsed 0h00m00s total-elapsed 0h00m02s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+epoch 9 batch 1/1 processed 54 batch-loss 2431.9248 mAP 0.0000 action acc 0.0018 phrase acc 0.8015 activity acc 0.4283 grad-norm 8070.1475 epoch-elapsed 0h00m00s total-elapsed 0h00m02s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+epoch 10 batch 1/1 processed 60 batch-loss 2313.9927 mAP 0.0000 action acc 0.0018 phrase acc 0.8051 activity acc 0.4816 grad-norm 7476.4302 epoch-elapsed 0h00m00s total-elapsed 0h00m02s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+epoch 11 batch 1/1 processed 66 batch-loss 2215.2598 mAP 0.0116 action acc 0.0037 phrase acc 0.8088 activity acc 0.5533 grad-norm 7116.8965 epoch-elapsed 0h00m00s total-elapsed 0h00m02s
+dev-fscore 0.011111111111111112 train-fscore 0.005434782608695652 dev-elapsed 0h00m00s total-elapsed 0h00m02s
+Removing previous model file models/finegym_transformer_dev=0.00.pt...
+Saving new best model to models/finegym_transformer_dev=0.01...
+epoch 12 batch 1/1 processed 72 batch-loss 2119.5898 mAP 0.0000 action acc 0.0037 phrase acc 0.8125 activity acc 0.7004 grad-norm 6587.2588 epoch-elapsed 0h00m00s total-elapsed 0h00m03s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m03s
+epoch 13 batch 1/1 processed 78 batch-loss 2014.0879 mAP 0.0000 action acc 0.0018 phrase acc 0.8125 activity acc 0.6949 grad-norm 6225.6406 epoch-elapsed 0h00m00s total-elapsed 0h00m03s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m03s
+epoch 14 batch 1/1 processed 84 batch-loss 1955.9636 mAP 0.0079 action acc 0.0202 phrase acc 0.8125 activity acc 0.7316 grad-norm 6054.7573 epoch-elapsed 0h00m00s total-elapsed 0h00m04s
+dev-fscore 0.007936507936507936 train-fscore 0.002976190476190476 dev-elapsed 0h00m00s total-elapsed 0h00m04s
+epoch 15 batch 1/1 processed 90 batch-loss 1879.6194 mAP 0.0000 action acc 0.0202 phrase acc 0.8125 activity acc 0.6636 grad-norm 5777.7783 epoch-elapsed 0h00m00s total-elapsed 0h00m04s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m04s
+epoch 16 batch 1/1 processed 96 batch-loss 1815.9949 mAP 0.0000 action acc 0.0257 phrase acc 0.8125 activity acc 0.7132 grad-norm 5468.3892 epoch-elapsed 0h00m00s total-elapsed 0h00m04s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m04s
+epoch 17 batch 1/1 processed 102 batch-loss 1747.1399 mAP 0.0000 action acc 0.1048 phrase acc 0.8125 activity acc 0.8364 grad-norm 5227.0801 epoch-elapsed 0h00m00s total-elapsed 0h00m04s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m04s
+epoch 18 batch 1/1 processed 108 batch-loss 1687.3569 mAP 0.0000 action acc 0.2426 phrase acc 0.8125 activity acc 0.8879 grad-norm 5079.2295 epoch-elapsed 0h00m00s total-elapsed 0h00m04s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 19 batch 1/1 processed 114 batch-loss 1645.6987 mAP 0.0000 action acc 0.5386 phrase acc 0.8125 activity acc 0.9062 grad-norm 4958.6392 epoch-elapsed 0h00m00s total-elapsed 0h00m05s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 20 batch 1/1 processed 120 batch-loss 1580.7498 mAP 0.0000 action acc 0.8070 phrase acc 0.8125 activity acc 0.9246 grad-norm 4815.6123 epoch-elapsed 0h00m00s total-elapsed 0h00m05s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 21 batch 1/1 processed 126 batch-loss 1533.8784 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9136 grad-norm 4653.5874 epoch-elapsed 0h00m00s total-elapsed 0h00m05s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 22 batch 1/1 processed 132 batch-loss 1494.3998 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9026 grad-norm 4601.8691 epoch-elapsed 0h00m00s total-elapsed 0h00m05s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m05s
+epoch 23 batch 1/1 processed 138 batch-loss 1446.6758 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9210 grad-norm 4484.5288 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+epoch 24 batch 1/1 processed 144 batch-loss 1427.7894 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9246 grad-norm 4538.2227 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+epoch 25 batch 1/1 processed 150 batch-loss 1395.1492 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9430 grad-norm 4306.6333 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+epoch 26 batch 1/1 processed 156 batch-loss 1375.9670 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9412 grad-norm 4320.8252 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m06s
+epoch 27 batch 1/1 processed 162 batch-loss 1342.6002 mAP 0.0000 action acc 0.8125 phrase acc 0.8125 activity acc 0.9651 grad-norm 4104.2808 epoch-elapsed 0h00m00s total-elapsed 0h00m06s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 28 batch 1/1 processed 168 batch-loss 1307.4788 mAP 0.0000 action acc 0.8125 phrase acc 0.8162 activity acc 0.9651 grad-norm 3893.5276 epoch-elapsed 0h00m00s total-elapsed 0h00m07s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 29 batch 1/1 processed 174 batch-loss 1274.7830 mAP 0.0000 action acc 0.8125 phrase acc 0.8162 activity acc 0.9614 grad-norm 3704.7500 epoch-elapsed 0h00m00s total-elapsed 0h00m07s
+dev-fscore 0 train-fscore 0 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 30 batch 1/1 processed 180 batch-loss 1245.6952 mAP 0.0000 action acc 0.8125 phrase acc 0.8199 activity acc 0.9688 grad-norm 3459.7310 epoch-elapsed 0h00m00s total-elapsed 0h00m07s
+dev-fscore 0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 31 batch 1/1 processed 186 batch-loss 1216.7565 mAP 0.0000 action acc 0.8125 phrase acc 0.8199 activity acc 0.9614 grad-norm 3277.6350 epoch-elapsed 0h00m00s total-elapsed 0h00m07s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m07s
+epoch 32 batch 1/1 processed 192 batch-loss 1184.3571 mAP 0.0000 action acc 0.8143 phrase acc 0.8327 activity acc 0.9669 grad-norm 3138.3379 epoch-elapsed 0h00m00s total-elapsed 0h00m08s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m08s
+epoch 33 batch 1/1 processed 198 batch-loss 1153.1987 mAP 0.0000 action acc 0.8143 phrase acc 0.8346 activity acc 0.9651 grad-norm 3042.8672 epoch-elapsed 0h00m00s total-elapsed 0h00m08s
+dev-fscore 0.0 train-fscore 0.0 dev-elapsed 0h00m00s total-elapsed 0h00m08s
+epoch 34 batch 1/1 processed 204 batch-loss 1124.6414 mAP 0.1667 action acc 0.8199 phrase acc 0.8401 activity acc 0.9688 grad-norm 2958.2759 epoch-elapsed 0h00m00s total-elapsed 0h00m08s
+dev-fscore 0.1111111111111111 train-fscore 0.06666666666666667 dev-elapsed 0h00m00s total-elapsed 0h00m08s
+Removing previous model file models/finegym_transformer_dev=0.01.pt...
+Saving new best model to models/finegym_transformer_dev=0.11...
+epoch 35 batch 1/1 processed 210 batch-loss 1086.5017 mAP 0.0000 action acc 0.8217 phrase acc 0.8401 activity acc 0.9669 grad-norm 2878.1895 epoch-elapsed 0h00m00s total-elapsed 0h00m09s
+dev-fscore 0.0 train-fscore 0.06666666666666667 dev-elapsed 0h00m00s total-elapsed 0h00m09s
+epoch 36 batch 1/1 processed 216 batch-loss 1057.3804 mAP 0.0833 action acc 0.8217 phrase acc 0.8401 activity acc 0.9669 grad-norm 2842.4265 epoch-elapsed 0h00m00s total-elapsed 0h00m09s
+dev-fscore 0.05555555555555555 train-fscore 0.060000000000000005 dev-elapsed 0h00m00s total-elapsed 0h00m09s
+epoch 37 batch 1/1 processed 222 batch-loss 1028.9868 mAP 0.2500 action acc 0.8254 phrase acc 0.8401 activity acc 0.9669 grad-norm 2867.2517 epoch-elapsed 0h00m00s total-elapsed 0h00m09s
+dev-fscore 0.16666666666666666 train-fscore 0.09999999999999999 dev-elapsed 0h00m00s total-elapsed 0h00m09s
+Removing previous model file models/finegym_transformer_dev=0.11.pt...
+Saving new best model to models/finegym_transformer_dev=0.17...
+epoch 38 batch 1/1 processed 228 batch-loss 993.7057 mAP 0.0556 action acc 0.8309 phrase acc 0.8401 activity acc 0.9669 grad-norm 2882.6960 epoch-elapsed 0h00m00s total-elapsed 0h00m10s
+dev-fscore 0.037037037037037035 train-fscore 0.058333333333333334 dev-elapsed 0h00m00s total-elapsed 0h00m10s
+epoch 39 batch 1/1 processed 234 batch-loss 968.4274 mAP 0.1250 action acc 0.8327 phrase acc 0.8456 activity acc 0.9669 grad-norm 2940.4858 epoch-elapsed 0h00m00s total-elapsed 0h00m10s
+dev-fscore 0.08333333333333333 train-fscore 0.15416666666666667 dev-elapsed 0h00m00s total-elapsed 0h00m10s
+epoch 40 batch 1/1 processed 240 batch-loss 935.2349 mAP 0.3333 action acc 0.8364 phrase acc 0.8529 activity acc 0.9669 grad-norm 2741.1704 epoch-elapsed 0h00m00s total-elapsed 0h00m10s
+dev-fscore 0.2222222222222222 train-fscore 0.22777777777777777 dev-elapsed 0h00m00s total-elapsed 0h00m10s
+Removing previous model file models/finegym_transformer_dev=0.17.pt...
+Saving new best model to models/finegym_transformer_dev=0.22...
+epoch 41 batch 1/1 processed 246 batch-loss 899.6894 mAP 0.7500 action acc 0.8364 phrase acc 0.8676 activity acc 0.9559 grad-norm 2603.1072 epoch-elapsed 0h00m00s total-elapsed 0h00m13s
+dev-fscore 0.6666666666666666 train-fscore 0.575 dev-elapsed 0h00m00s total-elapsed 0h00m13s
+Removing previous model file models/finegym_transformer_dev=0.22.pt...
+Saving new best model to models/finegym_transformer_dev=0.67...
+epoch 42 batch 1/1 processed 252 batch-loss 872.4042 mAP 0.5000 action acc 0.8382 phrase acc 0.8952 activity acc 0.9522 grad-norm 2456.7341 epoch-elapsed 0h00m00s total-elapsed 0h00m14s
+dev-fscore 0.4444444444444444 train-fscore 0.45555555555555555 dev-elapsed 0h00m00s total-elapsed 0h00m14s
+epoch 43 batch 1/1 processed 258 batch-loss 846.4411 mAP 0.7500 action acc 0.8401 phrase acc 0.9062 activity acc 0.9467 grad-norm 2389.8167 epoch-elapsed 0h00m00s total-elapsed 0h00m14s
+dev-fscore 0.6666666666666666 train-fscore 0.5583333333333333 dev-elapsed 0h00m00s total-elapsed 0h00m14s
+epoch 44 batch 1/1 processed 264 batch-loss 824.1118 mAP 0.5000 action acc 0.8364 phrase acc 0.9026 activity acc 0.9393 grad-norm 2308.8267 epoch-elapsed 0h00m00s total-elapsed 0h00m14s
+dev-fscore 0.4444444444444444 train-fscore 0.3833333333333333 dev-elapsed 0h00m00s total-elapsed 0h00m14s
+epoch 45 batch 1/1 processed 270 batch-loss 804.3080 mAP 0.8750 action acc 0.8346 phrase acc 0.9044 activity acc 0.9412 grad-norm 2262.4299 epoch-elapsed 0h00m00s total-elapsed 0h00m14s
+dev-fscore 0.75 train-fscore 0.48000000000000004 dev-elapsed 0h00m00s total-elapsed 0h00m15s
+Removing previous model file models/finegym_transformer_dev=0.67.pt...
+Saving new best model to models/finegym_transformer_dev=0.75...
+epoch 46 batch 1/1 processed 276 batch-loss 777.4630 mAP 0.7500 action acc 0.8401 phrase acc 0.9099 activity acc 0.9522 grad-norm 2150.1963 epoch-elapsed 0h00m00s total-elapsed 0h00m17s
+dev-fscore 0.6666666666666666 train-fscore 0.37222222222222223 dev-elapsed 0h00m00s total-elapsed 0h00m17s
+epoch 47 batch 1/1 processed 282 batch-loss 752.7336 mAP 0.3750 action acc 0.8382 phrase acc 0.9044 activity acc 0.9651 grad-norm 2048.8989 epoch-elapsed 0h00m00s total-elapsed 0h00m17s
+dev-fscore 0.3333333333333333 train-fscore 0.2769047619047619 dev-elapsed 0h00m00s total-elapsed 0h00m17s
+epoch 48 batch 1/1 processed 288 batch-loss 730.5292 mAP 0.5000 action acc 0.8419 phrase acc 0.9136 activity acc 0.9596 grad-norm 1991.1174 epoch-elapsed 0h00m00s total-elapsed 0h00m17s
+dev-fscore 0.4444444444444444 train-fscore 0.36357142857142855 dev-elapsed 0h00m00s total-elapsed 0h00m18s
+epoch 49 batch 1/1 processed 294 batch-loss 705.2268 mAP 0.3715 action acc 0.8456 phrase acc 0.9136 activity acc 0.9669 grad-norm 1893.4009 epoch-elapsed 0h00m00s total-elapsed 0h00m18s
+dev-fscore 0.3402777777777778 train-fscore 0.2571428571428572 dev-elapsed 0h00m00s total-elapsed 0h00m18s
+epoch 50 batch 1/1 processed 300 batch-loss 680.9067 mAP 0.4325 action acc 0.8566 phrase acc 0.9228 activity acc 0.9743 grad-norm 1838.4307 epoch-elapsed 0h00m00s total-elapsed 0h00m18s
+dev-fscore 0.3968253968253968 train-fscore 0.31180555555555556 dev-elapsed 0h00m00s total-elapsed 0h00m18s

@@ -1,6 +1,24 @@
 # Berkeley Neural Parser
 
-A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention and Pre-Training](https://arxiv.org/abs/1812.11760).
+conda activate parsing
+python src/main.py --exp-name Oct31_Lr0008 --num-layers 1 --learning-rate 0.0008
+python src/main.py --exp-name Oct31_Lr0008 --num-layers 8 --learning-rate 0.01
+
+evalb -p evalb/nk.prm tmp/Oct31/gold.txt tmp/Oct31/predicted.txt > tmp/Oct31/output.txt
+evalb -p new.prm tmp/Oct31/gold.txt ../tmp/Oct31/predicted.txt > ../tmp/Oct31/output.txt
+
+
+from PYEVALB import scorer
+
+s = scorer.Scorer()
+gold_path = '/data/xiaodan8/research/self-attentive-parser-v2/tmp/Oct31/gold.txt'
+test_path = '/data/xiaodan8/research/self-attentive-parser-v2/tmp/Oct31/predicted.txt'
+result_path = '/data/xiaodan8/research/self-attentive-parser-v2/tmp/Oct31/output.txt'
+
+s.evalb(gold_path, test_path, result_path)
+
+
+
 
 ## Contents
 1. [Installation](#installation)

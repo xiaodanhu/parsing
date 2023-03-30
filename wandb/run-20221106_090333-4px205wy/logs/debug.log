@@ -1,0 +1,32 @@
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_setup.py:_flush():68] Configure stats pid to 3323540
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'run_id': '4px205wy', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-jwq6dy7l/config-4px205wy.yaml', 'sweep_id': 'jwq6dy7l'}
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': 'src/main.py'}
+2022-11-06 09:03:33,423 INFO    Thread-44 :3323540 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221106_090333-4px205wy/logs/debug.log
+2022-11-06 09:03:33,424 INFO    Thread-44 :3323540 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221106_090333-4px205wy/logs/debug-internal.log
+2022-11-06 09:03:33,424 INFO    Thread-44 :3323540 [wandb_init.py:init():516] calling init triggers
+2022-11-06 09:03:33,424 INFO    Thread-44 :3323540 [wandb_init.py:init():520] wandb.init called with sweep_config: {'batch_size': 8, 'd_model': 784, 'learning_rate': 0.09524992303350864, 'num_heads': 8, 'num_layers': 2, 'optimizer': 'adam', 'tag_emb_dropout': 0.2}
+config: {}
+2022-11-06 09:03:33,424 INFO    Thread-44 :3323540 [wandb_init.py:init():569] starting backend
+2022-11-06 09:03:33,424 INFO    Thread-44 :3323540 [wandb_init.py:init():573] setting up manager
+2022-11-06 09:03:33,431 INFO    Thread-44 :3323540 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-06 09:03:33,433 INFO    Thread-44 :3323540 [wandb_init.py:init():580] backend started and connected
+2022-11-06 09:03:33,435 INFO    Thread-44 :3323540 [wandb_run.py:_config_callback():1160] config_cb None None {'batch_size': 8, 'd_model': 784, 'learning_rate': 0.09524992303350864, 'num_heads': 8, 'num_layers': 2, 'optimizer': 'adam', 'tag_emb_dropout': 0.2}
+2022-11-06 09:03:33,436 INFO    Thread-44 :3323540 [wandb_init.py:init():658] updated telemetry
+2022-11-06 09:03:34,728 INFO    Thread-44 :3323540 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2022-11-06 09:03:34,900 INFO    Thread-44 :3323540 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-06 09:03:34,941 INFO    Thread-44 :3323540 [wandb_run.py:_on_init():2004] got version response 
+2022-11-06 09:03:34,941 INFO    Thread-44 :3323540 [wandb_init.py:init():728] starting run threads in backend
+2022-11-06 09:03:36,896 INFO    Thread-44 :3323540 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-06 09:03:36,897 INFO    Thread-44 :3323540 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-06 09:03:36,897 INFO    Thread-44 :3323540 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-06 09:03:36,897 INFO    Thread-44 :3323540 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-06 09:03:36,897 INFO    Thread-44 :3323540 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-06 09:48:27,182 INFO    Thread-44 :3323540 [wandb_run.py:_finish():1746] finishing run xiaodan8/parsing/4px205wy
+2022-11-06 09:48:27,182 INFO    Thread-44 :3323540 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-06 09:48:27,182 INFO    Thread-44 :3323540 [wandb_run.py:_restore():1932] restore
+2022-11-06 09:48:27,182 INFO    Thread-44 :3323540 [wandb_run.py:_restore():1938] restore done
+2022-11-06 09:48:30,698 INFO    Thread-44 :3323540 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-06 09:48:30,698 INFO    Thread-44 :3323540 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-06 09:48:30,701 INFO    Thread-44 :3323540 [wandb_run.py:_footer_sync_info():3333] logging synced files

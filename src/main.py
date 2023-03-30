@@ -1,3 +1,6 @@
+import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = '2'
+
 import argparse
 import itertools
 import json
@@ -11,10 +14,15 @@ import numpy as np
 
 import evaluate
 import trees
+import treesvideo2 as treesvideo
+# import treesvideo_cachev2
+# import treesvideo_cachev1 as treesvideo
 import vocabulary
 import nkutil
 import parse_nk
+
 tokens = parse_nk
+
 
 def torch_load(load_path):
     if parse_nk.use_cuda:
@@ -39,7 +47,6 @@ def make_hparams():
 
         sentence_max_len=300,
 
-        learning_rate=0.0008,
         learning_rate_warmup_steps=160,
         clip_grad_norm=0., #no clipping
         step_decay=True, # note that disabling step decay is not implemented
@@ -50,9 +57,8 @@ def make_hparams():
         partitioned=True,
         num_layers_position_only=0,
 
-        num_layers=8,
-        d_model=1024,
-        num_heads=8,
+        d_model= 1024,
+        num_heads= 8,
         d_kv=64,
         d_ff=2048,
         d_label_hidden=250,
@@ -74,7 +80,7 @@ def make_hparams():
 
         d_char_emb=32, # A larger value may be better for use_chars_lstm
 
-        tag_emb_dropout=0.2,
+        tag_emb_dropout= 0.2,
         word_emb_dropout=0.4,
         morpho_emb_dropout=0.2,
         timing_dropout=0.0,
@@ -87,6 +93,8 @@ def make_hparams():
         )
 
 def run_train(args, hparams):
+
+
     if args.numpy_seed is not None:
         print("Setting numpy random seed to {}...".format(args.numpy_seed))
         np.random.seed(args.numpy_seed)
@@ -102,97 +110,195 @@ def run_train(args, hparams):
     torch.manual_seed(seed_from_numpy)
 
     hparams.set_from_args(args)
-    print("Hyperparameters:")
-    hparams.print()
+    hparams.learning_rate = args.learning_rate
+    hparams.num_layers = args.num_layers
+    args.output_dir = os.path.join(args.output_dir, args.exp_name)
+    # print("Hyperparameters:")
+    # hparams.print()
 
     print("Loading training trees from {}...".format(args.train_path))
     if hparams.predict_tags and args.train_path.endswith('10way.clean'):
         print("WARNING: The data distributed with this repository contains "
-              "predicted part-of-speech tags only (not gold tags!) We do not "
-              "recommend enabling predict_tags in this configuration.")
-    train_treebank = trees.load_trees(args.train_path)
+            "predicted part-of-speech tags only (not gold tags!) We do not "
+            "recommend enabling predict_tags in this configuration.")
+    if args.task == 'video':
+        train_treebank = treesvideo.load_trees_alt(mode='train',path='/data/xiaodan8/research/dataset/FineGym')
+    elif args.task == 'text':
+        train_treebank = trees.load_trees(args.train_path)
+    
+    # trainptree=[]
+    # for tree in train_treebank:
+    #     trainptree.append(tree.convert())
+
     if hparams.max_len_train > 0:
         train_treebank = [tree for tree in train_treebank if len(list(tree.leaves())) <= hparams.max_len_train]
     print("Loaded {:,} training examples.".format(len(train_treebank)))
 
     print("Loading development trees from {}...".format(args.dev_path))
-    dev_treebank = trees.load_trees(args.dev_path)
+    if args.task == 'video':
+        dev_treebank = treesvideo.load_trees_alt(mode='test',path='/data/xiaodan8/research/dataset/FineGym')
+    elif args.task == 'text':
+        dev_treebank = trees.load_trees(args.dev_path)
+    
+    # testptree=[]
+    # for tree in dev_treebank:
+    #     testptree.append(tree.convert())
+
     if hparams.max_len_dev > 0:
         dev_treebank = [tree for tree in dev_treebank if len(list(tree.leaves())) <= hparams.max_len_dev]
     print("Loaded {:,} development examples.".format(len(dev_treebank)))
 
     print("Processing trees for training...")
     train_parse = [tree.convert() for tree in train_treebank]
+    dev_parse = [tree.convert() for tree in dev_treebank]
 
     print("Constructing vocabularies...")
 
-    tag_vocab = vocabulary.Vocabulary()
-    tag_vocab.index(tokens.START)
-    tag_vocab.index(tokens.STOP)
-    tag_vocab.index(tokens.TAG_UNK)
+    if args.task == 'video':
+        def vocab_helper(tree):
+            labels=[]
+            if type(tree)==treesvideo.InternalParseNode: # and not tree.label[0].strip().isdigit():
+                labels.append(tree.label)
+                if len(tree.children)>0:
+                    for child in tree.children:
+                        labels=labels+vocab_helper(child)
+            return labels
 
-    word_vocab = vocabulary.Vocabulary()
-    word_vocab.index(tokens.START)
-    word_vocab.index(tokens.STOP)
-    word_vocab.index(tokens.UNK)
+        labels=[]
+        for tree in train_parse:
+            labels=labels+vocab_helper(tree)
+        for tree in dev_parse:
+            labels=labels+vocab_helper(tree)
 
-    label_vocab = vocabulary.Vocabulary()
-    label_vocab.index(())
-
-    char_set = set()
-
-    for tree in train_parse:
-        nodes = [tree]
-        while nodes:
-            node = nodes.pop()
-            if isinstance(node, trees.InternalParseNode):
-                label_vocab.index(node.label)
-                nodes.extend(reversed(node.children))
+        activity_set=[]
+        phrase_set=[]
+        pa_set=[]
+        action_set=[]
+        ap_set=[]
+        apa_set=[]
+        for label in labels:
+            if label[-1] in ['UB','BB','FX','VT']:
+                activity_set.append(label)
             else:
-                tag_vocab.index(node.tag)
-                word_vocab.index(node.word)
-                char_set |= set(node.word)
+                try:
+                    int(label[-1])
+                except ValueError:
+                    if len(label)==1:
+                        phrase_set.append(label)
+                    else:
+                        pa_set.append(label)
+                else:
+                    if len(label)==1:
+                        action_set.append(label)
+                    elif len(label)==2:
+                        ap_set.append(label)
+                    else:
+                        apa_set.append(label)
 
-    char_vocab = vocabulary.Vocabulary()
+        node_vocab=vocabulary.Vocabulary()
+        node_vocab.index('BR_ACTIVITY_LEVEL')
+        for i in activity_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
 
-    # If codepoints are small (e.g. Latin alphabet), index by codepoint directly
-    highest_codepoint = max(ord(char) for char in char_set)
-    if highest_codepoint < 512:
-        if highest_codepoint < 256:
-            highest_codepoint = 256
+        node_vocab.index('BR_PHARASE_LEVEL')
+        for i in phrase_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
+        for i in pa_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
+
+        node_vocab.index('BR_ACTION_LEVEL')
+        for i in action_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
+        for i in ap_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
+        for i in apa_set:
+            node_vocab.index(i)
+        node_vocab.rec_imp
+
+        node_vocab.index('BR_FRAME_LEVEL')
+        node_vocab.index(())
+
+        node_vocab.freeze()
+        '''
+        node_vocab=vocabulary.Vocabulary()
+        node_vocab.index(())
+        for label in labels:
+            node_vocab.index(label)
+        node_vocab.freeze()
+        '''
+    elif args.task == 'text':
+        tag_vocab = vocabulary.Vocabulary()
+        tag_vocab.index(tokens.START)
+        tag_vocab.index(tokens.STOP)
+        tag_vocab.index(tokens.TAG_UNK)
+
+        word_vocab = vocabulary.Vocabulary()
+        word_vocab.index(tokens.START)
+        word_vocab.index(tokens.STOP)
+        word_vocab.index(tokens.UNK)
+
+        label_vocab = vocabulary.Vocabulary()
+        label_vocab.index(())
+
+        char_set = set()
+
+        for tree in train_parse:
+            nodes = [tree]
+            while nodes:
+                node = nodes.pop()
+                if isinstance(node, trees.InternalParseNode):
+                    label_vocab.index(node.label)
+                    nodes.extend(reversed(node.children))
+                else:
+                    tag_vocab.index(node.tag)
+                    word_vocab.index(node.word)
+                    char_set |= set(node.word)
+
+        char_vocab = vocabulary.Vocabulary()
+
+        # If codepoints are small (e.g. Latin alphabet), index by codepoint directly
+        highest_codepoint = max(ord(char) for char in char_set)
+        if highest_codepoint < 512:
+            if highest_codepoint < 256:
+                highest_codepoint = 256
+            else:
+                highest_codepoint = 512
+
+            # This also takes care of constants like tokens.CHAR_PAD
+            for codepoint in range(highest_codepoint):
+                char_index = char_vocab.index(chr(codepoint))
+                assert char_index == codepoint
         else:
-            highest_codepoint = 512
+            char_vocab.index(tokens.CHAR_UNK)
+            char_vocab.index(tokens.CHAR_START_SENTENCE)
+            char_vocab.index(tokens.CHAR_START_WORD)
+            char_vocab.index(tokens.CHAR_STOP_WORD)
+            char_vocab.index(tokens.CHAR_STOP_SENTENCE)
+            for char in sorted(char_set):
+                char_vocab.index(char)
 
-        # This also takes care of constants like tokens.CHAR_PAD
-        for codepoint in range(highest_codepoint):
-            char_index = char_vocab.index(chr(codepoint))
-            assert char_index == codepoint
-    else:
-        char_vocab.index(tokens.CHAR_UNK)
-        char_vocab.index(tokens.CHAR_START_SENTENCE)
-        char_vocab.index(tokens.CHAR_START_WORD)
-        char_vocab.index(tokens.CHAR_STOP_WORD)
-        char_vocab.index(tokens.CHAR_STOP_SENTENCE)
-        for char in sorted(char_set):
-            char_vocab.index(char)
+        tag_vocab.freeze()
+        word_vocab.freeze()
+        label_vocab.freeze()
+        char_vocab.freeze()
 
-    tag_vocab.freeze()
-    word_vocab.freeze()
-    label_vocab.freeze()
-    char_vocab.freeze()
+        def print_vocabulary(name, vocab):
+            special = {tokens.START, tokens.STOP, tokens.UNK}
+            print("{} ({:,}): {}".format(
+                name, vocab.size,
+                sorted(value for value in vocab.values if value in special) +
+                sorted(value for value in vocab.values if value not in special)))
 
-    def print_vocabulary(name, vocab):
-        special = {tokens.START, tokens.STOP, tokens.UNK}
-        print("{} ({:,}): {}".format(
-            name, vocab.size,
-            sorted(value for value in vocab.values if value in special) +
-            sorted(value for value in vocab.values if value not in special)))
-
-    if args.print_vocabs:
-        print_vocabulary("Tag", tag_vocab)
-        print_vocabulary("Word", word_vocab)
-        print_vocabulary("Label", label_vocab)
-
+        if args.print_vocabs:
+            print_vocabulary("Tag", tag_vocab)
+            print_vocabulary("Word", word_vocab)
+            print_vocabulary("Label", label_vocab)
+            
     print("Initializing model...")
 
     load_path = None
@@ -202,10 +308,7 @@ def run_train(args, hparams):
         parser = parse_nk.NKChartParser.from_spec(info['spec'], info['state_dict'])
     else:
         parser = parse_nk.NKChartParser(
-            tag_vocab,
-            word_vocab,
-            label_vocab,
-            char_vocab,
+            node_vocab,
             hparams,
         )
 
@@ -256,12 +359,14 @@ def run_train(args, hparams):
         dev_predicted = []
         for dev_start_index in range(0, len(dev_treebank), args.eval_batch_size):
             subbatch_trees = dev_treebank[dev_start_index:dev_start_index+args.eval_batch_size]
-            subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in tree.leaves()] for tree in subbatch_trees]
+            subbatch_sentences = [[(leaf.tag, leaf.I3D) for leaf in tree.leaves()] for tree in subbatch_trees]
             predicted, _ = parser.parse_batch(subbatch_sentences)
             del _
+            #print(predicted)
             dev_predicted.extend([p.convert() for p in predicted])
 
-        dev_fscore = evaluate.evalb(args.evalb_dir, dev_treebank, dev_predicted)
+        
+        dev_fscore = evaluate.evalb(args.evalb_dir, args.output_dir, dev_treebank, dev_predicted)
 
         print(
             "dev-fscore {} "
@@ -306,7 +411,7 @@ def run_train(args, hparams):
 
             batch_loss_value = 0.0
             batch_trees = train_parse[start_index:start_index + args.batch_size]
-            batch_sentences = [[(leaf.tag, leaf.word) for leaf in tree.leaves()] for tree in batch_trees]
+            batch_sentences = [[(leaf.tag, leaf.I3D) for leaf in tree.leaves()] for tree in batch_trees]
             batch_num_tokens = sum(len(sentence) for sentence in batch_sentences)
 
             for subbatch_sentences, subbatch_trees in parser.split_batch(batch_sentences, batch_trees, args.subbatch_max_tokens):
@@ -357,6 +462,8 @@ def run_train(args, hparams):
             if (total_processed - best_dev_processed) > ((hparams.step_decay_patience + 1) * hparams.max_consecutive_decays * len(train_parse)):
                 print("Terminating due to lack of improvement in dev fscore.")
                 break
+
+            
 
 def run_test(args):
     print("Loading test trees from {}...".format(args.test_path))
@@ -610,6 +717,7 @@ def run_viz(args):
 
 
 def main():
+    
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
 
@@ -618,20 +726,34 @@ def main():
     subparser.set_defaults(callback=lambda args: run_train(args, hparams))
     hparams.populate_arguments(subparser)
     subparser.add_argument("--numpy-seed", type=int)
-    subparser.add_argument("--model-path-base", required=True)
-    subparser.add_argument("--evalb-dir", default="EVALB/")
+    subparser.add_argument("--model-path-base", default=" ")
+    subparser.add_argument("--evalb-dir", default="evalb/")
     subparser.add_argument("--train-path", default="data/02-21.10way.clean")
     subparser.add_argument("--dev-path", default="data/22.auto.clean")
-    subparser.add_argument("--batch-size", type=int, default=250)
+    subparser.add_argument("--batch-size", type=int, default=8, help='250 by default')
     subparser.add_argument("--subbatch-max-tokens", type=int, default=2000)
     subparser.add_argument("--eval-batch-size", type=int, default=100)
-    subparser.add_argument("--epochs", type=int)
+    subparser.add_argument("--epochs", type=int, default=10)
     subparser.add_argument("--checks-per-epoch", type=int, default=4)
     subparser.add_argument("--print-vocabs", action="store_true")
+    subparser.add_argument("--task", type=str, default="video")
+    subparser.add_argument("--exp-name", type=str, default="Nov09")
+    subparser.add_argument("--learning-rate", default=0.0008, type=float)
+    subparser.add_argument("--num-layers", default=16, type=int, help='8 by default')
+    subparser.add_argument("--output-dir", default="tmp/")
+
+
+
+    subparser.set_defaults(use_words=True)
+    subparser.set_defaults(use_chars_lstm=True)
+    subparser.set_defaults(model_path_base="models/en_charlstm")
+    subparser.set_defaults(d_char_emb=64)
+
+
 
     subparser = subparsers.add_parser("test")
     subparser.set_defaults(callback=run_test)
-    subparser.add_argument("--model-path-base", required=True)
+    subparser.add_argument("--model-path-base", default=" ")
     subparser.add_argument("--evalb-dir", default="EVALB/")
     subparser.add_argument("--test-path", default="data/23.auto.clean")
     subparser.add_argument("--test-path-raw", type=str)
@@ -639,21 +761,21 @@ def main():
 
     subparser = subparsers.add_parser("ensemble")
     subparser.set_defaults(callback=run_ensemble)
-    subparser.add_argument("--model-path-base", nargs='+', required=True)
+    subparser.add_argument("--model-path-base", nargs='+', default=" ")
     subparser.add_argument("--evalb-dir", default="EVALB/")
     subparser.add_argument("--test-path", default="data/22.auto.clean")
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
     subparser = subparsers.add_parser("parse")
     subparser.set_defaults(callback=run_parse)
-    subparser.add_argument("--model-path-base", required=True)
+    subparser.add_argument("--model-path-base", default=" ")
     subparser.add_argument("--input-path", type=str, required=True)
     subparser.add_argument("--output-path", type=str, default="-")
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
     subparser = subparsers.add_parser("parse-extra")
     subparser.set_defaults(callback=lambda args: run_parse_extra(args))
-    subparser.add_argument("--model-path-base", required=True)
+    subparser.add_argument("--model-path-base", default=" ")
     subparser.add_argument("--evalb-dir", default="EVALB/")
     subparser.add_argument("--input-path", type=str, default="data/22.auto.clean")
     subparser.add_argument("--output-path", type=str, default="-")
@@ -663,14 +785,18 @@ def main():
 
     subparser = subparsers.add_parser("viz")
     subparser.set_defaults(callback=run_viz)
-    subparser.add_argument("--model-path-base", required=True)
+    subparser.add_argument("--model-path-base", default=" ")
     subparser.add_argument("--evalb-dir", default="EVALB/")
     subparser.add_argument("--viz-path", default="data/22.auto.clean")
     subparser.add_argument("--eval-batch-size", type=int, default=100)
 
-    args = parser.parse_args()
-    args.callback(args)
+    args = parser.parse_args(['train'])
+    # args.callback(args)
+
+    run_train(args, hparams)
+
 
 # %%
 if __name__ == "__main__":
     main()
+

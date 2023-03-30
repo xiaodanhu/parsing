@@ -1,0 +1,33 @@
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_setup.py:_flush():68] Configure stats pid to 3048713
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'run_id': '8nfld7ld', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-ipzxvip1/config-8nfld7ld.yaml', 'sweep_id': 'ipzxvip1'}
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src_6/main_wandb.py', 'program': 'src_6/main_wandb.py'}
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230306_204126-8nfld7ld/logs/debug.log
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230306_204126-8nfld7ld/logs/debug-internal.log
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:init():516] calling init triggers
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:init():520] wandb.init called with sweep_config: {'d_model': 1328, 'learning_rate': 0.5750283808340864, 'num_heads': 8, 'num_layers': 8, 'optimizer': 'adam', 'tag_emb_dropout': 0.3, 'weight_activity': 5.044208327782385, 'weight_phrase': 7.687482934048181}
+config: {}
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:init():569] starting backend
+2023-03-06 20:41:26,194 INFO    Thread-19 :3048713 [wandb_init.py:init():573] setting up manager
+2023-03-06 20:41:26,199 INFO    Thread-19 :3048713 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-06 20:41:26,203 INFO    Thread-19 :3048713 [wandb_init.py:init():580] backend started and connected
+2023-03-06 20:41:26,206 INFO    Thread-19 :3048713 [wandb_run.py:_config_callback():1160] config_cb None None {'d_model': 1328, 'learning_rate': 0.5750283808340864, 'num_heads': 8, 'num_layers': 8, 'optimizer': 'adam', 'tag_emb_dropout': 0.3, 'weight_activity': 5.044208327782385, 'weight_phrase': 7.687482934048181}
+2023-03-06 20:41:26,207 INFO    Thread-19 :3048713 [wandb_init.py:init():658] updated telemetry
+2023-03-06 20:41:26,514 INFO    Thread-19 :3048713 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2023-03-06 20:41:26,674 INFO    Thread-19 :3048713 [wandb_run.py:_on_init():2000] communicating current version
+2023-03-06 20:41:26,724 INFO    Thread-19 :3048713 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-06 20:41:26,724 INFO    Thread-19 :3048713 [wandb_init.py:init():728] starting run threads in backend
+2023-03-06 20:41:28,779 INFO    Thread-19 :3048713 [wandb_run.py:_console_start():1980] atexit reg
+2023-03-06 20:41:28,780 INFO    Thread-19 :3048713 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-03-06 20:41:28,780 INFO    Thread-19 :3048713 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-03-06 20:41:28,780 INFO    Thread-19 :3048713 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-03-06 20:41:28,780 INFO    Thread-19 :3048713 [wandb_init.py:init():765] run started, returning control to user process
+2023-03-06 20:43:21,586 INFO    Thread-19 :3048713 [wandb_run.py:_finish():1746] finishing run xiaodan8/parsing/8nfld7ld
+2023-03-06 20:43:21,586 INFO    Thread-19 :3048713 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-03-06 20:43:21,586 INFO    Thread-19 :3048713 [wandb_run.py:_restore():1932] restore
+2023-03-06 20:43:21,586 INFO    Thread-19 :3048713 [wandb_run.py:_restore():1938] restore done
+2023-03-06 20:43:26,454 INFO    Thread-19 :3048713 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-03-06 20:43:26,454 INFO    Thread-19 :3048713 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-03-06 20:43:26,456 INFO    Thread-19 :3048713 [wandb_run.py:_footer_sync_info():3333] logging synced files

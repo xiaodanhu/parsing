@@ -1,0 +1,26 @@
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_setup.py:_flush():68] Configure stats pid to 811418
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'sweep_id': '83ka77b8', 'run_id': 'y2v53duq', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-83ka77b8/config-y2v53duq.yaml'}
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src_6/main_wandb_v1.py', 'program': 'src_6/main_wandb_v1.py'}
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230308_071823-y2v53duq/logs/debug.log
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230308_071823-y2v53duq/logs/debug-internal.log
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:init():516] calling init triggers
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:init():520] wandb.init called with sweep_config: {'optimizer': 'adam', 'weight_action': 7.960794258154575, 'weight_activity': 5.671937261697602, 'weight_phrase': 9.596600130582374}
+config: {}
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:init():569] starting backend
+2023-03-08 07:18:23,287 INFO    Thread-3  :811418 [wandb_init.py:init():573] setting up manager
+2023-03-08 07:18:23,293 INFO    Thread-3  :811418 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-08 07:18:23,297 INFO    Thread-3  :811418 [wandb_init.py:init():580] backend started and connected
+2023-03-08 07:18:23,300 INFO    Thread-3  :811418 [wandb_run.py:_config_callback():1160] config_cb None None {'optimizer': 'adam', 'weight_action': 7.960794258154575, 'weight_activity': 5.671937261697602, 'weight_phrase': 9.596600130582374}
+2023-03-08 07:18:23,301 INFO    Thread-3  :811418 [wandb_init.py:init():658] updated telemetry
+2023-03-08 07:18:23,350 INFO    Thread-3  :811418 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2023-03-08 07:18:23,489 INFO    Thread-3  :811418 [wandb_run.py:_on_init():2000] communicating current version
+2023-03-08 07:18:23,542 INFO    Thread-3  :811418 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-08 07:18:23,542 INFO    Thread-3  :811418 [wandb_init.py:init():728] starting run threads in backend
+2023-03-08 07:18:26,962 INFO    Thread-3  :811418 [wandb_run.py:_console_start():1980] atexit reg
+2023-03-08 07:18:26,962 INFO    Thread-3  :811418 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-03-08 07:18:26,962 INFO    Thread-3  :811418 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-03-08 07:18:26,962 INFO    Thread-3  :811418 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-03-08 07:18:26,963 INFO    Thread-3  :811418 [wandb_init.py:init():765] run started, returning control to user process

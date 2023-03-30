@@ -1,0 +1,393 @@
+2023-03-07 10:17:54,390 INFO    StreamThr :3543182 [internal.py:wandb_internal():91] W&B internal server running at pid: 3543182, started at: 2023-03-07 10:17:54.389663
+2023-03-07 10:17:54,392 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: status
+2023-03-07 10:17:54,393 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: status
+2023-03-07 10:17:54,395 DEBUG   SenderThread:3543182 [sender.py:send():303] send: header
+2023-03-07 10:17:54,395 INFO    WriterThread:3543182 [datastore.py:open_for_write():75] open: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/run-ir7u2b4j.wandb
+2023-03-07 10:17:54,670 DEBUG   SenderThread:3543182 [sender.py:send():303] send: run
+2023-03-07 10:17:54,812 INFO    SenderThread:3543182 [dir_watcher.py:__init__():216] watching files in: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files
+2023-03-07 10:17:54,812 INFO    SenderThread:3543182 [sender.py:_start_run_threads():931] run started: ir7u2b4j with start time 1678205874.386967
+2023-03-07 10:17:54,812 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:54,813 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:54,814 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: check_version
+2023-03-07 10:17:54,814 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: check_version
+2023-03-07 10:17:55,814 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:17:55,908 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: run_start
+2023-03-07 10:17:55,914 DEBUG   HandlerThread:3543182 [system_info.py:__init__():31] System info init
+2023-03-07 10:17:55,915 DEBUG   HandlerThread:3543182 [system_info.py:__init__():46] System info init done
+2023-03-07 10:17:55,915 INFO    HandlerThread:3543182 [system_monitor.py:start():150] Starting system monitor
+2023-03-07 10:17:55,915 INFO    SystemMonitor:3543182 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-07 10:17:55,915 INFO    HandlerThread:3543182 [system_monitor.py:probe():168] Collecting system info
+2023-03-07 10:17:55,916 INFO    SystemMonitor:3543182 [interfaces.py:start():168] Started cpu
+2023-03-07 10:17:55,916 INFO    SystemMonitor:3543182 [interfaces.py:start():168] Started disk
+2023-03-07 10:17:55,917 INFO    SystemMonitor:3543182 [interfaces.py:start():168] Started gpu
+2023-03-07 10:17:55,918 INFO    SystemMonitor:3543182 [interfaces.py:start():168] Started memory
+2023-03-07 10:17:55,919 INFO    SystemMonitor:3543182 [interfaces.py:start():168] Started network
+2023-03-07 10:17:55,999 DEBUG   HandlerThread:3543182 [system_info.py:probe():195] Probing system
+2023-03-07 10:17:56,007 DEBUG   HandlerThread:3543182 [system_info.py:_probe_git():180] Probing git
+2023-03-07 10:17:56,023 DEBUG   HandlerThread:3543182 [system_info.py:_probe_git():188] Probing git done
+2023-03-07 10:17:56,023 DEBUG   HandlerThread:3543182 [system_info.py:probe():241] Probing system done
+2023-03-07 10:17:56,023 DEBUG   HandlerThread:3543182 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-58-generic-x86_64-with-debian-bullseye-sid', 'python': '3.7.13', 'heartbeatAt': '2023-03-07T16:17:55.999626', 'startedAt': '2023-03-07T16:17:54.325416', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'src_6/main_wandb.py', 'codePath': 'src_6/main_wandb.py', 'git': {'remote': 'https://github.com/mrdrozdov/self-attentive-parser-with-extra-features.git', 'commit': 'e9a7f4b5450c514ea64203b59d08c3306564ed2c'}, 'email': None, 'root': '/data/xiaodan8/research/self-attentive-parser-v2', 'host': 'lambda-quad', 'username': 'xiaodan8', 'executable': '/data/xiaodan8/anaconda3/envs/parsing/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2228.935625, 'min': 2200.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 3969.94, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2214.428, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3500.0}], 'disk': {'total': 3665.956069946289, 'used': 367.9815673828125}, 'gpu': 'NVIDIA RTX A4000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}, {'name': 'NVIDIA RTX A4000', 'memory_total': 17171480576}], 'memory': {'total': 503.5449562072754}}
+2023-03-07 10:17:56,023 INFO    HandlerThread:3543182 [system_monitor.py:probe():178] Finished collecting system info
+2023-03-07 10:17:56,023 INFO    HandlerThread:3543182 [system_monitor.py:probe():181] Publishing system info
+2023-03-07 10:17:56,023 DEBUG   HandlerThread:3543182 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-03-07 10:17:56,024 DEBUG   HandlerThread:3543182 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-07 10:17:56,024 DEBUG   HandlerThread:3543182 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-03-07 10:17:56,816 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/requirements.txt
+2023-03-07 10:17:56,816 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/conda-environment.yaml
+2023-03-07 10:17:57,816 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/conda-environment.yaml
+2023-03-07 10:17:57,908 DEBUG   HandlerThread:3543182 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-07 10:17:57,909 INFO    HandlerThread:3543182 [system_monitor.py:probe():183] Finished publishing system info
+2023-03-07 10:17:57,933 DEBUG   SenderThread:3543182 [sender.py:send():303] send: files
+2023-03-07 10:17:57,933 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-03-07 10:17:57,939 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-07 10:17:57,939 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: stop_status
+2023-03-07 10:17:58,009 DEBUG   SenderThread:3543182 [sender.py:send():303] send: telemetry
+2023-03-07 10:17:58,251 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:58,251 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:58,252 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:58,252 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:58,291 INFO    Thread-16 :3543182 [upload_job.py:push():143] Uploaded file /tmp/tmpp_otm5l3wandb/p3q7rq31-wandb-metadata.json
+2023-03-07 10:17:58,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:17:58,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-metadata.json
+2023-03-07 10:17:58,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_created():275] file/dir created: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:17:58,957 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:58,958 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:58,958 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:58,959 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:59,175 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:59,176 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:59,176 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:59,176 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:59,396 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:59,396 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:59,396 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:59,397 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:59,618 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:59,618 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:59,618 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:59,619 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:17:59,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:17:59,841 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:17:59,841 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:17:59,841 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:17:59,841 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:00,057 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:00,057 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:00,058 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:00,058 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:00,275 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:00,276 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:00,276 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:00,276 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:00,492 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:00,493 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:00,493 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:00,493 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:00,709 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:00,709 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:00,709 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:00,710 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:00,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:00,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:00,923 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:00,923 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:00,923 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:00,924 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:01,138 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:01,139 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:01,139 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:01,140 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:01,354 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:01,354 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:01,354 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:01,355 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:01,571 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:01,572 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:01,572 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:01,572 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:01,784 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:01,784 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:01,785 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:01,785 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:01,817 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:01,997 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:01,997 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:01,998 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:01,998 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:02,211 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:02,211 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:02,212 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:02,212 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:02,424 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:02,424 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:02,424 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:02,425 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:02,637 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:02,638 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:02,638 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:02,638 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:02,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:02,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:02,853 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:02,853 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:02,853 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:02,853 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:03,110 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:03,111 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:03,111 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:03,111 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:03,282 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:03,283 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:03,283 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:03,284 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:03,496 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:03,496 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:03,496 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:03,496 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:03,712 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:03,712 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:03,713 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:03,713 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:03,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:03,925 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:03,925 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:03,925 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:03,925 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:04,141 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:04,142 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:04,142 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:04,142 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:04,354 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:04,355 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:04,355 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:04,355 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:04,568 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:04,569 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:04,569 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:04,580 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:04,781 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:04,782 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:04,782 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:04,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:04,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:04,821 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:05,001 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:05,001 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:05,001 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:05,026 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:05,214 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:05,215 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:05,215 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:05,223 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:05,428 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:05,428 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:05,428 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:05,454 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:05,643 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:05,644 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:05,644 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:05,671 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:05,818 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:06,424 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:06,424 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:06,424 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:06,425 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:06,638 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:06,639 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:06,639 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:06,639 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:06,819 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:06,819 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:06,853 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:06,853 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:06,853 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:06,853 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:07,819 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:08,819 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:09,318 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:09,319 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:09,319 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:09,319 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:09,490 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:09,490 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:09,491 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:09,491 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:09,704 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:09,705 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:09,705 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:09,705 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:09,819 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:10,474 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:10,474 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:10,474 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:10,475 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:10,820 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:10,820 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:11,243 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:11,243 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:11,244 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:11,244 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:11,820 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:12,821 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:13,011 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-07 10:18:13,011 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: stop_status
+2023-03-07 10:18:13,688 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:13,688 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:13,689 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:13,690 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:13,821 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:14,457 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:14,457 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:14,458 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:14,459 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:14,671 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:14,672 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:14,672 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:14,672 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:14,821 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:14,889 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:14,889 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:14,889 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:14,890 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:15,109 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:15,109 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:15,109 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:15,110 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:15,333 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:15,333 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:15,333 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:15,333 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:15,546 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:15,547 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:15,547 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:15,547 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:15,767 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:15,768 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:15,768 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:15,768 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:15,821 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:16,539 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-07 10:18:16,539 DEBUG   SenderThread:3543182 [sender.py:send():303] send: history
+2023-03-07 10:18:16,539 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:16,541 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:16,821 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:16,822 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:17,177 DEBUG   SenderThread:3543182 [sender.py:send():303] send: telemetry
+2023-03-07 10:18:17,178 DEBUG   SenderThread:3543182 [sender.py:send():303] send: exit
+2023-03-07 10:18:17,178 INFO    SenderThread:3543182 [sender.py:send_exit():442] handling exit code: 0
+2023-03-07 10:18:17,178 INFO    SenderThread:3543182 [sender.py:send_exit():444] handling runtime: 21
+2023-03-07 10:18:17,178 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:17,178 INFO    SenderThread:3543182 [sender.py:send_exit():450] send defer
+2023-03-07 10:18:17,179 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,179 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 0
+2023-03-07 10:18:17,179 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,179 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-03-07 10:18:17,179 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 1
+2023-03-07 10:18:17,179 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,179 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 1
+2023-03-07 10:18:17,179 INFO    HandlerThread:3543182 [system_monitor.py:finish():160] Stopping system monitor
+2023-03-07 10:18:17,180 DEBUG   SystemMonitor:3543182 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-07 10:18:17,180 DEBUG   SystemMonitor:3543182 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-07 10:18:17,181 DEBUG   SystemMonitor:3543182 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-07 10:18:17,181 INFO    HandlerThread:3543182 [interfaces.py:finish():173] Joined cpu
+2023-03-07 10:18:17,182 INFO    HandlerThread:3543182 [interfaces.py:finish():173] Joined disk
+2023-03-07 10:18:17,390 INFO    HandlerThread:3543182 [interfaces.py:finish():173] Joined gpu
+2023-03-07 10:18:17,390 INFO    HandlerThread:3543182 [interfaces.py:finish():173] Joined memory
+2023-03-07 10:18:17,390 INFO    HandlerThread:3543182 [interfaces.py:finish():173] Joined network
+2023-03-07 10:18:17,391 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,391 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-03-07 10:18:17,391 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 2
+2023-03-07 10:18:17,391 DEBUG   SenderThread:3543182 [sender.py:send():303] send: stats
+2023-03-07 10:18:17,392 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,392 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 2
+2023-03-07 10:18:17,392 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,392 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-03-07 10:18:17,392 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 3
+2023-03-07 10:18:17,392 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,392 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 3
+2023-03-07 10:18:17,393 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,393 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-03-07 10:18:17,393 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 4
+2023-03-07 10:18:17,393 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,393 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 4
+2023-03-07 10:18:17,393 DEBUG   SenderThread:3543182 [sender.py:send():303] send: summary
+2023-03-07 10:18:17,394 INFO    SenderThread:3543182 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-07 10:18:17,394 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,394 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-03-07 10:18:17,394 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 5
+2023-03-07 10:18:17,394 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,394 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 5
+2023-03-07 10:18:17,394 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,395 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-03-07 10:18:17,548 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 6
+2023-03-07 10:18:17,548 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:17,548 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 6
+2023-03-07 10:18:17,549 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:17,549 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-03-07 10:18:17,823 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/config.yaml
+2023-03-07 10:18:17,823 INFO    Thread-13 :3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:18,064 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 7
+2023-03-07 10:18:18,065 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:18,065 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 7
+2023-03-07 10:18:18,065 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:18,065 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-03-07 10:18:18,065 INFO    SenderThread:3543182 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-07 10:18:18,179 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-07 10:18:18,824 INFO    SenderThread:3543182 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:18,824 INFO    SenderThread:3543182 [dir_watcher.py:finish():392] scan: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files
+2023-03-07 10:18:18,825 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log output.log
+2023-03-07 10:18:18,825 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json wandb-summary.json
+2023-03-07 10:18:18,825 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-metadata.json wandb-metadata.json
+2023-03-07 10:18:18,825 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/conda-environment.yaml conda-environment.yaml
+2023-03-07 10:18:18,826 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/config.yaml config.yaml
+2023-03-07 10:18:18,829 INFO    SenderThread:3543182 [dir_watcher.py:finish():406] scan save: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/requirements.txt requirements.txt
+2023-03-07 10:18:18,830 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 8
+2023-03-07 10:18:18,830 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: poll_exit
+2023-03-07 10:18:18,834 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:18,835 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 8
+2023-03-07 10:18:18,837 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:18,844 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-03-07 10:18:18,845 INFO    SenderThread:3543182 [file_pusher.py:finish():168] shutting down file pusher
+2023-03-07 10:18:19,180 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-07 10:18:19,180 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: poll_exit
+2023-03-07 10:18:19,183 INFO    Thread-20 :3543182 [upload_job.py:push():143] Uploaded file /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/config.yaml
+2023-03-07 10:18:19,195 INFO    Thread-18 :3543182 [upload_job.py:push():143] Uploaded file /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/wandb-summary.json
+2023-03-07 10:18:19,198 INFO    Thread-19 :3543182 [upload_job.py:push():143] Uploaded file /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/conda-environment.yaml
+2023-03-07 10:18:19,208 INFO    Thread-17 :3543182 [upload_job.py:push():143] Uploaded file /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/output.log
+2023-03-07 10:18:19,341 INFO    Thread-21 :3543182 [upload_job.py:push():143] Uploaded file /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/files/requirements.txt
+2023-03-07 10:18:19,542 INFO    Thread-12 :3543182 [sender.py:transition_state():463] send defer: 9
+2023-03-07 10:18:19,542 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:19,543 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 9
+2023-03-07 10:18:19,543 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:19,543 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-03-07 10:18:19,543 INFO    SenderThread:3543182 [file_pusher.py:join():173] waiting for file pusher
+2023-03-07 10:18:19,543 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 10
+2023-03-07 10:18:19,543 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:19,543 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 10
+2023-03-07 10:18:19,544 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:19,544 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-03-07 10:18:19,612 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 11
+2023-03-07 10:18:19,613 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:19,613 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 11
+2023-03-07 10:18:19,613 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:19,613 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-03-07 10:18:19,613 INFO    SenderThread:3543182 [sender.py:transition_state():463] send defer: 12
+2023-03-07 10:18:19,614 DEBUG   SenderThread:3543182 [sender.py:send():303] send: final
+2023-03-07 10:18:19,614 DEBUG   SenderThread:3543182 [sender.py:send():303] send: footer
+2023-03-07 10:18:19,614 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: defer
+2023-03-07 10:18:19,614 INFO    HandlerThread:3543182 [handler.py:handle_request_defer():162] handle defer: 12
+2023-03-07 10:18:19,614 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: defer
+2023-03-07 10:18:19,614 INFO    SenderThread:3543182 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-03-07 10:18:19,616 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-07 10:18:19,616 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: poll_exit
+2023-03-07 10:18:19,618 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: server_info
+2023-03-07 10:18:19,618 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-07 10:18:19,618 DEBUG   SenderThread:3543182 [sender.py:send_request():317] send_request: server_info
+2023-03-07 10:18:19,618 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: sampled_history
+2023-03-07 10:18:19,725 DEBUG   HandlerThread:3543182 [handler.py:handle_request():139] handle_request: shutdown
+2023-03-07 10:18:19,725 INFO    HandlerThread:3543182 [handler.py:finish():814] shutting down handler
+2023-03-07 10:18:20,614 INFO    WriterThread:3543182 [datastore.py:close():279] close: /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20230307_101754-ir7u2b4j/run-ir7u2b4j.wandb
+2023-03-07 10:18:20,725 INFO    SenderThread:3543182 [sender.py:finish():1331] shutting down sender
+2023-03-07 10:18:20,725 INFO    SenderThread:3543182 [file_pusher.py:finish():168] shutting down file pusher
+2023-03-07 10:18:20,725 INFO    SenderThread:3543182 [file_pusher.py:join():173] waiting for file pusher
+2023-03-07 10:18:25,399 INFO    MainThread:3543182 [internal.py:handle_exit():78] Internal process exited

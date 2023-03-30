@@ -1,0 +1,32 @@
+2022-11-05 17:49:40,295 INFO    Thread-9  :3870075 [wandb_setup.py:_flush():68] Configure stats pid to 3870075
+2022-11-05 17:49:40,295 INFO    Thread-9  :3870075 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'sweep_id': 'twygi3k7', 'run_id': 'dlwfuxpi', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-twygi3k7/config-dlwfuxpi.yaml'}
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/data/xiaodan8/research/self-attentive-parser-v2/src/main.py'}
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_174940-dlwfuxpi/logs/debug.log
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221105_174940-dlwfuxpi/logs/debug-internal.log
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_init.py:init():516] calling init triggers
+2022-11-05 17:49:40,296 INFO    Thread-9  :3870075 [wandb_init.py:init():520] wandb.init called with sweep_config: {'batch_size': 40, 'd_model': 1144, 'learning_rate': 0.09923994405265932, 'num_heads': 8, 'num_layers': 2, 'optimizer': 'adam', 'tag_emb_dropout': 0.3}
+config: {}
+2022-11-05 17:49:40,297 INFO    Thread-9  :3870075 [wandb_init.py:init():569] starting backend
+2022-11-05 17:49:40,297 INFO    Thread-9  :3870075 [wandb_init.py:init():573] setting up manager
+2022-11-05 17:49:40,305 INFO    Thread-9  :3870075 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-05 17:49:40,312 INFO    Thread-9  :3870075 [wandb_init.py:init():580] backend started and connected
+2022-11-05 17:49:40,319 INFO    Thread-9  :3870075 [wandb_run.py:_config_callback():1160] config_cb None None {'batch_size': 40, 'd_model': 1144, 'learning_rate': 0.09923994405265932, 'num_heads': 8, 'num_layers': 2, 'optimizer': 'adam', 'tag_emb_dropout': 0.3}
+2022-11-05 17:49:40,320 INFO    Thread-9  :3870075 [wandb_init.py:init():658] updated telemetry
+2022-11-05 17:49:40,343 INFO    Thread-9  :3870075 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2022-11-05 17:49:40,560 INFO    Thread-9  :3870075 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-05 17:49:40,631 INFO    Thread-9  :3870075 [wandb_run.py:_on_init():2004] got version response 
+2022-11-05 17:49:40,631 INFO    Thread-9  :3870075 [wandb_init.py:init():728] starting run threads in backend
+2022-11-05 17:49:42,829 INFO    Thread-9  :3870075 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-05 17:49:42,829 INFO    Thread-9  :3870075 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-05 17:49:42,829 INFO    Thread-9  :3870075 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-05 17:49:42,829 INFO    Thread-9  :3870075 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-05 17:49:42,830 INFO    Thread-9  :3870075 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-05 17:49:42,844 INFO    Thread-9  :3870075 [wandb_run.py:_finish():1746] finishing run xiaodan8/parsing/dlwfuxpi
+2022-11-05 17:49:42,844 INFO    Thread-9  :3870075 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 1
+2022-11-05 17:49:42,844 INFO    Thread-9  :3870075 [wandb_run.py:_restore():1932] restore
+2022-11-05 17:49:42,844 INFO    Thread-9  :3870075 [wandb_run.py:_restore():1938] restore done
+2022-11-05 17:49:47,421 INFO    Thread-9  :3870075 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-05 17:49:47,421 INFO    Thread-9  :3870075 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-05 17:49:47,427 INFO    Thread-9  :3870075 [wandb_run.py:_footer_sync_info():3333] logging synced files

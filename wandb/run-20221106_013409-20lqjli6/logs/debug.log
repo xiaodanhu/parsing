@@ -1,0 +1,29 @@
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_setup.py:_flush():68] Configure stats pid to 2708708
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_setup.py:_flush():68] Loading settings from /home/xiaodan8/.config/wandb/settings
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_setup.py:_flush():68] Loading settings from /data/xiaodan8/research/self-attentive-parser-v2/wandb/settings
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'parsing', 'entity': 'xiaodan8', 'root_dir': '/data/xiaodan8/research/self-attentive-parser-v2', 'sweep_id': '7c5ntdfr', 'run_id': '20lqjli6', 'sweep_param_path': '/data/xiaodan8/research/self-attentive-parser-v2/wandb/sweep-7c5ntdfr/config-20lqjli6.yaml'}
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': 'src/main.py'}
+2022-11-06 01:34:09,855 INFO    Thread-3  :2708708 [wandb_init.py:_log_setup():476] Logging user logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221106_013409-20lqjli6/logs/debug.log
+2022-11-06 01:34:09,856 INFO    Thread-3  :2708708 [wandb_init.py:_log_setup():477] Logging internal logs to /data/xiaodan8/research/self-attentive-parser-v2/wandb/run-20221106_013409-20lqjli6/logs/debug-internal.log
+2022-11-06 01:34:09,856 INFO    Thread-3  :2708708 [wandb_init.py:init():516] calling init triggers
+2022-11-06 01:34:09,856 INFO    Thread-3  :2708708 [wandb_init.py:init():520] wandb.init called with sweep_config: {'batch_size': 16, 'd_model': 736, 'learning_rate': 0.0033305300224387713, 'num_heads': 8, 'num_layers': 4, 'optimizer': 'adam', 'tag_emb_dropout': 0.2}
+config: {}
+2022-11-06 01:34:09,856 INFO    Thread-3  :2708708 [wandb_init.py:init():569] starting backend
+2022-11-06 01:34:09,856 INFO    Thread-3  :2708708 [wandb_init.py:init():573] setting up manager
+2022-11-06 01:34:09,860 INFO    Thread-3  :2708708 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-06 01:34:09,863 INFO    Thread-3  :2708708 [wandb_init.py:init():580] backend started and connected
+2022-11-06 01:34:09,866 INFO    Thread-3  :2708708 [wandb_run.py:_config_callback():1160] config_cb None None {'batch_size': 16, 'd_model': 736, 'learning_rate': 0.0033305300224387713, 'num_heads': 8, 'num_layers': 4, 'optimizer': 'adam', 'tag_emb_dropout': 0.2}
+2022-11-06 01:34:09,866 INFO    Thread-3  :2708708 [wandb_init.py:init():658] updated telemetry
+2022-11-06 01:34:10,144 INFO    Thread-3  :2708708 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2022-11-06 01:34:10,278 INFO    Thread-3  :2708708 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-06 01:34:10,318 INFO    Thread-3  :2708708 [wandb_run.py:_on_init():2004] got version response 
+2022-11-06 01:34:10,319 INFO    Thread-3  :2708708 [wandb_init.py:init():728] starting run threads in backend
+2022-11-06 01:34:12,347 INFO    Thread-3  :2708708 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-06 01:34:12,347 INFO    Thread-3  :2708708 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-06 01:34:12,348 INFO    Thread-3  :2708708 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-06 01:34:12,348 INFO    Thread-3  :2708708 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-06 01:34:12,348 INFO    Thread-3  :2708708 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-06 02:38:26,040 INFO    Thread-3  :2708708 [wandb_run.py:_finish():1746] finishing run xiaodan8/parsing/20lqjli6
+2022-11-06 02:38:26,040 INFO    Thread-3  :2708708 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 1
+2022-11-06 02:38:26,040 INFO    Thread-3  :2708708 [wandb_run.py:_restore():1932] restore
+2022-11-06 02:38:26,040 INFO    Thread-3  :2708708 [wandb_run.py:_restore():1938] restore done
